@@ -1,0 +1,64 @@
+@charset "utf-8";
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,500,700|Roboto:300,400,500,700&subset=korean);
+
+.event_0309_yan13 {}
+.event_0309_yan13 .event_top_section1 {position:relative;}
+.event_0309_yan13 .event_top_section1 .bg {position:absolute;top:0;left:0;right:0;width:100%;height:740px;background:url(http://img.hiphoper.com/images/hipcontent/event/2019/0309_yan13/event_yan13_bg1.jpg) top center no-repeat;background-size:cover;}
+.event_0309_yan13 .event_top_section1 .inner {position:relative;z-index:1;width:1260px;height:1748px;margin:0 auto;}
+.event_0309_yan13 .event_top_section1 .img_title_wrap {position:absolute;top:195px;left:0;width:315px;height:357px;background:url(http://img.hiphoper.com/images/hipcontent/event/2019/0309_yan13/event_yan13_img_tit1.png) 0 0 no-repeat;}
+.event_0309_yan13 .event_top_section1 .img_title {}
+.event_0309_yan13 .event_top_section1 [class^='img_thum'] {position:absolute;}
+.event_0309_yan13 .event_top_section1 .img_thum1 {top:85px;right:-20px;}
+.event_0309_yan13 .event_top_section1 .img_thum1 > a {display:block;position:relative;}
+.event_0309_yan13 .event_top_section1 .img_thum1 > a:before {content:'';display:block;position:absolute;top:0;right:-20px;width:10px;height:173px;background:url(http://img.hiphoper.com/images/hipcontent/event/2019/0309_yan13/event_yan13_img_txt1.png) 0 0 no-repeat;}
+.event_0309_yan13 .event_top_section1 .img_thum2 {bottom:130px;left:0;}
+.event_0309_yan13 .event_top_section1 .desc_txt {position:absolute;bottom:135px;right:0;width:590px;height:289px;}
+.event_0309_yan13 .event_top_section1 .desc_txt dt {font-weight:600;font-size:26px;color:#9b8448;line-height:1;text-transform:uppercase;}
+.event_0309_yan13 .event_top_section1 .desc_txt dd {margin-top:10px;font-family:Noto Sans KR;font-size:18px;color:#2d2621;line-height:1.6;}
+.event_0309_yan13 .event_top_section2 {background:url(http://img.hiphoper.com/images/hipcontent/event/2019/0309_yan13/event_yan13_bg2.gif) 0 0 repeat;text-align:center;}
+.event_0309_yan13 .event_top_section2 .inner {}
+.event_0309_yan13 .event_top_section2 h3,
+.event_0309_yan13 .event_top_section2 p {padding:30px 0 28px;font-weight:bold;font-size:18px;color:#fef3cd;line-height:1;text-transform:uppercase;}
+.event_0309_yan13 .event_top_section2 .slides {margin-bottom:0;}
+.event_0309_yan13 .event_top_section2 .slides .item {position:relative;width:initial;}
+.event_0309_yan13 .event_top_section2 .slides .item:before {content:'';display:block;position:absolute;top:0;left:5px;bottom:0;right:5px;z-index:10;background-color:rgba(0,0,0,0.5)}
+.event_0309_yan13 .event_top_section2 .slides .item a {padding:0 5px;}
+.event_0309_yan13 .event_top_section2 .slides .item.slick-active {}
+.event_0309_yan13 .event_top_section2 .slides .item.slick-active:before {display:none;}
+.event_0309_yan13 .event_top_section3 {}
+.event_0309_yan13 .event_top_section3 .inner {position:relative;width:1260px;height:1315px;margin:0 auto;}
+.event_0309_yan13 .event_top_section3 .img_logo {position:absolute;top:490px;left:646px;}
+.event_0309_yan13 .event_top_section3 [class^='img_thum'] {position:absolute;}
+.event_0309_yan13 .event_top_section3 .img_thum1 {top:147px;left:0;}
+.event_0309_yan13 .event_top_section3 .img_thum1 > a {display:block;position:relative;}
+.event_0309_yan13 .event_top_section3 .img_thum1 > a:before {content:'';display:block;position:absolute;top:0;left:-20px;width:12px;height:200px;background:url(http://img.hiphoper.com/images/hipcontent/event/2019/0309_yan13/event_yan13_img_txt1.png) 0 0 no-repeat;}
+.event_0309_yan13 .event_top_section3 .img_thum2 {bottom:115px;right:60px;}
+.event_0309_yan13 .event_top_section3 .img_thum3 {bottom:115px;right:-320px;}
+
+.event_0309_livingFair {}
+.event_0309_livingFair .event_top_section1 {background:url(../img/event/event_livingFair_bg1.jpg) 0 0 no-repeat;background-size:cover;}
+.event_0309_livingFair .event_top_section1 .inner {position:relative;width:1260px;height:450px;margin:0 auto;text-align:center;}
+.event_0309_livingFair .event_top_section1 .inner:before {content:'';position:absolute;top:50%;left:0;transform:translateY(-50%);}
+.event_0309_livingFair .event_top_section1 .inner:after {content:'';position:absolute;top:50%;right:0;transform:translateY(-50%);}
+.event_0309_livingFair .event_top_section1 .title_wrap {position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);}
+.event_0309_livingFair .event_top_section1 .title_wrap h2 {font-size:100px;font-weight:600;color:#fff;line-height:1;}
+.event_0309_livingFair .event_top_section1 .title_wrap p {font-family:Noto Sans KR;font-size:28px;color:#fff;line-height:1;}
+.event_0309_livingFair .event_top_section2 {}
+.event_0309_livingFair .event_top_section2 .inner {width:1260px;margin:0 auto;}
+.event_0309_livingFair .event_top_section2 .title_wrap {padding:90px 0;text-align:center;}
+.event_0309_livingFair .event_top_section2 .title_wrap h3 {font-weight:500;font-family:Noto Sans KR;font-size:34px;color:#111;line-height:1;}
+.event_0309_livingFair .event_top_section2 .title_wrap p {margin-top:30px;font-family:Noto Sans KR;font-size:22px;color:#919191;line-height:1;}
+.event_0309_livingFair .event_top_section2 .list_wrap {}
+.event_0309_livingFair .event_top_section2 .list {}
+.event_0309_livingFair .event_top_section2 .list .item {padding:50px 0;border-top:1px solid #dcdcdc;}
+.event_0309_livingFair .event_top_section2 .list .item:after {content:'';display:block;clear:both;}
+
+.event_0309_livingFair .event_top_section2 .list .item:nth-child(odd) img {float:left;}
+.event_0309_livingFair .event_top_section2 .list .item:nth-child(odd) .info {margin-left:650px;padding:90px 0;}
+.event_0309_livingFair .event_top_section2 .list .item:nth-child(even) img {float:right;}
+.event_0309_livingFair .event_top_section2 .list .item:nth-child(even) .info {margin-right:650px;}
+.event_0309_livingFair .event_top_section2 .list .item .info {padding:90px 0;}
+.event_0309_livingFair .event_top_section2 .list .item h4 {font-size:50px;font-weight:600;color:#111;line-height:1;}
+.event_0309_livingFair .event_top_section2 .list .item p {margin-top:10px;font-family:Noto Sans KR;font-weight:300;font-size:20px;color:#111;line-height:1.3;}
+.event_0309_livingFair .event_top_section2 .list .item a {display:block;position:relative;width:250px;height:50px;margin-top:40px;background-color:#111;text-align:left;font-size:16px;color:#f9f9f9;text-indent:20px;line-height:50px;}
+.event_0309_livingFair .event_top_section2 .list .item a:after {content:'';display:block;position:absolute;top:50%;right:20px;transform:translateY(-50%);width:8px;height:13px;background:url(../img/event/btn_arr_white.png) 0 0 no-repeat;}
