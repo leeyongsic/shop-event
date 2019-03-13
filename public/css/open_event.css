@@ -1,6 +1,6 @@
 @charset "utf-8";
 @import url(https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,500,700|Roboto:300,400,500,700&subset=korean);
-.open_event {}
+.open_event {min-width:1300px;}
 .open_event .header {width:100%;height:460px;background:#111 url(../img/open_event/bg_header.jpg) 0 50% no-repeat;}
 .open_event .header .inner {position:relative;width:1200px;margin:0 auto;}
 .open_event .header .logo {position:absolute;top:60px;right:0;width:200px;height:33px;background:url(../img/open_event/logo_hiphoper.png) 0 0 no-repeat;text-indent:-9999em;}
@@ -91,4 +91,4 @@
 .open_event .event_write dl dd {font-family:Noto Sans KR;font-size:14px;color:#888;}
 .open_event .event_write .button_wrap {margin-top:20px;text-align:center;}
 
-.open_event .site_footer .inner {width:1200px;}
+.open_event .site_footer .inner {width:1200px;min-width:1200px !important;}
