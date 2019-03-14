@@ -1,8 +1,8 @@
 @charset "utf-8";
 @import url(https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,500,700|Roboto:300,400,500,700&subset=korean);
 .open_event {}
-.open_event .header {width:100%;height:246px;padding:40px 25px 0;background:#111 url(../img/open_event/bg_header.png) 0 50% no-repeat;background-size:cover;}
-.open_event .header .inner {position:relative;width:100%;margin:0 auto;}
+.open_event .header {width:100%;height:246px;padding:40px 0 0;background:#111 url(../img/open_event/bg_header.png) 0 50% no-repeat;background-size:cover;}
+.open_event .header .inner {position:relative;margin:0 25px 0;}
 .open_event .header .logo {position:absolute;top:0;left:0;width:84px;height:14px;background:url(../img/open_event/logo_hiphoper.png) 0 0 no-repeat;background-size:84px 14px;text-indent:-9999em;}
 .open_event .header h2 {padding-top:40px;font-family:Noto Sans KR;font-weight:400;font-size:20px;color:#fff;line-height:1;}
 .open_event .header h2 strong {font-family:proxima-nova;font-weight:500;font-size:22px;color:#fff;line-height:1;}
@@ -10,7 +10,7 @@
 .open_event .header p strong {font-family:proxima-nova;font-weight:500;font-size:14px;color:#fff;line-height:1;}
 
 .open_event .main {}
-.open_event .main section {width:100%;}
+.open_event .main section {width:100%;overflow:hidden;}
 .open_event .main section .inner {padding:0 25px;margin:0 auto;}
 .open_event .main .section1 {}
 .open_event .main .section1 .inner {padding:30px 25px;}
