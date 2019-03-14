@@ -34,7 +34,7 @@
 						</dl>
 					</div>
 					<div class="button_wrap">
-						<button type="button" onclick="openLayer(event,'#tempLayer1',this)" class="button_left">학교 등록하기(이벤트 참여)</button>
+						<button type="button" onclick="openLayer(event,'#tempLayer3',this)" class="button_left">학교 등록하기(이벤트 참여)</button>
 						<button type="button" onclick="showAlert('tempLayer2','친구에게 알릴 링크(URL)을 클립보드에 복사했습니다.',1)" class="button_right">친구에게 이벤트 알리기</button>
 					</div>
 				</div>
@@ -124,25 +124,6 @@
 		</div>
 	</footer>
 	<script src="./js/common.js"></script>
-	<script>
-		$('.slides').slick({
-			dots:true,
-			prevArrow:'<button type="button" class="slick-prev pos_center_after pos_center v"><span class="s_out">이전</span></button>',
-			nextArrow:'<button type="button" class="slick-next pos_center_after pos_center v"><span class="s_out">다음</span></button>',
-			autoplay:true,
-			autoplaySpeed:5000,
-			pauseOnDotsHover:true,
-			dotsClass:'slick-dots pos_center h dis_f',
-			draggable:false
-		}).each(function(index, el){
-			if( $(el)[0].slick.slideCount == 1 ){
-				$(el).slick('unslick');
-			}
-		});
-		$('#slideRelease').slick('slickSetOption',{
-			arrows:false
-		},true);
-	</script>
 
 	<!-- 학교 등록하기 레이어 -->
 	<div class="wrap_layer lc_b hide" id="tempLayer1">
