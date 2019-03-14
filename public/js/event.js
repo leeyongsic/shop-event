@@ -44,8 +44,34 @@
 		});
 	}
 
+	var openEventSlide = function openEventSlide() {
+
+		var $open_event = $('.open_event'),
+		 	$open_event_slide = $open_event.find('.slides');
+
+		$open_event_slide.slick({
+			dots:true,
+			autoplay:false,
+			pauseOnDotsHover:true,
+			dotsClass:'slick-dots small pos_center h dis_f',
+			draggable:true,
+			arrows:false,
+			infinite:false,
+			variableWidth: true,
+		}).each(function(index, el){
+			if( $(el)[0].slick.slideCount == 1 ){
+				$(el).slick('unslick');
+			}
+		});
+		$('#slideRelease').slick('slickSetOption',{
+			arrows:false
+		},true);
+
+	} 
+
 	global.hiphoperEvent = {
 		'eventLookbookSlide': eventLookbookSlide,
+		'openEventSlide': openEventSlide,
 	};
 
 })(this);
@@ -53,3 +79,4 @@
 // 함수 호출
 
 hiphoperEvent.eventLookbookSlide();
+hiphoperEvent.openEventSlide();
