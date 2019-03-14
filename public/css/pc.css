@@ -984,7 +984,9 @@ p.error{color:#f32323!important}
 .join_complete{text-align:center;padding:38px 0 54px}
 .join_complete>strong{display:block;font-size:26px;line-height:36px;font-weight:700;margin-bottom:14px}
 .join_complete p strong{font-size:15px;font-weight:500}
-.site_main.login{padding-bottom:120px;padding-top:120px}
+.login .join_complete {padding:0 0 38px;}
+.login .join_complete>strong {width:466px;margin:0 auto;padding-bottom:18px;border-bottom:2px solid #333;}
+.site_main.login{padding-bottom:120px;padding-top:96px}
 .wrap_login{width:466px;margin:0 auto}
 .wrap_login .input_text{display:block;width:100%}
 .wrap_login .input_text+.input_text{margin-top:12px}

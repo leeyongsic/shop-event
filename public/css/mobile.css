@@ -11,7 +11,7 @@ fieldset {min-width:0;}
 .banner_top {display:none;}
 .input_text button {display:none;}
 
-.site_header {position:fixed;top:0;right:0;left:0;z-index:10;background-color:#fff;}
+.site_header {position:absolute;top:0;right:0;left:0;z-index:10;background-color:#fff;}
 .site_header .inner {height:55px;}
 .site_header .logo {height:100%;text-align:center;}
 .site_header .logo a {display:inline-block;margin:16px auto 0;}
@@ -89,7 +89,7 @@ fieldset {min-width:0;}
 .allmenu .ad {display:none;}
 .allmenu .bnr_ad {margin:0 -16px -16px;}
 
-.site_footer {position:relative;padding:55px 16px 50px;}
+.site_footer {position:relative;padding:0 16px;}
 .site_footer .left {margin-bottom:24px;padding-top:28px;font-size:11px;}
 .site_footer .right {padding-bottom:30px;}
 .site_footer .tel {font-weight:bold;font-size:18px;color:#888;}
@@ -159,7 +159,8 @@ fieldset {min-width:0;}
 
 .site_main {padding-top:55px}
 .site_main .tit {display:none;}
-.site_main.join {padding-bottom:40px;border-bottom:8px solid #f0f0f0;}
+.site_main.join,
+.site_main.login {padding-bottom:40px;border-bottom:8px solid #f0f0f0;}
 .site_main.join input[type=text], .site_main.join input[type=password], .site_main.join input[type=number] {width:100%;height:45px;padding:0 45px 0 15px;border:1px solid #d0d0d0;}
 .site_main.join .table_st {width:100%;padding:20px 16px;}
 .site_main.join .table_st col {width:100% !important;}
@@ -197,7 +198,7 @@ fieldset {min-width:0;}
 .site_main.join .input_checkbox.large label {font-size:14px;}
 .site_main.join .btn_join {display:block;width:92%;height:55px;max-width:343px;margin:15px auto 0;text-align:center;}
 
-.site_main.join .join_complete{text-align:center;padding:38px 0 54px}
+.site_main.join .join_complete{text-align:center;padding:20px 0 30px}
 .site_main.join .join_complete>strong{display:block;font-size:26px;line-height:36px;font-weight:700;margin-bottom:14px}
 .site_main.join .join_complete p {padding:0 16px;}
 .site_main.join .join_complete p strong{font-size:15px;font-weight:500}
@@ -206,3 +207,83 @@ fieldset {min-width:0;}
 .site_main.join .wrap_login .btn_login {width:100%;height:55px;margin-top:10px;font-size:18px;}
 
 
+.wrap_login{margin:0 auto;padding:0 16px;}
+.wrap_login .input_text{display:block;width:100%}
+.wrap_login .input_text+.input_text{margin-top:25px}
+.wrap_login .error+.input_text{margin-top:32px}
+.wrap_login .input_text input{width:100%}
+.wrap_login .input_checkbox{margin-top:20px}
+.wrap_login .btn_login{width:100%;margin-top:34px;font-size:18px}
+.wrap_login .input_text+.btn_login{margin-top:25px}
+.wrap_login .list_tab{margin-bottom:40px}
+.wrap_login .links{padding:26px 0;margin-bottom:-41px}
+.wrap_login .links a{display:block;padding:10px 20px;height:22px;line-height:23px}
+.wrap_login .links li{position:relative}
+.wrap_login .links li:before{width:1px;height:13px}
+.wrap_login .sns{padding-top:29px;margin:41px 0 -5px;border-width:1px 0 0}
+.wrap_login .sns .tit{float:left;height:36px;line-height:37px;font-size:16px;font-weight:500}
+.wrap_login .sns ul{float:right}
+.wrap_login .sns li{float:left}
+.wrap_login .sns li+li{margin-left:30px}
+.wrap_login .sns li button{display:block;height:36px;line-height:37px;padding-left:36px}
+.connect_sns button:before,
+.wrap_login .sns li button:before{width:26px;height:26px}
+.connect_sns .fb:before,
+.wrap_login .sns li .fb:before{background-position:-234px -30px}
+.connect_sns .ig:before,
+.wrap_login .sns li .ig:before{background-position:-260px 0}
+.wrap_login .non{border-width:0 0 1px;padding-bottom:40px;margin-bottom:40px}
+.wrap_login .non .btn_buy{width:100%}
+.wrap_login .wrap_radio{text-align:center;margin-bottom:40px}
+.wrap_login .wrap_radio .input_radio+.input_radio{margin-left:40px}
+.wrap_login .cert{margin-top:12px}
+.wrap_login .cert .email{float:left;width:304px}
+.wrap_login .cert .email input{height:60px}
+.wrap_login .cert .phone{position:relative;float:left;width:302px}
+.wrap_login .cert .phone:after{content:'-';position:absolute;height:38px;line-height:58px;right:96px;top:0;font-size:20px}
+.wrap_login .cert .phone [class^=input_]{float:left;margin:0}
+.wrap_login .cert .phone [class^=input_],
+.wrap_login .cert .phone [class^=input_] input{border-width:0}
+.wrap_login .cert .phone .input_select{width:106px;height:58px;min-width:106px}
+.wrap_login .cert .phone .input_select select{height:58px}
+.wrap_login .cert .phone .input_text,
+.wrap_login .cert .phone .input_text input{width:96px}
+.wrap_login .cert .phone .input_text input{min-width:96px;height:58px;padding-right:15px;text-align:center}
+.wrap_login .cert .phone .input_text+.input_text{margin-left:4px}
+.wrap_login .cert .btn_cert{float:right;width:150px;padding-right:0;padding-left:0}
+.wrap_login .cert_num{height:58px;margin-top:12px}
+.wrap_login .cert_num .input_text{float:left;height:58px;width:389px}
+.wrap_login .cert_num input{width:100%;height:58px;border-width:0}
+.wrap_login .cert_num .time{float:right;width:75px;line-height:58px;text-align:center}
+.wrap_login .btn_find{width:100%;margin-top:12px}
+.wrap_login .find_message{text-align:center;font-size:16px;line-height:24px;padding:16px 0 54px}
+.wrap_login .find_message strong{font-weight:500}
+.wrap_login .find_message em{font-size:18px;font-weight:700}
+.wrap_login .find_message+.btn_login{margin-top:20px}
+.wrap_login .cert_num>.error{margin-bottom:20px}
+.wrap_login .cert>.phone p.error{bottom:-25px}
+.wrap_login .cert>.error{margin-bottom:20px}
+.wrap_login .wrap_radio+.error,
+.wrap_login .wrap_radio+.error+.error,
+.wrap_login .wrap_radio+.input_text+.error{margin-bottom:32px}
+
+
+.wrap_login input[type=text], 
+.wrap_login input[type=password], 
+.wrap_login input[type=number] {width:100%;height:45px;padding:0 45px 0 15px;border:1px solid #d0d0d0;}
+
+.wrap_login .input_text {display:block;position:relative;}
+.wrap_login .input_text input {font-size:14px;}
+.wrap_login .input_text input[name=username] {width:100%;}
+.wrap_login .input_text .spr_before {position:absolute;top:0;right:0;left:auto;z-index:1;width:45px;height:45px;-webkit-transform:translate(0,0);transform:translate(0,0)}
+.wrap_login .input_text .spr_before:before {width:22px;height:22px;background-position:-90px -45px;content:"";}
+.wrap_login .input_text.id, .site_main.join .input_text.name {margin-right:106px;}
+
+.wrap_login .btn_login {width:100%;height:55px;margin-top:10px;font-size:18px;}
+
+.login .join_complete {}
+.login .join_complete{text-align:center;padding:20px 0 0}
+.login .join_complete>strong{display:block;font-size:26px;line-height:36px;font-weight:700;margin-bottom:14px}
+
+.site_main.join .cert .error,[class*=input_] .error{position:absolute;left:0;bottom:-24px;font-size:13px;padding-left:1px;line-height:17px;display:none;white-space:nowrap}
+[class*=input_].error{position:relative}
