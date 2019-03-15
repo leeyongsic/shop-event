@@ -81,7 +81,7 @@
 .open_event .wrap_layer {width:90%;top:50%;left:50%;transform:translate(-50%, -50%);padding:20px 20px 30px;}
 .open_event .wrap_layer .layer_tit,
 .open_event .wrap_layer .layer_cont {padding:0;}
-.open_event .event_login {height:280px;text-align:center;}
+.open_event .event_login {height:300px;text-align:center;}
 .open_event .event_login:after {content:'';display:block;clear:both;}
 .open_event .event_login ul {}
 .open_event .event_login li {margin-top:30px;}
