@@ -91,7 +91,7 @@
 .open_event .event_login li a {margin-top:20px;width:100%;}
 .open_event .event_login li:nth-child(2) a {background-color:#f0f0f0;}
 
-.open_event .event_write {height:420px;margin-top:10px;}
+.open_event .event_write {height:520px;margin-top:10px;}
 .open_event .event_write .input_text {padding-top:10px;}
 .open_event .event_write .input_select {margin-top:10px;}
 .open_event .event_write .input_text,
