@@ -103,9 +103,9 @@
 .open_event .event_write .button_wrap {margin-top:20px;text-align:center;}
 
 
-.open_event .alert_layer .btns {padding:0 20px 20px;text-align:center;}
-.open_event .alert_layer .btn_confirm {background-color:#111;color:#fff;}
-.open_event .alert_layer .btns .btn_confirm:only-child{width:100%;}
+.alert_layer .btns {padding:0 20px 20px;text-align:center;}
+.alert_layer .btn_confirm {background-color:#111;color:#fff;}
+.alert_layer .btns .btn_confirm:only-child{width:100%;}
 
 .site_footer {position:relative;padding:55px 16px 50px;}
 .site_footer .left {margin-bottom:24px;padding-top:28px;font-size:11px;}
