@@ -259,8 +259,8 @@
 .event_0309_livingFair .event_top_section1 .title_wrap h2 {font-size:100px;font-weight:600;color:#fff;line-height:1;}
 .event_0309_livingFair .event_top_section1 .title_wrap p {font-family:Noto Sans KR;font-size:28px;color:#fff;line-height:1;}
 .event_0309_livingFair .event_top_section2 {position:relative;}
-.event_0309_livingFair .event_top_section2:before {content:'';display:block;position:absolute;top:0;right:0;z-index:-1;width:431px;height:641px;background:url(../img/event/0309_livingFair/event_livingFair_bg2.png) 0 0 no-repeat;}
-.event_0309_livingFair .event_top_section2:after {content:'';display:block;position:absolute;bottom:350px;left:0;width:366px;height:635px;background:url(../img/event/0309_livingFair/event_livingFair_bg3.png) 0 0 no-repeat;}
+.event_0309_livingFair .event_top_section2:before {content:'';display:block;position:absolute;top:190px;right:0;z-index:-1;width:431px;height:641px;background:url(../img/event/0309_livingFair/event_livingFair_bg2.png) 0 0 no-repeat;}
+.event_0309_livingFair .event_top_section2:after {content:'';display:block;position:absolute;bottom:375px;left:0;width:366px;height:635px;background:url(../img/event/0309_livingFair/event_livingFair_bg3.png) 0 0 no-repeat;}
 .event_0309_livingFair .event_top_section2 .inner {width:1260px;margin:0 auto;}
 .event_0309_livingFair .event_top_section2 .title_wrap {padding:90px 0;text-align:center;}
 .event_0309_livingFair .event_top_section2 .title_wrap h3 {font-weight:500;font-family:Noto Sans KR;font-size:34px;color:#111;line-height:1;}
