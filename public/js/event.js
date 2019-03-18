@@ -11,8 +11,8 @@
 
 	var eventLookbookSlide = function eventLookbookSlide() {
 
-		var $event_0309_yan13 = $('.event_0309_yan13'),
-		 	$event_lookbook_slide = $event_0309_yan13.find('.slides');
+		var $event_view = $('.event_view'),
+		 	$event_lookbook_slide = $event_view.find('.event_lookbook_slides');
 
 		$event_lookbook_slide.slick({
 			prevArrow:'<button type="button" class="slick-prev pos_center_after pos_center v"><span class="s_out">이전</span></button>',
@@ -69,14 +69,78 @@
 
 	} 
 
+	var visualFadeInOut = function visualFadeInOut() {
+
+		var $box = $('.visual-area ul'),
+			$items = $box.find('li'),
+			currentindex = 0,
+			duration = 5000, // 유지시간. 밀리초,
+			changingduration = 2000, // 변환시간. 밀리초
+			numitems = $items.length;
+
+		$items.each(function(i) {
+			$items[i] = $(this);
+		});
+
+		setTimeout(next, duration);
+
+		function next() {
+			var nextindex = currentindex+1 === numitems ? 0 : currentindex+1;
+			$items[nextindex].css({opacity: 0}).appendTo($box)
+				._animate({opacity: 1}, {duration: changingduration, easing: Quad.easeOut, onComplete: function() {
+					setTimeout(next, duration);
+				}});
+			currentindex = nextindex;
+		}
+
+	}
+
+
+	var eventLogoSlide = function eventLogoSlide() {
+
+		var $event_view = $('.event_view'),
+		 	$event_lookbook_slide = $event_view.find('.event_logo_slides');
+
+		$event_lookbook_slide.slick({
+			autoplay:true,
+			autoplaySpeed:5000,
+			pauseOnDotsHover:true,
+			slidesToShow: 7,
+			slidesToScroll: 1,
+			centerMode: false,
+			variableWidth: true,
+			respondTo : 'window',
+			arrows:false,
+			responsive: [
+				{breakpoint:3000,
+				settings: {slidesToShow:7,slidesToScroll:1}
+				},
+				{breakpoint:1160,
+				settings: {slidesToShow:7,slidesToScroll:1}
+				},
+				{breakpoint:1024,
+				settings: {slidesToShow:6,slidesToScroll:2}
+				}
+			]
+		}).each(function(i,el){
+			if( el.slick.slideCount <= 1 ){
+				$(el).slick('unslick');
+			}
+		});
+	}
+
+
 	global.hiphoperEvent = {
 		'eventLookbookSlide': eventLookbookSlide,
 		'openEventSlide': openEventSlide,
+		'visualFadeInOut': visualFadeInOut,
+		'eventLogoSlide' : eventLogoSlide,
 	};
 
 })(this);
 
 // 함수 호출
-
 hiphoperEvent.eventLookbookSlide();
 hiphoperEvent.openEventSlide();
+hiphoperEvent.visualFadeInOut();
+hiphoperEvent.eventLogoSlide();

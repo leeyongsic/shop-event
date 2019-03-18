@@ -1,6 +1,55 @@
 @charset "utf-8";
 @import url(https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,500,700|Roboto:300,400,500,700&subset=korean);
 
+
+/* common */
+.event_fadinout .visual-area {position:relative;width:100%;height:900px;}
+.event_fadinout .visual-area ul {position:absolute;top:0;left:0;right:0;bottom:0;}
+.event_fadinout .visual-area ul li {position:absolute;top:0;left:0;right:0;bottom:0;background-position:top center;background-repeat:no-repeat;background-size:cover;/*background-attachment:fixed;*/}
+.event_fadinout .visual-area ul li span {display:inline-block;text-indent:-9999em;}
+.event_fadinout .visual-area ul li:nth-of-type(n+2) {opacity: 0;}
+
+.event_0315_sneakers {}
+.event_0315_sneakers .title_wrap {height:600px;background:url(../img/event/0315_sneakers/event_sneakers_bg1.jpg) 50% 0 no-repeat;background-size:cover;}
+.event_0315_sneakers .title_wrap .title {width:1260px;margin:0 auto;padding:210px 0;min-width:1260px;text-align:center;}
+.event_0315_sneakers .title_wrap .title h2 {display:inline-block;font-size:100px;font-weight:600;color:#fff;line-height:1;border-bottom:8px solid #fff;}
+.event_0315_sneakers .title_wrap .title p {margin-top:20px;font-family:Noto Sans KR;font-size:22px;color:#fff;line-height:1;}
+.event_0315_sneakers .title_wrap .title p strong {font-family:proxima-nova;}
+.event_0315_sneakers .link_wrap {background-color:#111;}
+.event_0315_sneakers .link_wrap ul {overflow:hidden;width:1260px;height:155px;margin:0 auto;border:1px solid #333;border-width:0 1px 0 1px;}
+.event_0315_sneakers .link_wrap ul li {display:inline-block;margin-left:-3px;border:1px solid #333;border-width:0 1px 1px 0;}
+.event_0315_sneakers .link_wrap ul li a {display:block;box-sizing:border-box;width:314px;height:77px;margin-left:0;line-height:78px;text-align:center;}
+.event_0315_sneakers .link_wrap ul li span {display:inline-block;position:relative;width:225px;height:16px;padding-left:30px;font-size:18px;color:#fff;line-height:1;text-align:left;}
+.event_0315_sneakers .link_wrap ul li span:before {content:'';display:inline-block;position:absolute;top:0;left:0;width:18px;height:16px;background:url(../img/event/0315_sneakers/ico_link_home.png) 0 0 no-repeat;line-height:1;}
+.event_0315_sneakers .link_wrap ul li span:after {content:'';display:inline-block;position:absolute;top:0;right:0;width:7px;height:16px;background:url(../img/event/0315_sneakers/ico_link_arrow.png) 50% 50% no-repeat;line-height:1;}
+.event_0315_sneakers .link_wrap ul li:nth-child(4) {border-right-width:0;}
+.event_0315_sneakers .link_wrap ul li:nth-child(4) a {width:316px;}
+
+.event_0315_WorldFamousClogos {margin-bottom:120px;}
+.event_0315_WorldFamousClogos .event_top_section1 {}
+.event_0315_WorldFamousClogos .title_wrap {height:600px;background:url(../img/event/0315_WorldFamousClogos/event_WorldFamousClogos_bg1.jpg) 50% 0 no-repeat;background-size:cover;}
+.event_0315_WorldFamousClogos .title_wrap .title {width:1260px;margin:0 auto;padding:210px 0;min-width:1260px;}
+.event_0315_WorldFamousClogos .title_wrap .title h2 {display:inline-block;font-size:80px;color:#010101;line-height:84px;letter-spacing:-1px;}
+.event_0315_WorldFamousClogos .title_wrap .title h2 strong {display:inline-block;font-weight:600;border-bottom:8px solid #010101;line-height:1;letter-spacing:-1px;}
+.event_0315_WorldFamousClogos .info span {font-size:22px;color:#111;line-height:1;}
+.event_0315_WorldFamousClogos .info h3 {margin-top:5px;font-size:60px;font-weight:600;color:#111;line-height:1;}
+.event_0315_WorldFamousClogos .info h4 {margin-top:27px;font-family:Noto Sans KR;font-size:30px;color:#000;line-height:1;}
+.event_0315_WorldFamousClogos .info p {margin-top:17px;font-family:Noto Sans KR;font-weight:300;font-size:18px;color:#111;line-height:28px;letter-spacing:-1px;}
+.event_0315_WorldFamousClogos .event_top_section2 {margin-top:80px ;}
+.event_0315_WorldFamousClogos .event_top_section2 .inner {width:1260px;margin:0 auto;}
+.event_0315_WorldFamousClogos .event_top_section2 .info_wrap {display:block;position:relative;height:940px;}
+.event_0315_WorldFamousClogos .event_top_section2 .info {position:absolute;top:40px;left:0;width:820px;height:360px;}
+.event_0315_WorldFamousClogos .event_top_section2 .img_thum1 {position:absolute;top:0;right:0;}
+.event_0315_WorldFamousClogos .event_top_section2 .img_thum2 {position:absolute;top:360px;left:0;}
+.event_0315_WorldFamousClogos .event_top_section2 .img_logo {position:absolute;bottom:0;right:0;width:400px;height:300px;}
+.event_0315_WorldFamousClogos .event_top_section3 {margin-top:77px ;}
+.event_0315_WorldFamousClogos .event_top_section3 .inner {width:1260px;margin:0 auto;}
+.event_0315_WorldFamousClogos .event_top_section3 .info_wrap {display:block;position:relative;height:940px;}
+.event_0315_WorldFamousClogos .event_top_section3 .info {position:absolute;top:40px;right:0;width:760px;height:320px;}
+.event_0315_WorldFamousClogos .event_top_section3 .img_thum1 {position:absolute;top:0;left:0;}
+.event_0315_WorldFamousClogos .event_top_section3 .img_thum2 {position:absolute;top:360px;right:0;}
+.event_0315_WorldFamousClogos .event_top_section3 .img_logo {position:absolute;bottom:0;left:0;width:400px;height:300px;}
+
 .event_0309_yan13 {}
 .event_0309_yan13 .event_top_section1 {position:relative;}
 .event_0309_yan13 .event_top_section1 .bg {position:absolute;top:0;left:0;right:0;width:100%;height:740px;background:url(http://img.hiphoper.com/images/hipcontent/event/2019/0309_yan13/event_yan13_bg1.jpg) top center no-repeat;background-size:cover;}
@@ -19,12 +68,12 @@
 .event_0309_yan13 .event_top_section2 .inner {}
 .event_0309_yan13 .event_top_section2 h3,
 .event_0309_yan13 .event_top_section2 p {padding:30px 0 28px;font-weight:bold;font-size:18px;color:#fef3cd;line-height:1;text-transform:uppercase;}
-.event_0309_yan13 .event_top_section2 .slides {margin-bottom:0;}
-.event_0309_yan13 .event_top_section2 .slides .item {position:relative;width:initial;}
-.event_0309_yan13 .event_top_section2 .slides .item:before {content:'';display:block;position:absolute;top:0;left:5px;bottom:0;right:5px;z-index:10;background-color:rgba(0,0,0,0.5)}
-.event_0309_yan13 .event_top_section2 .slides .item a {padding:0 5px;}
-.event_0309_yan13 .event_top_section2 .slides .item.slick-active {}
-.event_0309_yan13 .event_top_section2 .slides .item.slick-active:before {display:none;}
+.event_0309_yan13 .event_top_section2 .event_lookbook_slides {margin-bottom:0;}
+.event_0309_yan13 .event_top_section2 .event_lookbook_slides .item {position:relative;width:initial;}
+.event_0309_yan13 .event_top_section2 .event_lookbook_slides .item:before {content:'';display:block;position:absolute;top:0;left:5px;bottom:0;right:5px;z-index:10;background-color:rgba(0,0,0,0.5)}
+.event_0309_yan13 .event_top_section2 .event_lookbook_slides .item a {padding:0 5px;}
+.event_0309_yan13 .event_top_section2 .event_lookbook_slides .item.slick-active {}
+.event_0309_yan13 .event_top_section2 .event_lookbook_slides .item.slick-active:before {display:none;}
 .event_0309_yan13 .event_top_section3 {}
 .event_0309_yan13 .event_top_section3 .inner {position:relative;width:1260px;height:1315px;margin:0 auto;}
 .event_0309_yan13 .event_top_section3 .img_logo {position:absolute;top:490px;left:646px;}
@@ -35,6 +84,172 @@
 .event_0309_yan13 .event_top_section3 .img_thum2 {bottom:115px;right:60px;}
 .event_0309_yan13 .event_top_section3 .img_thum3 {bottom:115px;right:-320px;}
 
+.event_0315_loafer {}
+.event_0315_loafer .title_wrap {height:970px;background:url(../img/event/0315_loafer/event_loafer_bg1.jpg) 50% 0 no-repeat;background-size:cover;}
+.event_0315_loafer .title {position:relative;width:1260px;margin:0 auto;padding:210px 0;min-width:1260px;}
+.event_0315_loafer .title span {font-size:30px;font-weight:600;color:#111;}
+.event_0315_loafer .title h2 {margin-top:10px;font-size:96px;font-weight:500;color:#111;line-height:84px;}
+.event_0315_loafer .title p {margin-top:50px;font-family:Noto Sans KR;font-size:22px;color:#111;line-height:1;}
+.event_0315_loafer .title:after {content:'';display:block;position:absolute;top:50%;right:-50px;transform:translateY(-50%);width:11px;height:195px;background:url(../img/event/0315_loafer/title_txt_aside.png) 50% 0 no-repeat;}
+.event_0315_loafer .list_wrap {margin-top:-310px;}
+.event_0315_loafer .list {width:100%;min-width:1260px;}
+.event_0315_loafer .list .item {width:100%;}
+.event_0315_loafer .list .item .info_wrap {display:block;position:relative;width:1260px;margin:0 auto;}
+.event_0315_loafer .list .item .info {position:absolute;z-index:10;}
+.event_0315_loafer .list .item span {font-size:17px;font-weight:600;color:#8b8b8b;}
+.event_0315_loafer .list .item h3 {margin-top:5px;font-size:50px;font-weight:500;color:#fff;line-height:1;}
+.event_0315_loafer .list .item h3 > span {margin-left:7px;font-family:Noto Sans KR;font-size:18px;color:#8b8b8b;line-height:1;}
+.event_0315_loafer .list .item p {margin-top:57px;font-family:Noto Sans KR;font-weight:300;font-size:18px;color:#c3c3c3;line-height:27px;letter-spacing:-1px}
+.event_0315_loafer .list .item .arrow {display:inline-block;width:46px;height:9px;margin-top:27px;background:url(../img/event/0315_loafer/btn_arr_half.png) 0 0 no-repeat;}
+.event_0315_loafer .list .item:nth-child(1) {height:597px;background:url(../img/event/0315_loafer/event_loafer_thum1.jpg) calc(50% + 25px) 50% no-repeat;}
+.event_0315_loafer .list .item:nth-child(1) .info_wrap {height:597px;}
+.event_0315_loafer .list .item:nth-child(1) .info {position:absolute;top:50px;left:60px;z-index:10;width:815px;}
+.event_0315_loafer .list .item:nth-child(2) {height:611px;margin-top:117px;background:url(../img/event/0315_loafer/event_loafer_thum2.jpg) calc(50% + 165px) 50% no-repeat;}
+.event_0315_loafer .list .item:nth-child(2) .info_wrap {height:611px;}
+.event_0315_loafer .list .item:nth-child(2) .info {position:absolute;top:45px;right:calc(-50px);z-index:10;width:650px;}
+.event_0315_loafer .list .item:nth-child(3) {height:625px;margin-top:145px;background:url(../img/event/0315_loafer/event_loafer_thum3.jpg) calc(50% - 165px) 50% no-repeat;}
+.event_0315_loafer .list .item:nth-child(3) .info_wrap {height:625px;}
+.event_0315_loafer .list .item:nth-child(3) .info {position:absolute;top:60px;left:0;z-index:10;width:590px;}
+.event_0315_loafer .list .item:nth-child(4) {height:611px;margin-top:120px;background:url(../img/event/0315_loafer/event_loafer_thum4.jpg) calc(50% + 165px) 50% no-repeat;}
+.event_0315_loafer .list .item:nth-child(4) .info_wrap {height:611px;}
+.event_0315_loafer .list .item:nth-child(4) .info {position:absolute;top:45px;right:calc(-50px);z-index:10;width:650px;}
+.event_0315_loafer .list .item:nth-child(4) p {margin-top:35px;} 
+.event_0315_loafer .list .item:nth-child(5) {height:597px;margin-top:120px;background:url(../img/event/0315_loafer/event_loafer_thum5.jpg) 50% 50% no-repeat;}
+.event_0315_loafer .list .item:nth-child(5) .info_wrap {height:597px;}
+.event_0315_loafer .list .item:nth-child(5) .info {position:absolute;top:50px;left:60px;z-index:10;width:815px;}
+.event_0315_loafer .list .item:nth-child(5) p {margin-top:15px;} 
+
+.event_0315_customade {}
+.event_0315_customade .event_top_section1 {}
+.event_0315_customade .title_wrap {height:600px;background:url(../img/event/0315_customade/event_customade_bg1.jpg) 50% 0 no-repeat;background-size:cover;}
+.event_0315_customade .title {position:relative;width:1260px;margin:0 auto;padding:110px 0;min-width:1260px;text-align:center;}
+.event_0315_customade .title .logo {display:inline-block;width:120px;height:137px;background:url(../img/event/0315_customade/logo_white.png) 50% 0 no-repeat;text-indent:-9999em}
+.event_0315_customade .title h3 {margin-top:20px;font-size:60px;font-family:Noto Sans KR;color:#fff;line-height:74px;}
+.event_0315_customade .title h3 strong {font-weight:600;}
+.event_0315_customade .title p {margin-top:50px;font-family:Noto Sans KR;font-size:26px;color:#fff;line-height:1;}
+.event_0315_customade .event_top_section2 {}
+.event_0315_customade .event_top_section2 .inner {position:relative;width:1260px;height:1675px;min-width:1260px;margin:0 auto;}
+.event_0315_customade .event_top_section2 .img_thum1 {position:absolute;top:80px;left:0;width:620px;height:760px;}
+.event_0315_customade .event_top_section2 .img_thum2 {position:absolute;top:310px;right:0;width:620px;height:760px;}
+.event_0315_customade .event_top_section2 .img_thum3 {position:absolute;bottom:140px;left:0;width:300px;height:380px;}
+.event_0315_customade .event_top_section2 .img_thum4 {position:absolute;bottom:0px;right:320px;width:620px;height:520px;}
+.event_0315_customade .event_top_section2 .desc_txt1 {position:absolute;top:80px;right:0;width:620px;height:135px;padding-top:40px;text-align:center;font-family:Noto Sans KR;font-size:18px;color:#111;line-height:28px;}
+.event_0315_customade .event_top_section2 .desc_txt2 {position:absolute;top:840px;left:0;width:620px;height:190px;padding-top:125px;font-family:Noto Sans KR;font-size:18px;color:#111;line-height:28px;text-align:center;}
+.event_0315_customade .event_top_section2 .desc_txt2 strong {font-size:30px;}
+.event_0315_customade .event_top_section2 .bg {position:absolute;top:0;left:0;z-index:-1;width:620px;height:1675px;background-color:#eff0f4;}
+.event_0315_customade .event_top_section2 .logo {position:absolute;bottom:184px;right:92px;width:141px;height:161px;background:url(../img/event/0315_customade/logo_black.png) 50% 0 no-repeat;text-indent:-9999em}
+
+
+.event_0315_jewelry {}
+.event_0315_jewelry .title_wrap {height:600px;background:url(../img/event/0315_jewelry/event_jewelry_bg1.jpg) 50% 0 no-repeat;background-size:cover;}
+.event_0315_jewelry .title {width:1260px;margin:0 auto;min-width:1260px;}
+.event_0315_jewelry .title h2 {padding-top:240px;font-size:50px;font-weight:500;font-family:Noto Sans KR;color:#010101;line-height:60px;}
+.event_0315_jewelry .list_wrap {width:1260px;margin:0 auto;}
+.event_0315_jewelry .list {margin-top:100px;margin-bottom:140px;}
+.event_0315_jewelry .list .item {margin-top:60px;}
+.event_0315_jewelry .list .item h3 {height:0;text-indent:-9999em}
+.event_0315_jewelry .list .item p {font-family:Noto Sans KR;font-size:18px;color:#010101;line-height:26px;letter-spacing:-1px;}
+.event_0315_jewelry .list .item .info_wrap {display:block;position:relative;}
+.event_0315_jewelry .list .item .info {position:absolute;}
+.event_0315_jewelry .list .item:nth-child(1) .info_wrap {height:630px;background:url(../img/event/0315_jewelry/event_jewelry_img_thum1.jpg) 50% 0 no-repeat;}
+.event_0315_jewelry .list .item:nth-child(1) .info {right:0;bottom:0;width:315px;height:315px;box-sizing:border-box;padding:100px 0 0 30px;}
+.event_0315_jewelry .list .item:nth-child(2) .info_wrap {height:630px;background:url(../img/event/0315_jewelry/event_jewelry_img_thum2.jpg) 50% 0 no-repeat;}
+.event_0315_jewelry .list .item:nth-child(2) .info {left:0;bottom:0;width:315px;height:315px;box-sizing:border-box;padding:100px 0 0 0;}
+.event_0315_jewelry .list .item:nth-child(3) .info_wrap {height:630px;background:url(../img/event/0315_jewelry/event_jewelry_img_thum3.jpg) 50% 0 no-repeat;}
+.event_0315_jewelry .list .item:nth-child(3) .info {left:315px;bottom:0;width:315px;height:315px;box-sizing:border-box;padding:100px 0 0 30px;}
+.event_0315_jewelry .list .item:nth-child(4) .info_wrap {height:630px;background:url(../img/event/0315_jewelry/event_jewelry_img_thum4.jpg) 50% 0 no-repeat;}
+.event_0315_jewelry .list .item:nth-child(4) .info {right:0;bottom:0;width:315px;height:315px;box-sizing:border-box;padding:100px 0 0 30px;}
+
+.event_0315_casio {}
+.event_0315_casio .event_top_section1 {}
+.event_0315_casio .title_wrap {min-width:1260px;height:600px;background:url(../img/event/0315_casio/event_casio_bg1.jpg) 50% 0 no-repeat;background-size:cover;}
+.event_0315_casio .title {width:1260px;margin:0 auto;padding-top:110px;min-width:1260px;}
+.event_0315_casio .title h2 {width:431px;height:297px;background:url(../img/event/0315_casio/event_casio_title.png) 0 0 no-repeat;text-indent:-9999em;}
+.event_0315_casio .title p {margin-top:60px;font-family:Noto Sans KR;font-size:26px;font-weight:300;color:#fff;line-height:26px;letter-spacing:-1px;}
+.event_0315_casio .event_top_section2 {margin-top:80px;}
+.event_0315_casio .event_top_section2 .inner {position:relative;width:1260px;height:710px;margin:0 auto;min-width:1260px;}
+.event_0315_casio .event_top_section2 .img_wrap {position:absolute;top:0;left:0;}
+.event_0315_casio .event_top_section2 .img_thum1 {display:inline-block;}
+.event_0315_casio .event_top_section2 .img_thum2 {display:inline-block;margin-left:-4px ;}
+.event_0315_casio .event_top_section2 .tit {position:absolute;right:0;bottom:160px;width:300px;height:207px;font-family:Noto Sans KR;font-size:30px;font-weight:300;color:#111;line-height:38px;letter-spacing:-1px;border-bottom:8px solid #000;}
+.event_0315_casio .event_top_section2 .tit strong {display:inline-block;margin-top:30px;font-weight:600;}
+.event_0315_casio .event_top_section2 .desc_txt1 {position:absolute;left:320px;bottom:0;width:585px;height:175px;}
+.event_0315_casio .event_top_section2 .desc_txt1 p {font-family:Noto Sans KR;font-size:18px;font-weight:300;color:#333;line-height:28px;letter-spacing:-1px;}
+.event_0315_casio .event_top_section2 .desc_txt1 p:last-child {margin-top:10px;}
+.event_0315_casio .event_top_section3 {margin-top:60px;}
+.event_0315_casio .event_top_section3 .inner {position:relative;width:1260px;height:590px;margin:0 auto;min-width:1260px;}
+.event_0315_casio .event_top_section3 .img_wrap {position:absolute;top:0;left:0;}
+.event_0315_casio .event_top_section3 .img_wrap:after {content:'';display:block;clear:both;}
+.event_0315_casio .event_top_section3 .img_thum3 {float:left;width:300px;height:492px;border-bottom:8px solid #000;}
+.event_0315_casio .event_top_section3 .img_thum4 {margin-left:320px;}
+.event_0315_casio .event_top_section3 .desc_txt2 {position:absolute;left:320px;bottom:0;width:820px;height:50px;}
+.event_0315_casio .event_top_section3 .desc_txt2 p {font-family:Noto Sans KR;font-size:18px;font-weight:300;color:#333;line-height:28px;letter-spacing:-1px;}
+.event_0315_casio .event_top_section4 {margin-top:100px;}
+.event_0315_casio .event_top_section4 .inner {position:relative;width:1260px;margin:0 auto;min-width:1260px;}
+.event_0315_casio .event_top_section4 a {display:block;}
+.event_0315_casio .event_top_section4 .img_banner1 {margin-bottom:30px;}
+.event_0315_casio .event_top_section4 .img_banner2 {margin-bottom:30px;}
+.event_0315_casio .event_top_section4 .img_banner3 {margin-bottom:20px;}
+
+.event_0313_eyewear {}
+.event_0313_eyewear .title_wrap {height:880px;background:url(../img/event/0313_eyewear/event_eyewear_bg1.jpg) 50% 0 no-repeat;background-size:cover;}
+.event_0313_eyewear .title {width:1260px;margin:0 auto;padding:130px 0 92px;}
+.event_0313_eyewear .title span {font-family:Noto Sans KR;font-size:20px;color:#203f2b;line-height:1;}
+.event_0313_eyewear .title h2 {margin-top:10px;font-size:68px;font-weight:500;color:#fff;line-height:72px;}
+.event_0313_eyewear .title p {position:relative;padding-top:28px;margin-top:27px;font-family:Noto Sans KR;font-size:24px;color:#203f2b;line-height:40px;letter-spacing:-1px;}
+.event_0313_eyewear .title p:before {content:'';display:block;position:absolute;top:0;left:0;width:24px;height:1px;background-color:#203f2b;}
+.event_0313_eyewear .title p strong {font-weight:500;font-size:24px;}
+.event_0313_eyewear .title p strong em {font-family:proxima-nova;font-size:26px;font-weight:500;}
+
+.event_0313_eyewear .list_wrap {margin-top:-200px;}
+.event_0313_eyewear .list {width:100%;min-width:1260px;}
+.event_0313_eyewear .list:after {content:'';display:block;clear:both;}
+.event_0313_eyewear .list .item {float:left;width:100%;}
+.event_0313_eyewear .list .item .info_wrap {}
+.event_0313_eyewear .list .item .info {position:absolute;z-index:10;}
+
+.event_0313_eyewear .list .item strong {display:block;font-size:17px;font-weight:600;color:#38b261;line-height:1;}
+.event_0313_eyewear .list .item h4 {display:inline-block;vertical-align:middle;}
+.event_0313_eyewear .list .item p {font-family:Noto Sans KR;font-size:18px;font-weight:300;color:#000;line-height:1;line-height:28px;}
+.event_0313_eyewear .list .item .button_go {display:inline-block;position:relative;width:160px;height:35px;background-color:#fff;border:1px solid #000;text-align:left;font-size:16px;color:#000;text-indent:20px;line-height:35px;box-sizing:border-box;vertical-align:middle;}
+.event_0313_eyewear .list .item .button_go:after {content:'';display:block;position:absolute;top:50%;right:14px;transform:translateY(-50%);width:6px;height:11px;background:url(../img/event/0313_eyewear/btn_arr_black.png) 0 0 no-repeat;}
+.event_0313_eyewear .list .item .button_go.white {display:inline-block;position:relative;width:160px;height:35px;background-color:rgba(255,255,255,0);border:1px solid #fff;text-align:left;font-size:16px;color:#fff;text-indent:20px;line-height:35px;box-sizing:border-box;vertical-align:middle;}
+.event_0313_eyewear .list .item .button_go.white:after {content:'';display:block;position:absolute;top:50%;right:14px;transform:translateY(-50%);width:6px;height:11px;background:url(../img/event/0313_eyewear/btn_arr_white.png) 0 0 no-repeat;}
+
+.event_0313_eyewear .list .item:nth-child(1) {position:relative;width:100%;height:736px;padding-bottom:100px;background:url(../img/event/0313_eyewear/event_eyewear_bg2.jpg) calc(50% - 165px) 0 no-repeat;}
+.event_0313_eyewear .list .item:nth-child(1):after {display:block;content:'';position:absolute;top:0;left:0;right:0;bottom:0;z-index:-1;background-color:#f7f3f3;}
+.event_0313_eyewear .list .item:nth-child(1) .info_wrap {display:block;position:relative;width:1260px;margin:0 auto;height:736px;}
+.event_0313_eyewear .list .item:nth-child(1) .info {position:absolute;top:0;right:0;z-index:10;width:960px;height:350px;padding-left:50px;box-sizing:border-box;}
+.event_0313_eyewear .list .item:nth-child(1) h4 {width:295px;height:26px;background:url(../img/event/0313_eyewear/event_eyewear_logo1.png) 0 0 no-repeat;text-indent:-9999em;}
+.event_0313_eyewear .list .item:nth-child(1) strong {margin:95px 0 20px;}
+.event_0313_eyewear .list .item:nth-child(1) .button_go {margin-left:30px;}
+.event_0313_eyewear .list .item:nth-child(1) p {margin-top:70px;}
+
+.event_0313_eyewear .list .item:nth-child(2) {width:50%;height:1326px;background:url(../img/event/0313_eyewear/event_eyewear_bg3.jpg) right 50% no-repeat;}
+.event_0313_eyewear .list .item:nth-child(2) .info_wrap {display:block;position:relative;width:100%;height:1326px;}
+.event_0313_eyewear .list .item:nth-child(2) .info {position:absolute;top:0;right:0;z-index:10;width:570px;height:435px;}
+.event_0313_eyewear .list .item:nth-child(2) h4 {width:193px;height:38px;background:url(../img/event/0313_eyewear/event_eyewear_logo2.png) 0 0 no-repeat;text-indent:-9999em;}
+.event_0313_eyewear .list .item:nth-child(2) strong {margin:95px 0 20px;}
+.event_0313_eyewear .list .item:nth-child(2) .button_go {margin-left:124px;}
+.event_0313_eyewear .list .item:nth-child(2) p {margin-top:70px;color:#fff;}
+
+.event_0313_eyewear .list .item:nth-child(3) {width:50%;height:1326px;background:url(../img/event/0313_eyewear/event_eyewear_bg4.jpg) 0 50% no-repeat;}
+.event_0313_eyewear .list .item:nth-child(3) .info_wrap {display:block;position:relative;width:100%;height:1326px;}
+.event_0313_eyewear .list .item:nth-child(3) .info {position:absolute;top:0;left:0;z-index:10;width:630px;height:435px;box-sizing:border-box;padding-left:45px;}
+.event_0313_eyewear .list .item:nth-child(3) h4 {width:310px;height:37px;background:url(../img/event/0313_eyewear/event_eyewear_logo3.png) 0 0 no-repeat;text-indent:-9999em;}
+.event_0313_eyewear .list .item:nth-child(3) strong {margin:95px 0 20px;}
+.event_0313_eyewear .list .item:nth-child(3) .button_go {margin-left:55px;}
+.event_0313_eyewear .list .item:nth-child(3) p {margin-top:70px;}
+
+.event_0313_eyewear .list .item:nth-child(4) {height:735px;padding:90px 0 190px;background:#f7f3f3 url(../img/event/0313_eyewear/event_eyewear_bg5.jpg) calc(50% - 165px) 90px no-repeat;}
+.event_0313_eyewear .list .item:nth-child(4) .info_wrap {display:block;position:relative;width:1260px;margin:0 auto;height:735px;}
+.event_0313_eyewear .list .item:nth-child(4) .info {position:absolute;top:0;right:0;z-index:10;width:960px;height:350px;padding-left:50px;box-sizing:border-box;}
+.event_0313_eyewear .list .item:nth-child(4) h4 {width:162px;height:57px;background:url(../img/event/0313_eyewear/event_eyewear_logo4.png) 0 0 no-repeat;text-indent:-9999em;}
+.event_0313_eyewear .list .item:nth-child(4) strong {margin:70px 0 20px;}
+.event_0313_eyewear .list .item:nth-child(4) .button_go {margin-left:30px;}
+.event_0313_eyewear .list .item:nth-child(4) p {margin-top:70px;}
+
+
 .event_0309_livingFair {}
 .event_0309_livingFair .event_top_section1 {background:url(../img/event/0309_livingFair/event_livingFair_bg1.jpg) 0 0 no-repeat;background-size:cover;}
 .event_0309_livingFair .event_top_section1 .inner {position:relative;width:1260px;height:450px;margin:0 auto;text-align:center;}
@@ -43,7 +258,6 @@
 .event_0309_livingFair .event_top_section1 .title_wrap {position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);}
 .event_0309_livingFair .event_top_section1 .title_wrap h2 {font-size:100px;font-weight:600;color:#fff;line-height:1;}
 .event_0309_livingFair .event_top_section1 .title_wrap p {font-family:Noto Sans KR;font-size:28px;color:#fff;line-height:1;}
-
 .event_0309_livingFair .event_top_section2 {position:relative;}
 .event_0309_livingFair .event_top_section2:before {content:'';display:block;position:absolute;top:0;right:0;z-index:-1;width:431px;height:641px;background:url(../img/event/0309_livingFair/event_livingFair_bg2.png) 0 0 no-repeat;}
 .event_0309_livingFair .event_top_section2:after {content:'';display:block;position:absolute;bottom:350px;left:0;width:366px;height:635px;background:url(../img/event/0309_livingFair/event_livingFair_bg3.png) 0 0 no-repeat;}
@@ -59,8 +273,81 @@
 .event_0309_livingFair .event_top_section2 .list .item:nth-child(odd) .info {margin-left:650px;padding:90px 0;}
 .event_0309_livingFair .event_top_section2 .list .item:nth-child(even) img {float:right;}
 .event_0309_livingFair .event_top_section2 .list .item:nth-child(even) .info {margin-right:650px;}
+.event_0309_livingFair .event_top_section2 .list .item .info_wrap {display:block;}
 .event_0309_livingFair .event_top_section2 .list .item .info {padding:90px 0;}
 .event_0309_livingFair .event_top_section2 .list .item h4 {font-size:50px;font-weight:600;color:#111;line-height:1;}
 .event_0309_livingFair .event_top_section2 .list .item p {margin-top:10px;font-family:Noto Sans KR;font-weight:300;font-size:20px;color:#111;line-height:1.3;}
-.event_0309_livingFair .event_top_section2 .list .item a {display:block;position:relative;width:250px;height:50px;margin-top:40px;background-color:#111;text-align:left;font-size:16px;color:#f9f9f9;text-indent:20px;line-height:50px;}
-.event_0309_livingFair .event_top_section2 .list .item a:after {content:'';display:block;position:absolute;top:50%;right:20px;transform:translateY(-50%);width:8px;height:13px;background:url(../img/event/0309_livingFair/btn_arr_white.png) 0 0 no-repeat;}
+.event_0309_livingFair .event_top_section2 .list .item .button_go {display:block;position:relative;width:250px;height:50px;margin-top:40px;background-color:#111;text-align:left;font-size:16px;color:#f9f9f9;text-indent:20px;line-height:50px;}
+.event_0309_livingFair .event_top_section2 .list .item .button_go:after {content:'';display:block;position:absolute;top:50%;right:20px;transform:translateY(-50%);width:8px;height:13px;background:url(../img/event/0309_livingFair/btn_arr_white.png) 0 0 no-repeat;}
+
+.event_0313_CameraGoods {}
+.event_0313_CameraGoods .title_wrap {background:url(../img/event/0313_CameraGoods/event_CameraGoods_bg1.jpg) 50% 0 no-repeat;background-size:cover;}
+.event_0313_CameraGoods .title {width:1260px;margin:0 auto;padding:150px 0;}
+.event_0313_CameraGoods .title span {font-size:30px;color:#111;}
+.event_0313_CameraGoods .title h2 {margin-top:10px;font-family:Noto Sans KR;font-size:70px;font-weight:500;color:#111;line-height:82px;}
+.event_0313_CameraGoods .title p {margin-top:20px;font-family:Noto Sans KR;font-size:28px;color:#111;line-height:1;}
+.event_0313_CameraGoods .list_wrap {}
+.event_0313_CameraGoods .list {}
+.event_0313_CameraGoods .list .item {}
+.event_0313_CameraGoods .list .item:after {content:'';display:block;clear:both;}
+.event_0313_CameraGoods .list .item:nth-child(odd) img {float:left;}
+.event_0313_CameraGoods .list .item:nth-child(odd) .info {margin-left:630px;padding:140px 0;}
+.event_0313_CameraGoods .list .item:nth-child(even) img {float:right;}
+.event_0313_CameraGoods .list .item:nth-child(even) .info {margin-right:630px;}
+.event_0313_CameraGoods .list .item:nth-child(1) {background:url(../img/event/0313_CameraGoods/event_CameraGoods_bg2.jpg) 50% 0 no-repeat;background-size:cover;}
+.event_0313_CameraGoods .list .item:nth-child(2) {background:url(../img/event/0313_CameraGoods/event_CameraGoods_bg3.jpg) 50% 0 no-repeat;background-size:cover;}
+.event_0313_CameraGoods .list .item:nth-child(3) {background:url(../img/event/0313_CameraGoods/event_CameraGoods_bg4.jpg) 50% 0 no-repeat;background-size:cover;}
+.event_0313_CameraGoods .list .item:nth-child(4) {background:url(../img/event/0313_CameraGoods/event_CameraGoods_bg5.jpg) 50% 0 no-repeat;background-size:cover;}
+.event_0313_CameraGoods .list .item .info_wrap {display:block;width:1260px;margin:0 auto;}
+.event_0313_CameraGoods .list .item .info {padding:140px 0;}
+.event_0313_CameraGoods .list .item h4 {font-size:50px;font-weight:600;color:#111;line-height:1;}
+.event_0313_CameraGoods .list .item p {margin-top:10px;font-family:Noto Sans KR;font-weight:300;font-size:20px;color:#111;line-height:1.3;}
+.event_0313_CameraGoods .list .item .button_go {display:block;position:relative;width:250px;height:50px;margin-top:40px;background-color:#111;text-align:left;font-size:16px;color:#f9f9f9;text-indent:20px;line-height:50px;}
+.event_0313_CameraGoods .list .item .button_go:after {content:'';display:block;position:absolute;top:50%;right:20px;transform:translateY(-50%);width:8px;height:13px;background:url(../img/event/0309_livingFair/btn_arr_white.png) 0 0 no-repeat;}
+
+.event_0313_FiveSenses {}
+.event_0313_FiveSenses .title_wrap {background:url(../img/event/0313_FiveSenses/event_FiveSenses_bg1.jpg) 50% 0 no-repeat;background-size:cover;}
+.event_0313_FiveSenses .title {width:1260px;margin:0 auto;padding:210px 0;}
+.event_0313_FiveSenses .title span {font-size:24px;color:#fff;}
+.event_0313_FiveSenses .title h2 {margin-top:10px;font-family:Noto Sans KR;font-size:70px;font-weight:500;color:#fff;line-height:84px;}
+.event_0313_FiveSenses .title p {margin-top:50px;font-family:Noto Sans KR;font-size:26px;color:#fff;line-height:1;}
+.event_0313_FiveSenses .list_wrap {}
+.event_0313_FiveSenses .list {}
+.event_0313_FiveSenses .list .item {}
+.event_0313_FiveSenses .list .item .info_wrap {display:block;width:1260px;margin:0 auto;}
+.event_0313_FiveSenses .list .item .info {}
+.event_0313_FiveSenses .list .item h3 {font-size:40px;font-family:Noto Sans KR;font-weight:300;color:#111;line-height:54px;}
+.event_0313_FiveSenses .list .item strong {display:inline-block;margin-top:30px;font-size:20px;font-weight:600;color:#111;line-height:1;}
+.event_0313_FiveSenses .list .item p {margin-top:3px;font-family:Noto Sans KR;font-weight:300;font-size:18px;color:#111;line-height:1.3;letter-spacing:-1px;}
+.event_0313_FiveSenses .list .item .button_go {display:block;position:relative;width:250px;height:50px;margin-top:40px;background-color:#111;text-align:left;font-size:16px;color:#f9f9f9;text-indent:20px;line-height:50px;}
+.event_0313_FiveSenses .list .item .button_go:after {content:'';display:block;position:absolute;top:50%;right:20px;transform:translateY(-50%);width:8px;height:13px;background:url(../img/event/0309_livingFair/btn_arr_white.png) 0 0 no-repeat;}
+.event_0313_FiveSenses .list .item:nth-child(1) {height:900px;padding:110px 0 220px;background:url(../img/event/0313_FiveSenses/event_FiveSenses_bg2.jpg) 50% 0 no-repeat;background-size:cover;}
+.event_0313_FiveSenses .list .item:nth-child(1) .info_wrap {position:relative;height:900px;}
+.event_0313_FiveSenses .list .item:nth-child(1) .info {position:absolute;bottom:0;right:130px;width:450px;}
+.event_0313_FiveSenses .list .item:nth-child(2) {height:985px;padding:0 0 0;background:url(../img/event/0313_FiveSenses/event_FiveSenses_bg3.jpg) 50% 0 no-repeat;}
+.event_0313_FiveSenses .list .item:nth-child(2) .info_wrap {position:relative;height:870px;}
+.event_0313_FiveSenses .list .item:nth-child(2) .info {position:absolute;bottom:0;left:0;width:920px;}
+.event_0313_FiveSenses .list .item:nth-child(2) .button_go {position:absolute;top:0;right:0;margin-top:10px;}
+.event_0313_FiveSenses .list .item:nth-child(3) {height:940px;margin-bottom:110px;padding:110px 0 0;background:url(../img/event/0313_FiveSenses/event_FiveSenses_bg4.jpg) 50% 0 no-repeat;}
+.event_0313_FiveSenses .list .item:nth-child(3) .info_wrap {position:relative;height:940px;}
+.event_0313_FiveSenses .list .item:nth-child(3) .info {position:absolute;bottom:0;left:0;}
+.event_0313_FiveSenses .list .item:nth-child(3) .button_go {margin-top:60px;}
+
+
+.event_0313_highend {}
+.event_0313_highend .event_top_section1 {background:url(../img/event/0313_highend/event_highend_bg1.jpg) 0 0 no-repeat;background-size:cover;}
+.event_0313_highend .event_top_section1 .inner {position:relative;width:1260px;height:604px;margin:0 auto;text-align:center;}
+.event_0313_highend .event_top_section1 .inner:before {content:'';position:absolute;top:50%;left:0;transform:translateY(-50%);}
+.event_0313_highend .event_top_section1 .inner:after {content:'';position:absolute;top:50%;right:0;transform:translateY(-50%);}
+.event_0313_highend .event_top_section1 .title_wrap {position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);}
+.event_0313_highend .event_top_section1 .title > span {font-size:30px;color:#090002;}
+.event_0313_highend .event_top_section1 .title h2 {margin-top:10px;font-size:70px;font-weight:600;color:#090002;line-height:1;}
+.event_0313_highend .event_top_section1 .title p {margin-top:50px;font-family:Noto Sans KR;font-size:22px;color:#3f3f3f;line-height:36px;}
+.event_0313_highend .event_top_section1 .title p span {font-family:proxima-nova;}
+.event_0313_highend .logo_slides_wrap {width:100%;background-color:#000;}
+.event_0313_highend .event_logo_slides {margin:0 auto;width:1260px;height:96px;line-height:96px;}
+.event_0313_highend .event_logo_slides .item {position:relative;width:initial;}
+.event_0313_highend .event_logo_slides .item {padding:0 70px 0 0;}
+.event_0313_highend .event_logo_slides .item img {display:inline;vertical-align:middle;}
+
+
