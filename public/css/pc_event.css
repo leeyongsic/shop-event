@@ -156,9 +156,9 @@
 .event_0315_jewelry .list .item:nth-child(2) .info_wrap {height:630px;background:url(../img/event/0315_jewelry/event_jewelry_img_thum2.jpg) 50% 0 no-repeat;}
 .event_0315_jewelry .list .item:nth-child(2) .info {left:0;bottom:0;width:315px;height:315px;box-sizing:border-box;padding:100px 0 0 0;}
 .event_0315_jewelry .list .item:nth-child(3) .info_wrap {height:630px;background:url(../img/event/0315_jewelry/event_jewelry_img_thum3.jpg) 50% 0 no-repeat;}
-.event_0315_jewelry .list .item:nth-child(3) .info {left:315px;bottom:0;width:315px;height:315px;box-sizing:border-box;padding:100px 0 0 30px;}
+.event_0315_jewelry .list .item:nth-child(3) .info {right:0;bottom:0;width:315px;height:315px;box-sizing:border-box;padding:100px 0 0 30px;}
 .event_0315_jewelry .list .item:nth-child(4) .info_wrap {height:630px;background:url(../img/event/0315_jewelry/event_jewelry_img_thum4.jpg) 50% 0 no-repeat;}
-.event_0315_jewelry .list .item:nth-child(4) .info {right:0;bottom:0;width:315px;height:315px;box-sizing:border-box;padding:100px 0 0 30px;}
+.event_0315_jewelry .list .item:nth-child(4) .info {left:0;bottom:0;width:315px;height:315px;box-sizing:border-box;padding:100px 0 0 30px;}
 
 .event_0315_casio {}
 .event_0315_casio .event_top_section1 {}
