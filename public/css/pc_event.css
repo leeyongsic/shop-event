@@ -52,19 +52,19 @@
 
 .event_0309_yan13 {}
 .event_0309_yan13 .event_top_section1 {position:relative;}
-.event_0309_yan13 .event_top_section1 .bg {position:absolute;top:0;left:0;right:0;width:100%;height:740px;background:url(http://img.hiphoper.com/images/hipcontent/event/2019/0309_yan13/event_yan13_bg1.jpg) top center no-repeat;background-size:cover;}
+.event_0309_yan13 .event_top_section1 .bg {position:absolute;top:0;left:0;right:0;width:100%;height:740px;background:url(../img/event/0315_yan13/event_yan13_bg1.jpg) top center no-repeat;background-size:cover;}
 .event_0309_yan13 .event_top_section1 .inner {position:relative;z-index:1;width:1260px;height:1748px;margin:0 auto;}
-.event_0309_yan13 .event_top_section1 .img_title_wrap {position:absolute;top:195px;left:0;width:315px;height:357px;background:url(http://img.hiphoper.com/images/hipcontent/event/2019/0309_yan13/event_yan13_img_tit1.png) 0 0 no-repeat;}
+.event_0309_yan13 .event_top_section1 .img_title_wrap {position:absolute;top:195px;left:0;width:315px;height:357px;background:url(../img/event/0315_yan13/event_yan13_img_tit1.png) 0 0 no-repeat;}
 .event_0309_yan13 .event_top_section1 .img_title {}
 .event_0309_yan13 .event_top_section1 [class^='img_thum'] {position:absolute;}
 .event_0309_yan13 .event_top_section1 .img_thum1 {top:85px;right:-20px;}
 .event_0309_yan13 .event_top_section1 .img_thum1 > a {display:block;position:relative;}
-.event_0309_yan13 .event_top_section1 .img_thum1 > a:before {content:'';display:block;position:absolute;top:0;right:-20px;width:10px;height:173px;background:url(http://img.hiphoper.com/images/hipcontent/event/2019/0309_yan13/event_yan13_img_txt1.png) 0 0 no-repeat;}
+.event_0309_yan13 .event_top_section1 .img_thum1 > a:before {content:'';display:block;position:absolute;top:0;right:-20px;width:10px;height:173px;background:url(../img/event/0315_yan13/event_yan13_img_txt1.png) 0 0 no-repeat;}
 .event_0309_yan13 .event_top_section1 .img_thum2 {bottom:130px;left:0;}
 .event_0309_yan13 .event_top_section1 .desc_txt {position:absolute;bottom:135px;right:0;width:590px;height:289px;}
 .event_0309_yan13 .event_top_section1 .desc_txt dt {font-weight:600;font-size:26px;color:#9b8448;line-height:1;text-transform:uppercase;}
 .event_0309_yan13 .event_top_section1 .desc_txt dd {margin-top:10px;font-family:Noto Sans KR;font-size:18px;color:#2d2621;line-height:1.6;}
-.event_0309_yan13 .event_top_section2 {background:url(http://img.hiphoper.com/images/hipcontent/event/2019/0309_yan13/event_yan13_bg2.gif) 0 0 repeat;text-align:center;}
+.event_0309_yan13 .event_top_section2 {background:url(../img/event/0315_yan13/event_yan13_bg2.gif) 0 0 repeat;text-align:center;}
 .event_0309_yan13 .event_top_section2 .inner {}
 .event_0309_yan13 .event_top_section2 h3,
 .event_0309_yan13 .event_top_section2 p {padding:30px 0 28px;font-weight:bold;font-size:18px;color:#fef3cd;line-height:1;text-transform:uppercase;}
@@ -80,9 +80,50 @@
 .event_0309_yan13 .event_top_section3 [class^='img_thum'] {position:absolute;}
 .event_0309_yan13 .event_top_section3 .img_thum1 {top:147px;left:0;}
 .event_0309_yan13 .event_top_section3 .img_thum1 > a {display:block;position:relative;}
-.event_0309_yan13 .event_top_section3 .img_thum1 > a:before {content:'';display:block;position:absolute;top:0;left:-20px;width:12px;height:200px;background:url(http://img.hiphoper.com/images/hipcontent/event/2019/0309_yan13/event_yan13_img_txt1.png) 0 0 no-repeat;}
+.event_0309_yan13 .event_top_section3 .img_thum1 > a:before {content:'';display:block;position:absolute;top:0;left:-20px;width:12px;height:200px;background:url(../img/event/0315_yan13/event_yan13_img_txt1.png) 0 0 no-repeat;}
 .event_0309_yan13 .event_top_section3 .img_thum2 {bottom:115px;right:60px;}
 .event_0309_yan13 .event_top_section3 .img_thum3 {bottom:115px;right:-320px;}
+
+.event_0315_yan13 {}
+.event_0315_yan13 .event_top_section1 {position:relative;}
+.event_0315_yan13 .event_top_section1 .bg {position:absolute;top:0;left:0;right:0;width:100%;height:740px;background:url(../img/event/0315_yan13/event_yan13_bg1.jpg) top center no-repeat;background-size:cover;}
+.event_0315_yan13 .event_top_section1 .inner {position:relative;z-index:1;width:1260px;height:1710px;margin:0 auto;}
+.event_0315_yan13 .event_top_section1 .title_wrap {position:absolute;top:195px;left:0;width:320px;height:360px;}
+.event_0315_yan13 .event_top_section1 .title {}
+.event_0315_yan13 .event_top_section1 .title span {font-family:Noto Sans KR;font-size:22px;font-weight:300;color:#fff;line-height:1;letter-spacing:-1px;}
+.event_0315_yan13 .event_top_section1 .title h2 {width:291px;height:176px;margin-top:30px;background:url(../img/event/0315_yan13/event_yan13_logo.png) 0 0 no-repeat;text-indent:-9999em;}
+.event_0315_yan13 .event_top_section1 .title p {position:relative;margin-top:80px;padding-top:25px;font-family:Noto Sans KR;font-size:24px;color:#fff;line-height:1;}
+.event_0315_yan13 .event_top_section1 .title p:after {content:'';position:absolute;top:0;left:0;width:57px;height:1px;background-color:#fff;}
+
+.event_0315_yan13 .event_top_section1 [class^='img_thum'] {position:absolute;}
+.event_0315_yan13 .event_top_section1 .img_thum1 {top:85px;right:-20px;}
+.event_0315_yan13 .event_top_section1 .img_thum1 > a {display:block;position:relative;}
+.event_0315_yan13 .event_top_section1 .img_thum1 > a:before {content:'';display:block;position:absolute;top:0;right:-20px;width:10px;height:173px;background:url(../img/event/0315_yan13/event_yan13_img_txt1.png) 0 0 no-repeat;}
+.event_0315_yan13 .event_top_section1 .img_thum2 {top:740px;left:0;}
+
+.event_0315_yan13 .event_top_section1 .desc_txt {position:absolute;bottom:105px;right:0;width:590px;height:333px;}
+.event_0315_yan13 .event_top_section1 .desc_txt dt {margin-bottom:30px;font-weight:600;font-size:26px;color:#111;line-height:1;text-transform:uppercase;}
+.event_0315_yan13 .event_top_section1 .desc_txt dd {margin-top:15px;font-family:Noto Sans KR;font-size:18px;font-weight:300;color:#2d2621;line-height:1.6;}
+
+.event_0315_yan13 .event_top_section2 {background:url(../img/event/0315_yan13/event_yan13_bg2.gif) 0 0 repeat;text-align:center;}
+.event_0315_yan13 .event_top_section2 .inner {}
+.event_0315_yan13 .event_top_section2 h3,
+.event_0315_yan13 .event_top_section2 p {padding:40px 0 40px;font-weight:bold;font-size:18px;color:#fef3cd;line-height:1;text-transform:uppercase;}
+.event_0315_yan13 .event_top_section2 .event_lookbook_slides {width:1260px;margin:0 auto;}
+.event_0315_yan13 .event_top_section2 .event_lookbook_slides .item {position:relative;width:initial;}
+.event_0315_yan13 .event_top_section2 .event_lookbook_slides .item a {padding:0 10px;}
+.event_0315_yan13 .event_top_section2 .slides .slick-next {right:-60px;}
+.event_0315_yan13 .event_top_section2 .slides .slick-prev {left:-60px;}
+
+.event_0315_yan13 .event_top_section3 {}
+.event_0315_yan13 .event_top_section3 .inner {position:relative;width:1260px;height:1315px;margin:0 auto;}
+.event_0315_yan13 .event_top_section3 .img_logo {position:absolute;top:490px;left:646px;}
+.event_0315_yan13 .event_top_section3 [class^='img_thum'] {position:absolute;}
+.event_0315_yan13 .event_top_section3 .img_thum1 {top:147px;left:0;}
+.event_0315_yan13 .event_top_section3 .img_thum1 > a {display:block;position:relative;}
+.event_0315_yan13 .event_top_section3 .img_thum1 > a:before {content:'';display:block;position:absolute;top:0;left:-20px;width:12px;height:200px;background:url(../img/event/0315_yan13/event_yan13_img_txt2.png) 0 0 no-repeat;}
+.event_0315_yan13 .event_top_section3 .img_thum2 {bottom:115px;right:60px;}
+.event_0315_yan13 .event_top_section3 .img_thum3 {bottom:115px;right:-320px;}
 
 .event_0315_loafer {}
 .event_0315_loafer .title_wrap {height:970px;background:url(../img/event/0315_loafer/event_loafer_bg1.jpg) 50% 0 no-repeat;background-size:cover;}
@@ -200,14 +241,12 @@
 .event_0313_eyewear .title p:before {content:'';display:block;position:absolute;top:0;left:0;width:24px;height:1px;background-color:#203f2b;}
 .event_0313_eyewear .title p strong {font-weight:500;font-size:24px;}
 .event_0313_eyewear .title p strong em {font-family:proxima-nova;font-size:26px;font-weight:500;}
-
 .event_0313_eyewear .list_wrap {margin-top:-200px;}
 .event_0313_eyewear .list {width:100%;min-width:1260px;}
 .event_0313_eyewear .list:after {content:'';display:block;clear:both;}
 .event_0313_eyewear .list .item {float:left;width:100%;}
 .event_0313_eyewear .list .item .info_wrap {}
 .event_0313_eyewear .list .item .info {position:absolute;z-index:10;}
-
 .event_0313_eyewear .list .item strong {display:block;font-size:17px;font-weight:600;color:#38b261;line-height:1;}
 .event_0313_eyewear .list .item h4 {display:inline-block;vertical-align:middle;}
 .event_0313_eyewear .list .item p {font-family:Noto Sans KR;font-size:18px;font-weight:300;color:#000;line-height:1;line-height:28px;}
@@ -215,7 +254,6 @@
 .event_0313_eyewear .list .item .button_go:after {content:'';display:block;position:absolute;top:50%;right:14px;transform:translateY(-50%);width:6px;height:11px;background:url(../img/event/0313_eyewear/btn_arr_black.png) 0 0 no-repeat;}
 .event_0313_eyewear .list .item .button_go.white {display:inline-block;position:relative;width:160px;height:35px;background-color:rgba(255,255,255,0);border:1px solid #fff;text-align:left;font-size:16px;color:#fff;text-indent:20px;line-height:35px;box-sizing:border-box;vertical-align:middle;}
 .event_0313_eyewear .list .item .button_go.white:after {content:'';display:block;position:absolute;top:50%;right:14px;transform:translateY(-50%);width:6px;height:11px;background:url(../img/event/0313_eyewear/btn_arr_white.png) 0 0 no-repeat;}
-
 .event_0313_eyewear .list .item:nth-child(1) {position:relative;width:100%;height:736px;padding-bottom:100px;background:url(../img/event/0313_eyewear/event_eyewear_bg2.jpg) calc(50% - 165px) 0 no-repeat;}
 .event_0313_eyewear .list .item:nth-child(1):after {display:block;content:'';position:absolute;top:0;left:0;right:0;bottom:0;z-index:-1;background-color:#f7f3f3;}
 .event_0313_eyewear .list .item:nth-child(1) .info_wrap {display:block;position:relative;width:1260px;margin:0 auto;height:736px;}
@@ -224,7 +262,6 @@
 .event_0313_eyewear .list .item:nth-child(1) strong {margin:95px 0 20px;}
 .event_0313_eyewear .list .item:nth-child(1) .button_go {margin-left:30px;}
 .event_0313_eyewear .list .item:nth-child(1) p {margin-top:70px;}
-
 .event_0313_eyewear .list .item:nth-child(2) {width:50%;height:1326px;background:url(../img/event/0313_eyewear/event_eyewear_bg3.jpg) right 50% no-repeat;}
 .event_0313_eyewear .list .item:nth-child(2) .info_wrap {display:block;position:relative;width:100%;height:1326px;}
 .event_0313_eyewear .list .item:nth-child(2) .info {position:absolute;top:0;right:0;z-index:10;width:570px;height:435px;}
@@ -232,7 +269,6 @@
 .event_0313_eyewear .list .item:nth-child(2) strong {margin:95px 0 20px;}
 .event_0313_eyewear .list .item:nth-child(2) .button_go {margin-left:124px;}
 .event_0313_eyewear .list .item:nth-child(2) p {margin-top:70px;color:#fff;}
-
 .event_0313_eyewear .list .item:nth-child(3) {width:50%;height:1326px;background:url(../img/event/0313_eyewear/event_eyewear_bg4.jpg) 0 50% no-repeat;}
 .event_0313_eyewear .list .item:nth-child(3) .info_wrap {display:block;position:relative;width:100%;height:1326px;}
 .event_0313_eyewear .list .item:nth-child(3) .info {position:absolute;top:0;left:0;z-index:10;width:630px;height:435px;box-sizing:border-box;padding-left:45px;}
@@ -240,7 +276,6 @@
 .event_0313_eyewear .list .item:nth-child(3) strong {margin:95px 0 20px;}
 .event_0313_eyewear .list .item:nth-child(3) .button_go {margin-left:55px;}
 .event_0313_eyewear .list .item:nth-child(3) p {margin-top:70px;}
-
 .event_0313_eyewear .list .item:nth-child(4) {height:735px;padding:90px 0 190px;background:#f7f3f3 url(../img/event/0313_eyewear/event_eyewear_bg5.jpg) calc(50% - 165px) 90px no-repeat;}
 .event_0313_eyewear .list .item:nth-child(4) .info_wrap {display:block;position:relative;width:1260px;margin:0 auto;height:735px;}
 .event_0313_eyewear .list .item:nth-child(4) .info {position:absolute;top:0;right:0;z-index:10;width:960px;height:350px;padding-left:50px;box-sizing:border-box;}
