@@ -133,8 +133,8 @@
 
 	var moEventSlide = function moEventSlide() {
 
-		var $open_event = $('.event_0313_eyewear'),
-		 	$open_event_slide = $open_event.find('.slides');
+		var $open_event = $('.event_view'),
+		 	$open_event_slide = $open_event.find('.img_slides');
 
 		$open_event_slide.slick({
 			dots:false,
