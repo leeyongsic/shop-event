@@ -8,13 +8,11 @@
 .event_0315_customade .title h2 {text-indent:-9999em;}
 .event_0315_customade .title h3 {font-family:Noto Sans KR;font-size:34px;font-weight:600;color:#fff;line-height:42px;}
 .event_0315_customade .title p {margin-top:30px;font-family:Noto Sans KR;font-size:20px;font-weight:500;color:#fff;line-height:27px;letter-spacing:-1px;}
-
 .event_0315_customade .event_top_section2 {}
 .event_0315_customade .event_top_section2 .inner {}
 .event_0315_customade .desc_txt1 {padding:25px 30px 35px;}
 .event_0315_customade .desc_txt1 h3 {display:inline-block;width:123px;height:21px;font-size:14px;color:#111;line-height:1;border-bottom:4px solid #111;box-sizing:border-box;}
 .event_0315_customade .desc_txt1 p {margin-top:20px;font-family:Noto Sans KR;font-size:16px;font-weight:300;color:#333;line-height:25px;}
-
 .event_0315_customade .img_thum1 {}
 .event_0315_customade .img_thum2 {}
 .event_0315_customade .img_thum3 {}
@@ -22,3 +20,46 @@
 .event_0315_customade .desc_txt2 {position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);z-index:1;width:230px;height:55px;text-align:center;}
 .event_0315_customade .desc_txt2 h3 {font-family:Noto Sans KR;font-size:21px;font-weight:500;color:#fff;line-height:27px;letter-spacing:-1px;}
 .event_0315_customade .desc_txt2 p {margin-top:7px;font-family:Noto Sans KR;font-size:16px;font-weight:300;color:#fff;line-height:25px;}
+
+
+.event_0313_eyewear {}
+.event_0313_eyewear .title_wrap {position:relative;width:100%;height:135vw;/*min-height:500px;*/background:url(../img/event/0313_eyewear/mo/event_eyewear_bg1.jpg) 50% 0 no-repeat;background-size:cover;}
+.event_0313_eyewear .title {position:absolute;bottom:50px;left:30px;}
+.event_0313_eyewear .title h2 {text-indent:-9999em;}
+.event_0313_eyewear .title h3 {font-family:Noto Sans KR;font-size:34px;font-weight:600;color:#fff;line-height:42px;}
+.event_0313_eyewear .title p {margin-top:30px;font-family:Noto Sans KR;font-size:20px;font-weight:500;color:#fff;line-height:27px;letter-spacing:-1px;}
+
+.event_0313_eyewear .list_wrap {}
+.event_0313_eyewear .list {}
+.event_0313_eyewear .list > li.item {}
+.event_0313_eyewear .info_wrap {}
+.event_0313_eyewear .logo {width:100%;height:100vw;background:url(../img/event/0313_eyewear/mo/event_eyewear_bg2.jpg) 50% 0 no-repeat;background-size:cover;text-indent:-9999em;}
+.event_0313_eyewear .slides {margin:-60px 0 0 30px;padding-bottom:0;}
+.event_0313_eyewear .slides .item {width:200px;height:200px;}
+.event_0313_eyewear .slides .item img {width:200px;height:200px;}
+.event_0313_eyewear .info {padding:30px 30px 50px;}
+.event_0313_eyewear .info h4 {position:relative;padding-bottom:19px;font-size:30px;font-weight:600;color:#fff;line-height:1;letter-spacing:-1px;}
+.event_0313_eyewear .info h4:after {content:'';display:block;position:absolute;bottom:0;left:0;width:100px;height:4px;background-color:#fff;}
+.event_0313_eyewear .info .button_go {position:relative;display:inline-block;margin-top:7px;font-size:14px;color:#fff;}
+.event_0313_eyewear .info .button_go:after {content:'';display:inline-block;width:5px;height:9px;margin-left:8px;background:url(../img/event/0313_eyewear/mo/btn_arr_white.png) 50% 0 no-repeat;background-size:5px 9px;}
+.event_0313_eyewear .info .button_go.black {color:#111;}
+.event_0313_eyewear .info .button_go.black:after {background-image:url(../img/event/0313_eyewear/mo/btn_arr_black.png);}
+.event_0313_eyewear .info p {margin-top:20px;font-family:Noto Sans KR;font-size:16px;font-weight:300;color:#fff;line-height:25px;}
+
+.event_0313_eyewear .list > li.item:nth-child(1) {width:100%;background-color:#2a3054;}
+.event_0313_eyewear .list > li.item:nth-child(1) .logo {background:url(../img/event/0313_eyewear/mo/event_eyewear_bg2.jpg) 50% 0 no-repeat;background-size:cover;}
+
+.event_0313_eyewear .list > li.item:nth-child(2) {width:100%;background-color:#fff;}
+.event_0313_eyewear .list > li.item:nth-child(2) .logo {background:url(../img/event/0313_eyewear/mo/event_eyewear_bg3.jpg) 50% 0 no-repeat;background-size:cover;}
+.event_0313_eyewear .list > li.item:nth-child(2) .info h4 {color:#111;}
+.event_0313_eyewear .list > li.item:nth-child(2) .info h4:after {background-color:#111;}
+.event_0313_eyewear .list > li.item:nth-child(2) .info p {color:#333;}
+
+.event_0313_eyewear .list > li.item:nth-child(3) {width:100%;background-color:#111111;}
+.event_0313_eyewear .list > li.item:nth-child(3) .logo {background:url(../img/event/0313_eyewear/mo/event_eyewear_bg4.jpg) 50% 0 no-repeat;background-size:cover;}
+
+.event_0313_eyewear .list > li.item:nth-child(4) {width:100%;background-color:#f7f3f3;}
+.event_0313_eyewear .list > li.item:nth-child(4) .logo {background:url(../img/event/0313_eyewear/mo/event_eyewear_bg5.jpg) 50% 0 no-repeat;background-size:cover;}
+.event_0313_eyewear .list > li.item:nth-child(4) .info h4 {color:#111;}
+.event_0313_eyewear .list > li.item:nth-child(4) .info h4:after {background-color:#111;}
+.event_0313_eyewear .list > li.item:nth-child(4) .info p {color:#333;}

@@ -131,11 +131,31 @@
 	}
 
 
+	var moEventSlide = function moEventSlide() {
+
+		var $open_event = $('.event_0313_eyewear'),
+		 	$open_event_slide = $open_event.find('.slides');
+
+		$open_event_slide.slick({
+			dots:false,
+			autoplay:true,
+			pauseOnDotsHover:true,
+			draggable:true,
+			arrows:false,
+			infinite:true,
+			variableWidth: true,
+			slidesToShow: 1,
+			slidesToScroll: 1,
+		});
+	} 
+
+
 	global.hiphoperEvent = {
 		'eventLookbookSlide': eventLookbookSlide,
 		'openEventSlide': openEventSlide,
 		//'visualFadeInOut': visualFadeInOut,
 		'eventLogoSlide' : eventLogoSlide,
+		'moEventSlide' : moEventSlide,
 	};
 
 })(this);
@@ -145,3 +165,4 @@ hiphoperEvent.eventLookbookSlide();
 hiphoperEvent.openEventSlide();
 //hiphoperEvent.visualFadeInOut();
 hiphoperEvent.eventLogoSlide();
+hiphoperEvent.moEventSlide();
