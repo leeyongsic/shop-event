@@ -8,16 +8,9 @@
 	<link rel="stylesheet" href="https://use.typekit.net/yzy2fux.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:400,500,700&amp;subset=korean">
 	<link rel="stylesheet" href="./css/common.css">
-	<!-- 임시 -->
 	<link rel="stylesheet" media="" href="./css/pc.css" />
-
 	<link rel="stylesheet" href="./css/plugin.css">
 	<script src="./js/plugin.js"></script>
-
-	<!-- event view add -->
-	<link rel="stylesheet" media="(max-width: 425px)" href="./css/mobile_event.css" />
-	<link rel="stylesheet" media="(min-width: 426px)" href="./css/pc_event.css" />
-	<!-- //event view add -->
 </head>
 <body>
 	<div class="banner_top set_transition layout_full bg_0"><!-- 화이트 타입은 bg_f -->
@@ -209,31 +202,8 @@
 				</div>
 			</div>
 		</div>
-		<div class="on_w">
-			<!-- event edit start -->
-			<div class="event_0315_sneakers">
-				<div class="title_wrap">
-					<div class="title">
-						<h2>SNEAKERS</h2>
-						<p><strong>HIPHOPER</strong> 스니커즈 기획전! 리뉴얼기념 특별할인전</p>
-					</div>
-				</div>
-				<div class="link_wrap">
-					<ul>
-						<li><a href="#1"><span>EXCELSIOR</span></a></li>
-						<li><a href="#2"><span>COLORCOLLA</span></a></li>
-						<li><a href="#3"><span>GRAM</span></a></li>
-						<li><a href="#4"><span>J.DAUL</span></a></li>
-						<li><a href="#5"><span>BMS FRANCE</span></a></li>
-						<li><a href="#6"><span>VANS</span></a></li>
-						<li><a href="#7"><span>MACHENZIE</span></a></li>
-					</ul>
-				</div>
-			</div>
-			<!-- //event edit end -->
-		</div>
-		<div class="layout_full on_m" style="background-color:#e4e0e1">
-			<div class="inner event_view_banner">
+		<div class="layout_full" style="background-color:#e4e0e1">
+			<div class="inner event_view_banner" style="text-align:center;">
 				<h1 class="s_out">이벤트 제목</h1>
 				<!--
 				<style>
@@ -242,9 +212,9 @@
 						.eventview{background-image:url(./img/m/@temp6.jpg)}
 					}
 				</style>
-				<div class="item eventview" style="background-image:url(./img/m/@temp6.jpg)"></div>
+				<div class="item eventview" style="background-image:url(./img/temp_event1.jpg);"></div>
 				-->
-				<img src="./img/event/0315_sneakers/mo/event_sneakers_img1.jpg" alt="">
+				<img src="./img/temp_event1.jpg" alt="">
 			</div>
 		</div>
 		<div class="wrap_event_view_floating" id="floating">
@@ -252,20 +222,14 @@
 				<div class="inner miw1180 dis_f ai_c">
 					<ul class="sort event_sort dis_f">
 						<li class="dis_if"><a href="#menu1" class="tc_3">MENU1</a></li>
-						<li class="dis_if"><a href="#menu2">MENU2</a></li>
-						<li class="dis_if"><a href="#menu3">MENU3</a></li>
+						<li class="dis_if"><a href="#mtm">MTM</a></li>
+						<li class="dis_if"><a href="#menu2">타이틀</a></li>
 					</ul>
 				</div>
 			</div>
 		</div>
 		<section class="wrap_listproduct miw1180">
-			<div class="img_tit">
-				<h2 class="s_out">MTM</h2>
-				<div class="img" id="#menu1"><!-- 모바일 UI 별도 -->
-					<img src="./img/event/0315_sneakers/event_sneakers_img2.jpg" alt="" class="on_w">
-					<img src="./img/event/0315_sneakers/mo/event_sneakers_img2.jpg" alt="" class="on_m">
-				</div>
-			</div>
+			<h2 class="tit tc_3" id="menu1">MENU1</h2>
 			<ul class="list_product fix4">
 				<li>
 					<div class="link">
@@ -464,9 +428,9 @@
 		<section class="wrap_listproduct miw1180">
 			<div class="img_tit">
 				<h2 class="s_out">MTM</h2>
-				<div class="img" id="#menu2"><!-- 모바일 UI 별도 -->
-					<img src="./img/event/0315_sneakers/event_sneakers_img3.jpg" alt="" class="on_w">
-					<img src="./img/event/0315_sneakers/mo/event_sneakers_img3.jpg" alt="" class="on_m">
+				<div class="img" id="mtm"><!-- 모바일 UI 별도 -->
+					<img src="./img/temp_event2.jpg" alt="" class="on_w">
+					<img src="./img/m/@temp7.jpg" alt="" class="on_m">
 				</div>
 			</div>
 			<ul class="list_product fix4">
@@ -665,13 +629,7 @@
 			</ul>
 		</section>
 		<section class="wrap_listproduct miw1180">
-			<div class="img_tit">
-				<h2 class="s_out">MTM</h2>
-				<div class="img" id="#menu3"><!-- 모바일 UI 별도 -->
-					<img src="./img/event/0315_sneakers/event_sneakers_img4.jpg" alt="" class="on_w">
-					<img src="./img/event/0315_sneakers/mo/event_sneakers_img4.jpg" alt="" class="on_m">
-				</div>
-			</div>
+			<h2 class="tit tc_3" id="menu2">타이틀</h2>
 			<ul class="list_product fix4">
 				<li>
 					<div class="link">
@@ -894,9 +852,6 @@
 		</div>
 	</footer>
 	<script src="./js/common.js"></script>
-	<!-- event view add -->
-	<script src="./js/event.js"></script>
-	<!-- //event view add -->
 	<script>
 		function floatingFn(){
 			if(!mCheck()){
