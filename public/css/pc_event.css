@@ -94,17 +94,14 @@
 .event_0315_yan13 .event_top_section1 .title h2 {width:291px;height:176px;margin-top:30px;background:url(../img/event/0315_yan13/event_yan13_logo.png) 0 0 no-repeat;text-indent:-9999em;}
 .event_0315_yan13 .event_top_section1 .title p {position:relative;margin-top:80px;padding-top:25px;font-family:Noto Sans KR;font-size:24px;color:#fff;line-height:1;}
 .event_0315_yan13 .event_top_section1 .title p:after {content:'';position:absolute;top:0;left:0;width:57px;height:1px;background-color:#fff;}
-
 .event_0315_yan13 .event_top_section1 [class^='img_thum'] {position:absolute;}
 .event_0315_yan13 .event_top_section1 .img_thum1 {top:85px;right:-20px;}
 .event_0315_yan13 .event_top_section1 .img_thum1 > a {display:block;position:relative;}
 .event_0315_yan13 .event_top_section1 .img_thum1 > a:before {content:'';display:block;position:absolute;top:0;right:-20px;width:10px;height:173px;background:url(../img/event/0315_yan13/event_yan13_img_txt1.png) 0 0 no-repeat;}
 .event_0315_yan13 .event_top_section1 .img_thum2 {top:740px;left:0;}
-
 .event_0315_yan13 .event_top_section1 .desc_txt {position:absolute;bottom:105px;right:0;width:590px;height:333px;}
 .event_0315_yan13 .event_top_section1 .desc_txt dt {margin-bottom:30px;font-weight:600;font-size:26px;color:#111;line-height:1;text-transform:uppercase;}
 .event_0315_yan13 .event_top_section1 .desc_txt dd {margin-top:15px;font-family:Noto Sans KR;font-size:18px;font-weight:300;color:#2d2621;line-height:1.6;}
-
 .event_0315_yan13 .event_top_section2 {background:url(../img/event/0315_yan13/event_yan13_bg2.gif) 0 0 repeat;text-align:center;}
 .event_0315_yan13 .event_top_section2 .inner {}
 .event_0315_yan13 .event_top_section2 h3,
@@ -114,7 +111,6 @@
 .event_0315_yan13 .event_top_section2 .event_lookbook_slides .item a {padding:0 10px;}
 .event_0315_yan13 .event_top_section2 .slides .slick-next {right:-60px;}
 .event_0315_yan13 .event_top_section2 .slides .slick-prev {left:-60px;}
-
 .event_0315_yan13 .event_top_section3 {}
 .event_0315_yan13 .event_top_section3 .inner {position:relative;width:1260px;height:1315px;margin:0 auto;}
 .event_0315_yan13 .event_top_section3 .img_logo {position:absolute;top:490px;left:646px;}
@@ -128,7 +124,7 @@
 .event_0315_loafer {}
 .event_0315_loafer .title_wrap {height:970px;background:url(../img/event/0315_loafer/event_loafer_bg1.jpg) 50% 0 no-repeat;background-size:cover;}
 .event_0315_loafer .title {position:relative;width:1260px;margin:0 auto;padding:210px 0;min-width:1260px;}
-.event_0315_loafer .title span {font-size:30px;font-weight:600;color:#111;}
+.event_0315_loafer .title span {font-size:30px;color:#111;text-transform:uppercase;}
 .event_0315_loafer .title h2 {margin-top:10px;font-size:96px;font-weight:500;color:#111;line-height:84px;}
 .event_0315_loafer .title p {margin-top:50px;font-family:Noto Sans KR;font-size:22px;color:#111;line-height:1;}
 .event_0315_loafer .title:after {content:'';display:block;position:absolute;top:50%;right:-50px;transform:translateY(-50%);width:11px;height:195px;background:url(../img/event/0315_loafer/title_txt_aside.png) 50% 0 no-repeat;}
