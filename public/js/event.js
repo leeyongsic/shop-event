@@ -27,14 +27,8 @@
 			variableWidth: true,
 			respondTo : 'window',
 			responsive: [
-				{breakpoint:3000,
-				settings: {slidesToShow:2,slidesToScroll:1}
-				},
-				{breakpoint:1160,
-				settings: {slidesToShow:2,slidesToScroll:1}
-				},
 				{breakpoint:1024,
-				settings: {slidesToShow:2,slidesToScroll:2}
+				settings: {slidesToShow:1,slidesToScroll:1,dots:true,arrows:false}
 				}
 			]
 		}).each(function(i,el){
