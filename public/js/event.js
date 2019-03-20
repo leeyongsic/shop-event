@@ -133,8 +133,8 @@
 
 	var moEventSlide = function moEventSlide() {
 
-		var $open_event = $('.event_view'),
-		 	$open_event_slide = $open_event.find('.img_slides');
+		var $event_view = $('.event_view'),
+		 	$open_event_slide = $event_view.find('.img_slides');
 
 		$open_event_slide.slick({
 			dots:false,
@@ -147,7 +147,34 @@
 			slidesToShow: 1,
 			slidesToScroll: 1,
 		});
+	}
+
+
+	var eventBannerSlide = function eventBannerSlide() {
+
+		var $event_view = $('.event_view'),
+		 	$open_event_slide = $event_view.find('.banner_slides');
+
+		$open_event_slide.slick({
+			dots:true,
+			autoplay:false,
+			pauseOnDotsHover:true,
+			dotsClass:'slick-dots small pos_center h dis_f',
+			draggable:true,
+			arrows:false,
+			infinite:false,
+			variableWidth: true,
+		}).each(function(index, el){
+			if( $(el)[0].slick.slideCount == 1 ){
+				$(el).slick('unslick');
+			}
+		});
+		$('#slideRelease').slick('slickSetOption',{
+			arrows:false
+		},true);
+
 	} 
+ 
 
 
 	global.hiphoperEvent = {
@@ -156,6 +183,7 @@
 		//'visualFadeInOut': visualFadeInOut,
 		'eventLogoSlide' : eventLogoSlide,
 		'moEventSlide' : moEventSlide,
+		'eventBannerSlide' : eventBannerSlide,
 	};
 
 })(this);
@@ -166,3 +194,4 @@ hiphoperEvent.openEventSlide();
 //hiphoperEvent.visualFadeInOut();
 hiphoperEvent.eventLogoSlide();
 hiphoperEvent.moEventSlide();
+hiphoperEvent.eventBannerSlide();
