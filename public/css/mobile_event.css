@@ -93,7 +93,6 @@
 .event_0315_casio .event_top_section1 .title {position:absolute;bottom:60px;left:30px;}
 .event_0315_casio .event_top_section1 .logo {width:215px;height:148px;background:url(../img/event/0315_casio/mo/event_casio_title.png) 0 0 no-repeat;background-size:215px 148px;text-indent:-9999em;}
 .event_0315_casio .event_top_section1 p {margin-top:30px;font-family:Noto Sans KR;font-size:20px;font-weight:500;color:#fff;line-height:27px;letter-spacing:-1px;}
-
 .event_0315_casio .event_top_section2 {}
 .event_0315_casio .event_top_section2 .inner {padding:30px;}
 .event_0315_casio .event_top_section2 .inner:after {content:'';display:block;clear:both;}
@@ -101,7 +100,6 @@
 .event_0315_casio .event_top_section2 .desc_txt1 {margin-left:180px;}
 .event_0315_casio .event_top_section2 .desc_txt1 p {padding-top:77px;font-family:Noto Sans KR;font-size:13px;font-weight:300;color:#000;line-height:18px;letter-spacing:-.5px;border-top:3px solid #333;}
 .event_0315_casio .event_top_section2 .desc_txt1 strong {display:inline-block;margin-top:20px;font-family:Noto Sans KR;font-size:27px;font-weight:600;color:#000;line-height:33px;letter-spacing:-.5px}
-
 .event_0315_casio .event_top_section3 .img_thum2 {}
 .event_0315_casio .event_top_section3 .desc_txt2 {padding:50px 30px 30px;font-family:Noto Sans KR;font-size:16px;font-weight:300;color:#111;line-height:25px;letter-spacing:-.5px}
 .event_0315_casio .event_top_section3 .desc_txt2 p {font-family:Noto Sans KR;font-size:16px;font-weight:300;color:#333;line-height:25px;letter-spacing:-1px;}
@@ -111,7 +109,7 @@
 .event_0315_casio .event_top_section3 .img_thum3,
 .event_0315_casio .event_top_section3 .img_thum4 {float:left;width:158px;height:200px;}
 .event_0315_casio .event_top_section4 {margin:50px 0 30px;}
-.event_0315_casio .event_top_section4 .banner_slides {}
+.event_0315_casio .event_top_section4 .banner_slides {width:375px;height:120px;margin:0 auto;}
 .event_0315_casio .event_top_section4 .banner_slides .item {width:375px;height:100px;}
 .event_0315_casio .event_top_section4 .banner_slides .item a {}
 .event_0315_casio .event_top_section4 .banner_slides .item img {width:375px;height:100px;}
