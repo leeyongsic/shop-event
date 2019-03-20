@@ -71,7 +71,7 @@
 
 	var visualFadeInOut = function visualFadeInOut() {
 
-		var $box = $('.visual-area ul'),
+		var $box = $('.visual_area ul'),
 			$items = $box.find('li'),
 			currentindex = 0,
 			duration = 5000, // 유지시간. 밀리초,
@@ -82,7 +82,7 @@
 			$items[i] = $(this);
 		});
 
-		if ($('.event_fadinout').length) {
+		if ($('.event_fadeinout').length) {
 			setTimeout(next, duration);
 		}
 
