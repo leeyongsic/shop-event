@@ -69,7 +69,6 @@
 
 	} 
 
-/*
 	var visualFadeInOut = function visualFadeInOut() {
 
 		var $box = $('.visual-area ul'),
@@ -83,7 +82,9 @@
 			$items[i] = $(this);
 		});
 
-		setTimeout(next, duration);
+		if ($('.event_fadinout').length) {
+			setTimeout(next, duration);
+		}
 
 		function next() {
 			var nextindex = currentindex+1 === numitems ? 0 : currentindex+1;
@@ -94,8 +95,9 @@
 			currentindex = nextindex;
 		}
 
+
 	}
-*/
+
 
 	var eventLogoSlide = function eventLogoSlide() {
 
@@ -180,7 +182,7 @@
 	global.hiphoperEvent = {
 		'eventLookbookSlide': eventLookbookSlide,
 		'openEventSlide': openEventSlide,
-		//'visualFadeInOut': visualFadeInOut,
+		'visualFadeInOut': visualFadeInOut,
 		'eventLogoSlide' : eventLogoSlide,
 		'moEventSlide' : moEventSlide,
 		'eventBannerSlide' : eventBannerSlide,
@@ -191,7 +193,7 @@
 // 함수 호출
 hiphoperEvent.eventLookbookSlide();
 hiphoperEvent.openEventSlide();
-//hiphoperEvent.visualFadeInOut();
+hiphoperEvent.visualFadeInOut();
 hiphoperEvent.eventLogoSlide();
 hiphoperEvent.moEventSlide();
 hiphoperEvent.eventBannerSlide();
