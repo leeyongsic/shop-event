@@ -73,8 +73,8 @@
 .event_0315_yan13 .event_top_section2 h3,
 .event_0315_yan13 .event_top_section2 p {padding:40px 0 40px;font-weight:bold;font-size:18px;color:#fef3cd;line-height:1;text-transform:uppercase;}
 .event_0315_yan13 .event_top_section2 .event_lookbook_slides {width:1260px;margin:0 auto;}
-.event_0315_yan13 .event_top_section2 .event_lookbook_slides .item {position:relative;width:initial;}
-.event_0315_yan13 .event_top_section2 .event_lookbook_slides .item a {padding:0 10px;}
+.event_0315_yan13 .event_top_section2 .event_lookbook_slides .item {position:relative;width:initial;margin-right:20px;}
+.event_0315_yan13 .event_top_section2 .event_lookbook_slides .item a {}
 .event_0315_yan13 .event_top_section2 .slides .slick-next {right:-60px;}
 .event_0315_yan13 .event_top_section2 .slides .slick-prev {left:-60px;}
 .event_0315_yan13 .event_top_section3 {}
@@ -109,10 +109,41 @@
 .event_0319_dunst .event_top_section3 .inner {width:1260px;margin:0 auto;padding:50px 0 120px;}
 .event_0319_dunst .event_top_section3 h3 {width:161px;height:52px;margin:0 auto;background:url(../img/event/0319_dunst/event_dunst_logo2.png) 0 0 no-repeat;text-indent:-9999em;}
 .event_0319_dunst .event_top_section3 .event_lookbook_slides {width:1260px;margin:47px auto 0;}
-.event_0319_dunst .event_top_section3 .event_lookbook_slides .item {position:relative;width:initial;}
-.event_0319_dunst .event_top_section3 .event_lookbook_slides .item a {padding:0 10px;}
+.event_0319_dunst .event_top_section3 .event_lookbook_slides .item {position:relative;width:initial;margin-right:20px;}
+.event_0319_dunst .event_top_section3 .event_lookbook_slides .item a {}
 .event_0319_dunst .event_top_section3 .slides .slick-next {right:-60px;}
 .event_0319_dunst .event_top_section3 .slides .slick-prev {left:-60px;}
+
+.event_0319_kirsh {}
+.event_0319_kirsh .event_top_section1 {position:relative;}
+.event_0319_kirsh .event_top_section1 .title_wrap {height:690px;background:url(../img/event/0319_kirsh/event_kirsh_bg1.jpg) 50% 0 no-repeat;background-size:cover;}
+.event_0319_kirsh .event_top_section1 .title {width:1260px;margin:0 auto;padding:270px 0 260px;min-width:1260px;}
+.event_0319_kirsh .event_top_section1 .title h2 {width:443px;height:74px;background:url(../img/event/0319_kirsh/event_kirsh_logo.png) 0 0 no-repeat;text-indent:-9999em;}
+.event_0319_kirsh .event_top_section1 .title p {margin-top:42px;font-family:Noto Sans KR;font-size:18px;color:#fff;line-height:26px;}
+
+.event_0319_kirsh .event_top_section2 {}
+.event_0319_kirsh .event_top_section2 .inner {position:relative;width:1260px;height:740px;margin:90px auto;}
+.event_0319_kirsh .event_top_section2 .desc_txt {position:absolute;top:0;left:620px;width:660px;height:740px;text-align:center;}
+.event_0319_kirsh .event_top_section2 .desc_txt dt {padding-top:270px;font-size:28px;font-weight:600;color:#111;line-height:1;letter-spacing:-.5px;}
+.event_0319_kirsh .event_top_section2 .desc_txt dd {margin-top:15px;font-family:Noto Sans KR;font-size:18px;color:#939393;line-height:32px;letter-spacing:-.5px;}
+.event_0319_kirsh .event_top_section2 .img_thum1 {position:absolute;top:0;left:-322px;}
+.event_0319_kirsh .event_top_section2 .img_thum2 {position:absolute;top:0;left:0;}
+.event_0319_kirsh .event_top_section2 .img_thum3 {position:absolute;top:0;right:-321px;}
+.event_0319_kirsh .event_top_section3 {background-color:#24201f;text-align:center;}
+.event_0319_kirsh .event_top_section3 .inner {position:relative;width:1260px;margin:0 auto;padding:85px 0;}
+.event_0319_kirsh .event_top_section3 .inner:before,
+.event_0319_kirsh .event_top_section3 .inner:after {content:'';display:block;position:absolute;left:0;width:1260px;height:16px;background:url(../img/event/0319_kirsh/event_kirsh_slides_text.png) 0 0 no-repeat;}
+.event_0319_kirsh .event_top_section3 .inner:before {top:40px;}
+.event_0319_kirsh .event_top_section3 .inner:after {bottom:40px;}
+.event_0319_kirsh .event_top_section3 .event_lookbook_slides {width:1260px;margin:0 auto;}
+.event_0319_kirsh .event_top_section3 .event_lookbook_slides .item {position:relative;width:initial;margin-right:20px;}
+.event_0319_kirsh .event_top_section3 .event_lookbook_slides .item a {}
+.event_0319_kirsh .event_top_section3 .slides .slick-next {right:-60px;}
+.event_0319_kirsh .event_top_section3 .slides .slick-prev {left:-60px;}
+.event_0319_kirsh .event_top_section3 .slides .slick-next:after,
+.event_0319_kirsh .event_top_section3 .slides .slick-prev:after {border-color:#ffc02a;}
+.event_0319_kirsh .event_top_section4 {}
+.event_0319_kirsh .event_top_section4 .inner {width:1260px;margin:0 auto;padding:80px 0 30px;}
 
 .event_0315_loafer {}
 .event_0315_loafer .title_wrap {height:970px;background:url(../img/event/0315_loafer/event_loafer_bg1.jpg) 50% 0 no-repeat;background-size:cover;}
