@@ -144,6 +144,20 @@
 .event_0319_kirsh .event_top_section4 {}
 .event_0319_kirsh .event_top_section4 .inner {width:1260px;margin:0 auto;padding:80px 0 30px;}
 
+.event_0319_kangol {}
+.event_0319_kangol .event_top_section1 {}
+.event_0319_kangol .title_wrap {height:600px;background:url(../img/event/0319_kangol/event_kangol_bg1.jpg) 50% 0 no-repeat;background-size:cover;}
+.event_0319_kangol .title {width:1260px;margin:0 auto;padding:110px 0;min-width:1260px;}
+.event_0319_kangol .title h2 {width:96px;height:111px;background:url(../img/event/0319_kangol/event_kangol_logo.png) 0 0 no-repeat;text-indent:-9999em;}
+.event_0319_kangol .title h3 {margin-top:46px;font-size:72px;font-weight:600;color:#000;line-height:80px;}
+.event_0319_kangol .title p {margin-top:35px;font-family:Noto Sans KR;font-size:26px;color:#000;line-height:34px;}
+.event_0319_kangol .event_top_section2 {padding:100px 0 10px;}
+.event_0319_kangol .event_top_section2 .inner {position:relative;width:1260px;height:1180px;margin:0 auto;}
+.event_0319_kangol .event_top_section2 .img_thum1 {position:absolute;top:0;left:0;}
+.event_0319_kangol .event_top_section2 .img_thum2 {position:absolute;bottom:0;left:0;}
+.event_0319_kangol .event_top_section2 .img_thum3 {position:absolute;top:0;right:0;}
+.event_0319_kangol .event_top_section2 .img_thum4 {position:absolute;bottom:0;right:0;}
+
 .event_0315_loafer {}
 .event_0315_loafer .title_wrap {height:970px;background:url(../img/event/0315_loafer/event_loafer_bg1.jpg) 50% 0 no-repeat;background-size:cover;}
 .event_0315_loafer .title {position:relative;width:1260px;margin:0 auto;padding:210px 0;min-width:1260px;}
