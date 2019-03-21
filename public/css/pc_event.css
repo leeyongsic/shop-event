@@ -359,6 +359,38 @@
 .event_0313_CameraGoods .list .item .button_go {display:block;position:relative;width:250px;height:50px;margin-top:40px;background-color:#111;text-align:left;font-size:16px;color:#f9f9f9;text-indent:20px;line-height:50px;}
 .event_0313_CameraGoods .list .item .button_go:after {content:'';display:block;position:absolute;top:50%;right:20px;transform:translateY(-50%);width:8px;height:13px;background:url(../img/event/0309_livingFair/btn_arr_white.png) 0 0 no-repeat;}
 
+.event_0315_casebycase {}
+.event_0315_casebycase .event_top_section1 {}
+.event_0315_casebycase .title_wrap {background:url(../img/event/0315_casebycase/event_casebycase_bg1.jpg) 50% 0 no-repeat;background-size:cover;}
+.event_0315_casebycase .title {width:1260px;margin:0 auto;padding:187px 0;}
+.event_0315_casebycase .title h2 {font-size:75px;font-weight:500;color:#fff;line-height:1;}
+.event_0315_casebycase .title h2 strong {font-family:Noto Sans KR;font-size:68px;font-weight:500;}
+.event_0315_casebycase .title .txt1 {margin-top:14px;font-family:Noto Sans KR;font-size:24px;color:#fff;line-height:1;}
+.event_0315_casebycase .title .txt2 {margin-top:195px;font-family:Noto Sans KR;font-size:20px;color:#aa745a;line-height:1;}
+.event_0315_casebycase .title span {font-size:30px;color:#111;}
+
+.event_0315_casebycase .info {}
+.event_0315_casebycase .info p {font-size:21px;color:#000;line-height:1;}
+.event_0315_casebycase .info h4 {margin-top:12px;font-size:34px;font-weight:500;color:#000;line-height:1;}
+
+.event_0315_casebycase .info .button_go {display:block;position:relative;width:250px;height:50px;margin-top:31px;background-color:#111;text-align:left;font-size:16px;color:#f9f9f9;text-indent:20px;line-height:50px;}
+.event_0315_casebycase .info .button_go:after {content:'';display:block;position:absolute;top:50%;right:20px;transform:translateY(-50%);width:8px;height:13px;background:url(../img/event/0315_casebycase/btn_arr_white.png) 0 0 no-repeat;}
+
+.event_0315_casebycase .event_top_section2 {padding-top:95px;background-color:#f4f4f4;}
+.event_0315_casebycase .event_top_section2 .inner {display:block;position:relative;width:1260px;height:552px;margin:0 auto;background:url(../img/event/0315_casebycase/event_casebycase_bg2.jpg) 50% 0 no-repeat;}
+.event_0315_casebycase .event_top_section2 .info {display:block;position:absolute;top:160px;right:60px;width:560px;height:240px;padding:50px 50px 40px;box-sizing:border-box;}
+.event_0315_casebycase .event_top_section2 .info p {font-family:Noto Sans KR;font-size:20px;color:#000;line-height:1;}
+
+.event_0315_casebycase .event_top_section3 {padding:50px 0 175px;background-color:#f4f4f4;}
+.event_0315_casebycase .event_top_section3 .inner {display:block;width:1260px;margin:0 auto;}
+.event_0315_casebycase .event_top_section3 .inner:after {content:'';display:block;clear:both;}
+.event_0315_casebycase .event_top_section3 .info_wrap {position:relative;float:left;width:620px;height:780px;}
+.event_0315_casebycase .event_top_section3 .info_wrap:nth-child(1) {background:url(../img/event/0315_casebycase/event_casebycase_bg3.png) 50% 0 no-repeat;}
+.event_0315_casebycase .event_top_section3 .info_wrap:nth-child(1) .info {position:absolute;bottom:40px;left:60px;width:250px;height:160px;}
+.event_0315_casebycase .event_top_section3 .info_wrap:nth-child(2) {margin-left:20px;background:url(../img/event/0315_casebycase/event_casebycase_bg4.jpg) 50% 0 no-repeat;}
+.event_0315_casebycase .event_top_section3 .info_wrap:nth-child(2) .info {position:absolute;top:60px;left:35px;width:250px;height:170px;}
+
+
 .event_0313_FiveSenses {}
 .event_0313_FiveSenses .title_wrap {background:url(../img/event/0313_FiveSenses/event_FiveSenses_bg1.jpg) 50% 0 no-repeat;background-size:cover;}
 .event_0313_FiveSenses .title {width:1260px;margin:0 auto;padding:210px 0;}
