@@ -145,6 +145,24 @@
 		});
 	}
 
+	var moEventContSlide = function moEventContSlide() {
+
+		var $event_view = $('.event_view'),
+		 	$open_event_slide = $event_view.find('.cont_slides');
+
+		$open_event_slide.slick({
+			dots:true,
+			autoplay:false,
+			pauseOnDotsHover:true,
+			draggable:false,
+			arrows:false,
+			infinite:true,
+			variableWidth: true,
+			slidesToShow: 1,
+			slidesToScroll: 1,
+		});
+	}
+
 
 	var eventBannerSlide = function eventBannerSlide() {
 
@@ -171,9 +189,7 @@
 
 	} 
 
-	var eventSlideSyncing = function eventSlideSyncing() {
-
-		
+	var eventSlideSyncing = function eventSlideSyncing() {		
 
 		if ($('.event_0321_designerSpecial').length) {
 
@@ -247,6 +263,7 @@
 		'visualFadeInOut': visualFadeInOut,
 		'eventLogoSlide' : eventLogoSlide,
 		'moEventSlide' : moEventSlide,
+		'moEventContSlide' : moEventContSlide,
 		'eventBannerSlide' : eventBannerSlide,
 		'eventSlideSyncing' : eventSlideSyncing
 	};
@@ -261,3 +278,4 @@ hiphoperEvent.eventLogoSlide();
 hiphoperEvent.moEventSlide();
 hiphoperEvent.eventBannerSlide();
 hiphoperEvent.eventSlideSyncing();
+hiphoperEvent.moEventContSlide();
