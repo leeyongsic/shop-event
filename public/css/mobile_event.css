@@ -60,15 +60,13 @@
 .event_0321_designerSpecial {}
 .event_0321_designerSpecial .title_wrap {position:relative;width:100%;height:133.5vw;background:url(../img/event/0321_designerSpecial/mo/event_designerSpecial_bg1.jpg) 50% 0 no-repeat;background-size:cover;}
 .event_0321_designerSpecial .title {position:absolute;bottom:60px;left:30px;}
-.event_0321_designerSpecial .title h3 {font-size:39px;font-weight:600;color:#000;line-height:1;letter-spacing:-1px;}
+.event_0321_designerSpecial .title h2 {font-size:39px;font-weight:600;color:#000;line-height:1;letter-spacing:-1px;}
 .event_0321_designerSpecial .title p {margin-top:30px;font-family:'Noto Sans KR';font-size:20px;font-weight:500;color:#000;line-height:27px;letter-spacing:-1px;}
-
 .event_0321_designerSpecial .list_wrap {margin-top:10px;}
 .event_0321_designerSpecial .list {margin-top:30px;}
 .event_0321_designerSpecial .list:first-child {margin-top:0;}
 .event_0321_designerSpecial .cont_slides .item {position:relative;width:360px;height:675px;margin-right:4px;}
 .event_0321_designerSpecial .slides .slick-dots {position:absolute;bottom:10px;right:15px;}
-
 .event_0321_designerSpecial .info_wrap {position:relative;width:360px;height:675px;}
 .event_0321_designerSpecial .slides .item .info {height:initial;padding:30px 10px 0 30px;}
 .event_0321_designerSpecial .slides .item .info h3 {position:relative;}
@@ -82,6 +80,33 @@
 .event_0321_designerSpecial .slides .item .info .button_go.white {color:#111;}
 .event_0321_designerSpecial .slides .item .info .button_go.white:after {background-image:url(../img/event/0321_designerSpecial/mo/btn_arr_white.png);}
 .event_0321_designerSpecial .slides .item .info .button_go.white:before {background-color:#111;}
+
+.event_0318_bestBrand {}
+.event_0318_bestBrand .title_wrap {position:relative;width:100%;height:133.5vw;background:url(../img/event/0318_bestBrand/mo/event_bestBrand_bg1.jpg) 50% 0 no-repeat;background-size:cover;}
+.event_0318_bestBrand .title {position:absolute;bottom:50px;left:30px;}
+.event_0318_bestBrand .title h2 {font-size:39px;font-weight:600;color:#fff;line-height:46px;letter-spacing:-1px;}
+.event_0318_bestBrand .title p {margin-top:30px;font-family:'Noto Sans KR';font-size:20px;font-weight:500;color:#fff;line-height:27px;letter-spacing:-1px;}
+.event_0318_bestBrand .desc_wrap {padding:40px 30px;background-color:#000;}
+.event_0318_bestBrand .desc_wrap span {font-size:16px;font-weight:500;color:#5b5b5b;}
+.event_0318_bestBrand .desc_wrap p {font-family:'Noto Sans KR';font-size:19px;color:#e8e8e8;line-height:26px;}
+
+.event_0318_bestBrand .list_wrap {margin-top:50px;}
+.event_0318_bestBrand .list_wrap .list_title {position:relative;margin-left:30px;padding-top:12px;font-size:23px;font-weight:600;color:#000;line-height:1;}
+.event_0318_bestBrand .list_wrap .list_title:before {content:'';display:block;position:absolute;top:0;left:0;width:110px;height:4px;background-color:#000;}
+.event_0318_bestBrand .cont_slides {margin-top:20px;}
+.event_0318_bestBrand .cont_slides .item {position:relative;}
+.event_0318_bestBrand .cont_slides .item .md_brand_wrap {margin:0 auto 0;width:315px;}
+.event_0318_bestBrand .slides .slick-dots {position:absolute;top:-38px;right:30px;bottom:initial;}
+.event_0318_bestBrand .md_brand_wrap .brand_info {position:relative;margin:20px 0 30px;height:150px;}
+.event_0318_bestBrand .md_brand_wrap .brand_info h4 strong {display:block;font-size:29px;font-weight:600;color:#000;line-height:1;}
+.event_0318_bestBrand .md_brand_wrap .brand_info h4 span {display:block;margin-top:7px;font-size:16px;font-weight:300;color:#8a8a8a;line-height:1;}
+.event_0318_bestBrand .md_brand_wrap .brand_info p {margin-top:20px;font-size:16px;font-weight:300;color:#333;line-height:25px;letter-spacing:-1px;}
+.event_0318_bestBrand .md_brand_wrap .brand_info .arrow {position:absolute;bottom:0;left:0;display:block;width:32px;height:9px;margin-top:19px;background:url(../img/event/0318_bestBrand/mo/btn_arr_half.png) 0 0 no-repeat;background-size:32px;height:9px;}
+.event_0318_bestBrand .md_item_wrap {padding:30px 30px 35px;background-color:#f0f0f0;}
+.event_0318_bestBrand .md_item_wrap h3 {font-size:16px;font-weight:500;color:#363636;line-height:1;}
+.event_0318_bestBrand .md_item_wrap .md_item_list {margin-top:10px;}
+.event_0318_bestBrand .md_item_wrap .md_item_list li {display:inline-block;width:155px;height:175px;}
+.event_0318_bestBrand .md_item_wrap .md_item_list li a {display:inline-block;}
 
 .event_0313_FiveSenses {}
 .event_0313_FiveSenses .title_wrap {position:relative;width:100%;height:133.5vw;background:url(../img/event/0313_FiveSenses/mo/event_FiveSenses_bg1.jpg) 50% 0 no-repeat;background-size:cover;}

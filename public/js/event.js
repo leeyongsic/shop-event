@@ -148,9 +148,11 @@
 	var moEventContSlide = function moEventContSlide() {
 
 		var $event_view = $('.event_view'),
-		 	$open_event_slide = $event_view.find('.cont_slides');
+		 	$event_cont_slide = $event_view.find('.cont_slides');
 
-		$open_event_slide.slick({
+		if ($('.event_0321_designerSpecial').length) {
+
+     	 $event_cont_slide.slick({
 			dots:true,
 			autoplay:false,
 			pauseOnDotsHover:true,
@@ -160,7 +162,26 @@
 			variableWidth: true,
 			slidesToShow: 1,
 			slidesToScroll: 1,
-		});
+		 });
+
+		}
+
+		if ($('.event_0318_bestBrand').length) {
+
+		  $event_cont_slide.slick({
+			dots:true,
+			autoplay:false,
+			pauseOnDotsHover:true,
+			draggable:false,
+			arrows:false,
+			infinite:true,
+			variableWidth: false,
+			slidesToShow: 1,
+			slidesToScroll: 1,
+		  });
+
+		}
+
 	}
 
 
