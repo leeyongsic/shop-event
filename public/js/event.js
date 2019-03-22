@@ -172,29 +172,60 @@
 	} 
 
 	var eventSlideSyncing = function eventSlideSyncing() {
-		$('.slider-single').slick({
-	      slidesToShow: 1,
-	      slidesToScroll: 1,
-	      arrows: true,
-	      fade: false,
-	      adaptiveHeight: true,
-	      infinite: true,
-	      useTransform: true,
-	      speed: 400,
-	      cssEase: 'cubic-bezier(0.77, 0, 0.18, 1)',
-	      prevArrow:'<button type="button" class="slick-prev pos_center_after pos_center v"><span class="s_out">이전 브랜드</span></button>',
-		  nextArrow:'<button type="button" class="slick-next pos_center_after pos_center v"><span class="s_out">다음 브랜드</span></button>',
-	    });
 
-	    $('.slider-nav').on('init', function(event, slick) {
-	      $('.slider-nav .slick-slide.slick-current').addClass('is-active');
-	    }).slick({
-	      slidesToShow: 10,
-	      slidesToScroll: 10,
-	      dots: false,
-	      focusOnSelect: false,
-	      infinite: true,
-	    });
+		
+
+		if ($('.event_0321_designerSpecial').length) {
+
+			$('.slider-single').slick({
+		      slidesToShow: 1,
+		      slidesToScroll: 1,
+		      arrows: true,
+		      fade: false,
+		      adaptiveHeight: true,
+		      infinite: true,
+		      useTransform: true,
+		      speed: 400,
+		      cssEase: 'cubic-bezier(0.77, 0, 0.18, 1)',
+		      prevArrow:'<button type="button" class="slick-prev pos_center_after pos_center v"><span class="s_out">이전 브랜드</span></button>',
+			  nextArrow:'<button type="button" class="slick-next pos_center_after pos_center v"><span class="s_out">다음 브랜드</span></button>',
+		    });
+
+		    $('.slider-nav').on('init', function(event, slick) {
+		      $('.slider-nav .slick-slide.slick-current').addClass('is-active');
+		    }).slick({
+		      slidesToShow: 10,
+		      slidesToScroll: 10,
+		      dots: false,
+		      focusOnSelect: false,
+		      infinite: true,
+		    });
+		}
+
+		if ($('.event_0318_bestBrand').length) {
+
+			$('.slider-single').slick({
+		      slidesToShow: 1,
+		      slidesToScroll: 1,
+		      arrows: false,
+		      fade: false,
+		      adaptiveHeight: true,
+		      infinite: true,
+		      useTransform: true,
+		      speed: 400,
+		      cssEase: 'cubic-bezier(0.77, 0, 0.18, 1)',
+		    });
+
+		    $('.slider-nav').on('init', function(event, slick) {
+		      $('.slider-nav .slick-slide.slick-current').addClass('is-active');
+		    }).slick({
+		      slidesToShow: 5,
+		      slidesToScroll: 5,
+		      dots: false,
+		      focusOnSelect: false,
+		      infinite: true,
+		    });
+		}
 
 	    $('.slider-single').on('afterChange', function(event, slick, currentSlide) {
 	      $('.slider-nav').slick('slickGoTo', currentSlide);
