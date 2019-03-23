@@ -288,7 +288,7 @@
 				$button04 = $('.button04'),
 				$button05 = $('.button05'),
 				$button06 = $('.button06'),
-				$button07 = $('.button07')
+				$button07 = $('.button07');
 
 			$button01.on('click', function() { location.href = "/brand/EXCELSIOR";});
 			$button02.on('click', function() { location.href = "/brand/colorcolla";});
