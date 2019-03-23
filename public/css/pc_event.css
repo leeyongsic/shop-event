@@ -119,7 +119,7 @@
 .event_0319_kirsh .event_top_section1 .title_wrap {height:690px;background:url(../img/event/0319_kirsh/event_kirsh_bg1.jpg) 50% 0 no-repeat;background-size:cover;}
 .event_0319_kirsh .event_top_section1 .title {width:1260px;margin:0 auto;padding:270px 0 260px;min-width:1260px;}
 .event_0319_kirsh .event_top_section1 .title h2 {width:443px;height:74px;background:url(../img/event/0319_kirsh/event_kirsh_logo.png) 0 0 no-repeat;text-indent:-9999em;}
-.event_0319_kirsh .event_top_section1 .title p {margin-top:42px;font-family:Noto Sans KR;font-size:18px;color:#fff;line-height:26px;}
+.event_0319_kirsh .event_top_section1 .title p {margin-top:42px;font-family:Noto Sans KR;font-size:24px;color:#fff;line-height:26px;}
 .event_0319_kirsh .event_top_section2 {}
 .event_0319_kirsh .event_top_section2 .inner {position:relative;width:1260px;height:740px;margin:90px auto;}
 .event_0319_kirsh .event_top_section2 .desc_txt {position:absolute;top:0;left:620px;width:660px;height:740px;text-align:center;}
@@ -207,8 +207,8 @@
 .event_0315_customade .event_top_section2 .img_thum2 {position:absolute;top:310px;right:0;width:620px;height:760px;}
 .event_0315_customade .event_top_section2 .img_thum3 {position:absolute;bottom:140px;left:0;width:300px;height:380px;}
 .event_0315_customade .event_top_section2 .img_thum4 {position:absolute;bottom:0px;right:320px;width:620px;height:520px;}
-.event_0315_customade .event_top_section2 .desc_txt1 {position:absolute;top:80px;right:0;width:620px;height:135px;padding-top:40px;text-align:center;font-family:Noto Sans KR;font-size:18px;color:#111;line-height:28px;}
-.event_0315_customade .event_top_section2 .desc_txt2 {position:absolute;top:840px;left:0;width:620px;height:190px;padding-top:125px;font-family:Noto Sans KR;font-size:18px;color:#111;line-height:28px;text-align:center;}
+.event_0315_customade .event_top_section2 .desc_txt1 {position:absolute;top:80px;right:0;width:620px;height:135px;padding-top:40px;text-align:center;font-family:Noto Sans KR;font-size:18px;font-weight:300;color:#111;line-height:28px;}
+.event_0315_customade .event_top_section2 .desc_txt2 {position:absolute;top:840px;left:0;width:620px;height:190px;padding-top:125px;font-family:Noto Sans KR;font-size:18px;font-weight:300;color:#111;line-height:28px;text-align:center;}
 .event_0315_customade .event_top_section2 .desc_txt2 strong {font-size:30px;}
 .event_0315_customade .event_top_section2 .bg {position:absolute;top:0;left:0;z-index:-1;width:620px;height:1675px;background-color:#eff0f4;}
 .event_0315_customade .event_top_section2 .logo {position:absolute;bottom:184px;right:92px;width:141px;height:161px;background:url(../img/event/0315_customade/logo_black.png) 50% 0 no-repeat;text-indent:-9999em}
@@ -428,7 +428,7 @@
 .event_0313_CameraGoods {}
 .event_0313_CameraGoods .title_wrap {background:url(../img/event/0313_CameraGoods/event_CameraGoods_bg1.jpg) 50% 0 no-repeat;background-size:cover;}
 .event_0313_CameraGoods .title {width:1260px;margin:0 auto;padding:150px 0;}
-.event_0313_CameraGoods .title span {font-size:30px;color:#111;}
+.event_0313_CameraGoods .title span {font-size:22px;color:#111;text-transform:uppercase;}
 .event_0313_CameraGoods .title h2 {margin-top:10px;font-family:Noto Sans KR;font-size:70px;font-weight:500;color:#111;line-height:82px;}
 .event_0313_CameraGoods .title p {margin-top:20px;font-family:Noto Sans KR;font-size:28px;color:#111;line-height:1;}
 .event_0313_CameraGoods .list_wrap {}
