@@ -507,7 +507,7 @@
 
 
 .event_0313_highend {}
-.event_0313_highend .event_top_section1 {background:url(../img/event/0313_highend/event_highend_bg1.jpg) 0 0 no-repeat;background-size:cover;}
+.event_0313_highend .event_top_section1 {min-width:1260px;background:url(../img/event/0313_highend/event_highend_bg1.jpg) 50% 0 no-repeat;background-size:cover;}
 .event_0313_highend .event_top_section1 .inner {position:relative;width:1260px;height:604px;margin:0 auto;text-align:center;}
 .event_0313_highend .event_top_section1 .inner:before {content:'';position:absolute;top:50%;left:0;transform:translateY(-50%);}
 .event_0313_highend .event_top_section1 .inner:after {content:'';position:absolute;top:50%;right:0;transform:translateY(-50%);}
@@ -519,7 +519,7 @@
 .event_0313_highend .logo_slides_wrap {width:100%;background-color:#000;}
 .event_0313_highend .event_logo_slides {margin:0 auto;width:1260px;height:96px;line-height:96px;}
 .event_0313_highend .event_logo_slides .item {position:relative;width:initial;}
-.event_0313_highend .event_logo_slides .item {padding:0 70px 0 0;}
+.event_0313_highend .event_logo_slides .item {text-align:center;}
 .event_0313_highend .event_logo_slides .item img {display:inline;vertical-align:middle;}
 
 

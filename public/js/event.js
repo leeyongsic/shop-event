@@ -105,7 +105,7 @@
 			slidesToShow: 7,
 			slidesToScroll: 1,
 			centerMode: false,
-			variableWidth: true,
+			variableWidth: false,
 			respondTo : 'window',
 			arrows:false,
 			responsive: [
