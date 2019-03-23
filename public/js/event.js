@@ -278,6 +278,30 @@
 	    });
 	}
 
+	var buttonLink = function buttonLink() {
+
+		if ($('.event_0315_sneakers').length) {
+
+			var $button01 = $('.button01'),
+				$button02 = $('.button02'),
+				$button03 = $('.button03'),
+				$button04 = $('.button04'),
+				$button05 = $('.button05'),
+				$button06 = $('.button06'),
+				$button07 = $('.button07')
+
+			$button01.on('click', function() { location.href = "/brand/EXCELSIOR";});
+			$button02.on('click', function() { location.href = "/brand/colorcolla";});
+			$button03.on('click', function() { location.href = "/brand/gram";});
+			$button04.on('click', function() { location.href = "/brand/JDAUL";});
+			$button05.on('click', function() { location.href = "/brand/BMSFRANCE";});
+			$button06.on('click', function() { location.href = "/brand/Vans";});
+			$button07.on('click', function() { location.href = "/brand/MACHENZIE";});
+
+		}
+
+	}
+
 	global.hiphoperEvent = {
 		'eventLookbookSlide': eventLookbookSlide,
 		'openEventSlide': openEventSlide,
@@ -286,7 +310,8 @@
 		'moEventSlide' : moEventSlide,
 		'moEventContSlide' : moEventContSlide,
 		'eventBannerSlide' : eventBannerSlide,
-		'eventSlideSyncing' : eventSlideSyncing
+		'eventSlideSyncing' : eventSlideSyncing,
+		'buttonLink' : buttonLink,
 	};
 
 })(this);
@@ -300,3 +325,4 @@ hiphoperEvent.moEventSlide();
 hiphoperEvent.eventBannerSlide();
 hiphoperEvent.eventSlideSyncing();
 hiphoperEvent.moEventContSlide();
+hiphoperEvent.buttonLink();
