@@ -9,6 +9,12 @@
 .event_fadeinout .visual_area ul li span {display:inline-block;text-indent:-9999em;}
 .event_fadeinout .visual_area ul li:nth-of-type(n+2) {opacity: 0;}
 
+.event_view .logo_slides_wrap {width:100%;background-color:#000;}
+.event_view .event_logo_slides {margin:0 auto;width:1260px;height:96px;line-height:96px;}
+.event_view .event_logo_slides .item {position:relative;width:initial;}
+.event_view .event_logo_slides .item {text-align:center;}
+.event_view .event_logo_slides .item img {display:inline;vertical-align:middle;}
+
 .event_0315_sneakers {}
 .event_0315_sneakers .title_wrap {height:600px;background:url(https://img.hiphoper.com/images/hipcontent/event/2019/0315_sneakers/event_sneakers_bg1.jpg) 50% 0 no-repeat;background-size:cover;}
 .event_0315_sneakers .title_wrap .title {width:1260px;margin:0 auto;padding:210px 0;min-width:1260px;text-align:center;}
@@ -518,10 +524,11 @@
 .event_0313_highend .event_top_section1 .title h2 {margin-top:10px;font-size:70px;font-weight:600;color:#090002;line-height:1;}
 .event_0313_highend .event_top_section1 .title p {margin-top:50px;font-family:Noto Sans KR;font-size:22px;color:#3f3f3f;line-height:36px;}
 .event_0313_highend .event_top_section1 .title p span {font-family:proxima-nova;}
-.event_0313_highend .logo_slides_wrap {width:100%;background-color:#000;}
-.event_0313_highend .event_logo_slides {margin:0 auto;width:1260px;height:96px;line-height:96px;}
-.event_0313_highend .event_logo_slides .item {position:relative;width:initial;}
-.event_0313_highend .event_logo_slides .item {text-align:center;}
-.event_0313_highend .event_logo_slides .item img {display:inline;vertical-align:middle;}
 
-
+.event_0322_highend {}
+.event_0322_highend .event_top_section1 {min-width:1260px;background:url(../img/event/0322_highend/event_highend_bg1.jpg) 50% 0 no-repeat;background-size:cover;}
+.event_0322_highend .event_top_section1 .inner {position:relative;width:1260px;height:640px;margin:0 auto;text-align:center;}
+.event_0322_highend .event_top_section1 .title_wrap {padding-top:285px;}
+.event_0322_highend .event_top_section1 .title h2 {font-size:74px;font-weight:600;color:#fff;line-height:1;}
+.event_0322_highend .event_top_section1 .title p {margin-top:3px;font-family:Noto Sans KR;font-size:22px;color:#fff;line-height:36px;}
+.event_0322_highend .event_top_section1 .title p span {font-family:proxima-nova;}
