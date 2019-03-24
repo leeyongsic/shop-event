@@ -16,16 +16,16 @@
 .event_0315_sneakers .title_wrap .title p {margin-top:20px;font-family:Noto Sans KR;font-size:22px;color:#fff;line-height:1;}
 .event_0315_sneakers .title_wrap .title p strong {font-family:proxima-nova;}
 .event_0315_sneakers .link_wrap {background-color:#111;}
-.event_0315_sneakers .link_wrap ul {overflow:hidden;width:1260px;height:155px;margin:0 auto;border:1px solid #333;border-width:0 1px 0 1px;}
+.event_0315_sneakers .link_wrap ul {overflow:hidden;width:1260px;height:78px;margin:0 auto;border:1px solid #333;border-width:0 1px 0 1px;}
 .event_0315_sneakers .link_wrap ul li {display:inline-block;margin-left:-3px;border:1px solid #333;border-width:0 1px 1px 0;}
 .event_0315_sneakers .link_wrap ul li a,
-.event_0315_sneakers .link_wrap ul li button {display:block;box-sizing:border-box;width:314px;height:77px;margin-left:0;line-height:78px;text-align:center;}
-.event_0315_sneakers .link_wrap ul li span {display:inline-block;position:relative;width:225px;height:16px;padding-left:30px;font-size:18px;color:#fff;line-height:1;text-align:left;}
+.event_0315_sneakers .link_wrap ul li button {display:block;box-sizing:border-box;width:251px;height:77px;margin-left:0;line-height:78px;text-align:center;}
+.event_0315_sneakers .link_wrap ul li span {display:inline-block;position:relative;width:162px;height:16px;padding-left:30px;font-size:18px;color:#fff;line-height:1;text-align:left;}
 .event_0315_sneakers .link_wrap ul li span:before {content:'';display:inline-block;position:absolute;top:0;left:0;width:18px;height:16px;background:url(https://img.hiphoper.com/images/hipcontent/event/2019/0315_sneakers/ico_link_home.png) 0 0 no-repeat;line-height:1;}
 .event_0315_sneakers .link_wrap ul li span:after {content:'';display:inline-block;position:absolute;top:0;right:0;width:7px;height:16px;background:url(https://img.hiphoper.com/images/hipcontent/event/2019/0315_sneakers/ico_link_arrow.png) 50% 50% no-repeat;line-height:1;}
-.event_0315_sneakers .link_wrap ul li:nth-child(4) {border-right-width:0;}
-.event_0315_sneakers .link_wrap ul li:nth-child(4) a,
-.event_0315_sneakers .link_wrap ul li:nth-child(4) button {width:316px;}
+.event_0315_sneakers .link_wrap ul li:nth-child(5) {border-right-width:0;}
+.event_0315_sneakers .link_wrap ul li:nth-child(5) a,
+.event_0315_sneakers .link_wrap ul li:nth-child(5) button {width:252px;}
 
 .event_0315_WorldFamousClogos {margin-bottom:120px;}
 .event_0315_WorldFamousClogos .event_top_section1 {}
