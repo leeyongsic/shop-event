@@ -19,16 +19,16 @@
 			nextArrow:'<button type="button" class="slick-next pos_center_after pos_center v"><span class="s_out">다음</span></button>',
 			autoplay:true,
 			autoplaySpeed:5000,
-			pauseOnDotsHover:true,
+			pauseOnDotsHover:false,
 			slidesToShow: 2,
 			slidesToScroll: 1,
 			centerMode: false,
 			centerPadding: '10',
 			variableWidth: true,
-			respondTo : 'window',
+			//respondTo : 'window',
 			responsive: [
 				{breakpoint:1024,
-				settings: {slidesToShow:1,slidesToScroll:1,dots:true,arrows:false}
+				settings: {slidesToShow:1,slidesToScroll:1,dots:true,arrows:false,}
 				}
 			]
 		}).each(function(i,el){
