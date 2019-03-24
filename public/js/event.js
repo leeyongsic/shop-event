@@ -37,9 +37,8 @@
 			}
 		});
 
-		var $a_link = $('.event_lookbook_slides').find('a');
-
-		$a_link.on('click', function() { alert(1) });
+		//var $a_link = $('.event_lookbook_slides').find('a');
+		//$a_link.on('click', function() { alert(1) });
 
 	}
 
