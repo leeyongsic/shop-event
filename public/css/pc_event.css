@@ -11,8 +11,7 @@
 
 .event_view .logo_slides_wrap {width:100%;background-color:#000;}
 .event_view .event_logo_slides {margin:0 auto;width:1260px;height:96px;line-height:96px;}
-.event_view .event_logo_slides .item {position:relative;width:initial;}
-.event_view .event_logo_slides .item {text-align:center;}
+.event_view .event_logo_slides .item {position:relative;width:initial;text-align:center;outline:none;}
 .event_view .event_logo_slides .item img {display:inline;vertical-align:middle;}
 
 .event_0315_sneakers {}
