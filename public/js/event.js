@@ -19,7 +19,7 @@
 			nextArrow:'<button type="button" class="slick-next pos_center_after pos_center v"><span class="s_out">다음</span></button>',
 			autoplay:true,
 			autoplaySpeed:5000,
-			pauseOnDotsHover:false,
+			pauseOnDotsHover:true,
 			slidesToShow: 2,
 			slidesToScroll: 1,
 			centerMode: false,
@@ -28,7 +28,7 @@
 			//respondTo : 'window',
 			responsive: [
 				{breakpoint:1024,
-				settings: {slidesToShow:1,slidesToScroll:1,dots:true,arrows:false,}
+				settings: {slidesToShow:1,slidesToScroll:1,dots:true,arrows:false,pauseOnDotsHover:true,touchMove:true,}
 				}
 			]
 		}).each(function(i,el){
@@ -37,8 +37,10 @@
 			}
 		});
 
-		//var $a_link = $('.event_lookbook_slides').find('a');
-		//$a_link.on('click', function() { alert(1) });
+		var $a_link = $('.event_lookbook_slides').find('a');
+		$a_link.on('click', function(e){
+			e.stopPropagation();	 
+		});
 
 	}
 
