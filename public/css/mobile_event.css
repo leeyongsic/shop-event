@@ -213,8 +213,8 @@
 .event_0324_motifest .event_top_section2 .desc_txt dd {margin-top:30px;font-family:Noto Sans KR;font-size:18px;font-weight:300;color:#000;line-height:28px;letter-spacing:-1px;}
 .event_0324_motifest .event_top_section2 .img_wrap {padding:0 30px 30px;}
 .event_0324_motifest .event_top_section3 .event_lookbook_slides {padding-bottom:50px;}
-.event_0324_motifest .event_top_section3 .event_lookbook_slides .item {width:375px;height:450px;margin-right:2px;background-color:#fff;}
-.event_0324_motifest .event_top_section3 .event_lookbook_slides .item img {width:375px;height:450px;}
+.event_0324_motifest .event_top_section3 .event_lookbook_slides .item {width:375px;height:450px;margin:0;background-color:#fff;}
+.event_0324_motifest .event_top_section3 .event_lookbook_slides .item img {display:block;width:375px;height:450px;}
 .event_0324_motifest .event_top_section3 .event_lookbook_slides .slick-dots {text-align:center;}
 
 .event_0315_jewelry {}
