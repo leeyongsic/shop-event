@@ -91,6 +91,24 @@
 .event_0325_naguisa .event_top_section2 .img_thum2 {position:absolute;top:145px;right:0;}
 .event_0325_naguisa .event_top_section2 .img_thum3 {position:absolute;bottom:0;right:0;}
 
+.event_0323_ruggedHouse {margin-bottom:60px;}
+.event_0323_ruggedHouse .event_top_section1 {}
+.event_0323_ruggedHouse .title_wrap {height:600px;background:url(../img/event/0323_ruggedHouse/event_ruggedHouse_bg1.jpg) 50% 0 no-repeat;background-size:cover;}
+.event_0323_ruggedHouse .title_wrap .title {width:1260px;margin:0 auto;padding:187px 0;min-width:1260px;}
+.event_0323_ruggedHouse .title_wrap .title h2 {font-size:26px;font-family:Noto Sans KR;color:#fff;line-height:1;letter-spacing:0;}
+.event_0323_ruggedHouse .title_wrap .title h2 strong {font-weight:600;}
+.event_0323_ruggedHouse .title_wrap .title h3 {margin-top:50px;font-size:70px;font-family:Noto Sans KR;font-weight:500;color:#fff;line-height:84px;letter-spacing:-1px;}
+.event_0323_ruggedHouse .event_top_section2 {margin-top:60px;}
+.event_0323_ruggedHouse .event_top_section2 .inner {width:1260px;margin:0 auto;}
+.event_0323_ruggedHouse .event_top_section2 .info_wrap {display:block;position:relative;height:1520px;}
+.event_0323_ruggedHouse .event_top_section2 .img_thum1 {position:absolute;top:0;left:0;}
+.event_0323_ruggedHouse .event_top_section2 .img_thum2 {position:absolute;top:620px;left:0;}
+.event_0323_ruggedHouse .event_top_section2 .img_thum3 {position:absolute;top:620px;right:0;}
+.event_0323_ruggedHouse .event_top_section2 .info {position:absolute;bottom:0;right:0;width:620px;height:450px;padding:160px 0 0 60px;box-sizing:border-box;}
+.event_0323_ruggedHouse .event_top_section2 .info .tit {font-size:40px;font-weight:600;color:#000;line-height:1;}
+.event_0323_ruggedHouse .event_top_section2 .info .txt {margin-top:16px;font-family:Noto Sans KR;font-weight:300;font-size:19px;color:#939393;line-height:32px;letter-spacing:-1px;}
+
+
 .event_0315_yan13 {overflow:hidden;}
 .event_0315_yan13 .event_top_section1 {position:relative;}
 .event_0315_yan13 .event_top_section1 .bg {position:absolute;top:0;left:0;right:0;width:100%;height:740px;background:url('https://img.hiphoper.com/images/hipcontent/event/2019/0315_YAN13/event_yan13_bg1.jpg') top center no-repeat;background-size:cover;}
