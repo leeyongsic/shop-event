@@ -381,7 +381,7 @@
 .event_0326_dailyWatch .event_top_section2 .list .item {position:relative;width:100%;height:1100px;}
 .event_0326_dailyWatch .event_top_section2 .list .item .info_wrap {display:block;width:100%;height:1100px;}
 .event_0326_dailyWatch .event_top_section2 .list .item .info {}
-.event_0326_dailyWatch .event_top_section2 .list .item .info h3 {font-size:40px;font-weight:600;color:#111;line-height:1;}
+.event_0326_dailyWatch .event_top_section2 .list .item .info h3 {margin-top:8px;font-size:40px;font-weight:600;color:#111;line-height:1;}
 .event_0326_dailyWatch .event_top_section2 .list .item .info p {margin-top:28px;font-family:Noto Sans KR;font-size:18px;font-weight:300;color:#111;line-height:28px;letter-spacing:-1px;}
 .event_0326_dailyWatch .event_top_section2 .list .item .button_go {margin-top:55px;display:inline-block;position:relative;width:250px;height:50px;background-color:#000;border:1px solid #000;text-align:left;font-size:16px;color:#fff;text-indent:20px;line-height:50px;box-sizing:border-box;vertical-align:middle;}
 .event_0326_dailyWatch .event_top_section2 .list .item .button_go:after {content:'';display:block;position:absolute;top:50%;right:14px;transform:translateY(-50%);width:6px;height:11px;background:url(https://img.hiphoper.com/images/hipcontent/event/2019/0313_eyewear/btn_arr_white.png) 0 0 no-repeat;}
@@ -406,6 +406,23 @@
 .event_0326_dailyWatch .event_top_section2 .list .item:nth-child(4) .img_thum3 {position:absolute;bottom:0;right:0;}
 .event_0326_dailyWatch .event_top_section2 .list .item:nth-child(4) .info {position:absolute;bottom:0;left:0;width:620px;height:285px;box-sizing:border-box;}
 
+.event_0324_motifest {}
+.event_0324_motifest .event_top_section1 {}
+.event_0324_motifest .event_top_section1 .title_wrap {height:600px;background:url(../img/event/0324_motifest/event_motifest_bg1.jpg) 50% 0 no-repeat;background-size:cover;}
+.event_0324_motifest .event_top_section1 .title {width:1260px;margin:0 auto;min-width:1260px;padding-top:150px;}
+.event_0324_motifest .event_top_section1 .title span {font-family:Noto Sans KR;font-size:22px;color:#010101;line-height:38px;letter-spacing:-1px;}
+.event_0324_motifest .event_top_section1 .title h2 {font-size:70px;font-weight:500;font-family:Noto Sans KR;color:#010101;line-height:84px;}
+.event_0324_motifest .event_top_section1 .title h2 strong {font-family:proxima-nova;font-size:74px;font-weight:600px;}
+.event_0324_motifest .event_top_section1 .title p {margin-top:40px;font-family:Noto Sans KR;font-size:26px;color:#010101;line-height:38px;letter-spacing:-1px;}
+.event_0324_motifest .event_top_section2 {margin-top:100px;}
+.event_0324_motifest .event_top_section2 .inner {position:relative;width:1260px;height:800px;margin:0 auto;min-width:1260px;background:url(../img/event/0324_motifest/event_motifest_bg2.jpg) 0 0 no-repeat;}
+.event_0324_motifest .event_top_section2 .link {display:block;width:100%;height:800px;}
+.event_0324_motifest .event_top_section2 .desc_txt {position:absolute;top:265px;left:100px;width:400px;height:280px;}
+.event_0324_motifest .event_top_section2 .desc_txt dt {width:394px;height:96px;background:url(../img/event/0324_motifest/event_motifest_logo.jpg) 0 0 no-repeat;text-indent:-9999em;}
+.event_0324_motifest .event_top_section2 .desc_txt dd {margin-top:53px;font-family:Noto Sans KR;font-size:18px;font-weight:300;color:#000;line-height:28px;letter-spacing:-1px;}
+.event_0324_motifest .event_top_section3 {margin-top:100px;}
+.event_0324_motifest .event_top_section3 .inner {text-align:center;}
+.event_0324_motifest .event_top_section3 img {}
 
 .event_0315_casio {}
 .event_0315_casio .event_top_section1 {}

@@ -198,6 +198,25 @@
 .event_0326_dailyWatch .event_top_section2 .list .item .img_slides .item {width:325px;height:426px;margin-right:2px;background-color:#fff;}
 .event_0326_dailyWatch .event_top_section2 .list .item .img_slides .item img {width:325px;height:426px;}
 
+.event_0324_motifest {}
+.event_0324_motifest .event_top_section1 {}
+.event_0324_motifest .event_top_section1 .title_wrap {position:relative;width:100%;height:133.5vw;background:url(../img/event/0324_motifest/mo/event_motifest_bg1.jpg) 50% 0 no-repeat;background-size:cover;}
+.event_0324_motifest .event_top_section1 .title {position:absolute;bottom:50px;left:30px;}
+.event_0324_motifest .event_top_section1 .title p {font-family:Noto Sans KR;font-size:20px;color:#fff;line-height:1;letter-spacing:-1px;}
+.event_0324_motifest .event_top_section1 .title h2 {margin-top:33px;font-size:34px;font-weight:600;font-family:Noto Sans KR;color:#fff;line-height:42px;}
+.event_0324_motifest .event_top_section1 .title h2 strong {font-family:proxima-nova;font-weight:600;font-size:38px;font-weight:600px;}
+.event_0324_motifest .event_top_section2 {}
+.event_0324_motifest .event_top_section2 .inner {}
+.event_0324_motifest .event_top_section2 .link {display:block;}
+.event_0324_motifest .event_top_section2 .desc_txt {padding:50px 30px;text-align:center;}
+.event_0324_motifest .event_top_section2 .desc_txt dt {display:inline-block;width:226px;height:55px;background:url(../img/event/0324_motifest/mo/event_motifest_logo.jpg) 0 0 no-repeat;background-size:226px 55px;text-indent:-9999em;}
+.event_0324_motifest .event_top_section2 .desc_txt dd {margin-top:30px;font-family:Noto Sans KR;font-size:18px;font-weight:300;color:#000;line-height:28px;letter-spacing:-1px;}
+.event_0324_motifest .event_top_section2 .img_wrap {padding:0 30px 30px;}
+.event_0324_motifest .event_top_section3 .event_lookbook_slides {padding-bottom:50px;}
+.event_0324_motifest .event_top_section3 .event_lookbook_slides .item {width:375px;height:450px;margin-right:2px;background-color:#fff;}
+.event_0324_motifest .event_top_section3 .event_lookbook_slides .item img {width:375px;height:450px;}
+.event_0324_motifest .event_top_section3 .event_lookbook_slides .slick-dots {text-align:center;}
+
 .event_0315_jewelry {}
 .event_0315_jewelry .title_wrap {position:relative;width:100%;height:133.5vw;background:url(https://img.hiphoper.com/images/hipcontent/event/2019/0315_jewelry/mo/event_jewelry_bg1.jpg) 50% 0 no-repeat;background-size:cover;}
 .event_0315_jewelry .title {position:absolute;bottom:50px;left:30px;}
