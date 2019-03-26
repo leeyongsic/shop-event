@@ -8,14 +8,13 @@
 	<link rel="stylesheet" href="https://use.typekit.net/yzy2fux.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:400,500,700&amp;subset=korean">
 	<link rel="stylesheet" href="./css/common.css">
-	<!-- 임시 -->
-	<link rel="stylesheet" media="" href="./css/mo_mobile.css" />
-
+	<link rel="stylesheet" media="(max-width: 425px)" href="./css/mobile.css" />
+	<link rel="stylesheet" media="(min-width: 426px)" href="./css/pc.css" />
 	<link rel="stylesheet" href="./css/plugin.css">
 	<script src="./js/plugin.js"></script>
-
 	<!-- event view add -->
-	<link rel="stylesheet" media="" href="./css/mobile_event.css" />
+	<link rel="stylesheet" media="(max-width: 425px)" href="./css/mobile_event.css">
+	<link rel="stylesheet" media="(min-width: 426px)" href="./css/pc_event.css">
 	<!-- //event view add -->
 </head>
 <body>
@@ -208,39 +207,64 @@
 				</div>
 			</div>
 		</div>
-		<!-- event edit start -->
-		<div class="event_0313_HypeEverything">
-			<div class="title_wrap">
-				<div class="title">
-					<h3>HYPE<br>EVERYTHING</h3>
-					<p>꼭 확인해봐야 되는 스트릿 핫 브랜드</p>
-				</div>
-				<div class="event_fadeinout">
-					<div class="visual_area">
-						<ul>
-							<li style="background-image:url(https://img.hiphoper.com/images/hipcontent/event/2019/0313_HypeEverything/mo/event_HypeEverything_bg1.jpg)"><span>이미지1</span></li>
-							<li style="background-image:url(https://img.hiphoper.com/images/hipcontent/event/2019/0313_HypeEverything/mo/event_HypeEverything_bg2.jpg)"><span>이미지2</span></li>
-							<li style="background-image:url(https://img.hiphoper.com/images/hipcontent/event/2019/0313_HypeEverything/mo/event_HypeEverything_bg3.jpg)"><span>이미지3</span></li>
-							<li style="background-image:url(https://img.hiphoper.com/images/hipcontent/event/2019/0313_HypeEverything/mo/event_HypeEverything_bg4.jpg)"><span>이미지4</span></li>
-						</ul>
+		<div class="on_w">
+			<!-- event edit start -->
+			<div class="event_0315_sneakers">
+				<div class="title_wrap">
+					<div class="title">
+						<h2>SNEAKERS</h2>
+						<p><strong>HIPHOPER</strong> 스니커즈 기획전! 리뉴얼기념 특별할인전</p>
 					</div>
 				</div>
+				<div class="link_wrap">
+					<ul>
+						<li><a href="/brand/EXCELSIOR"><span>EXCELSIOR</span></a></li>
+						<li><a href="/brand/colorcolla"><span>COLORCOLLA</span></a></li>
+						<li><a href="/brand/gram"><span>GRAM</span></a></li>
+						<li><a href="/brand/JDAUL"><span>J.DAUL</span></a></li>
+						<li><a href="/brand/BMSFRANCE"><span>BMS FRANCE</span></a></li>
+						<li><a href="/brand/Vans"><span>VANS</span></a></li>
+						<li><a href="/brand/MACHENZIE"><span>MACHENZIE</span></a></li>
+					</ul>
+				</div>
+			</div>
+			<!-- //event edit end -->
+		</div>
+		<div class="layout_full on_m" style="background-color:#e4e0e1">
+			<div class="inner event_view_banner">
+				<h1 class="s_out">이벤트 제목</h1>
+				<!--
+				<style>
+					.eventview{background-image:url(./img/temp_event1.jpg);}
+					@media (max-width:425px){
+						.eventview{background-image:url(./img/m/@temp6.jpg)}
+					}
+				</style>
+				<div class="item eventview" style="background-image:url(./img/m/@temp6.jpg)"></div>
+				-->
+				<img src="https://img.hiphoper.com/images/hipcontent/event/2019/0315_sneakers/mo/event_sneakers_img1.jpg" alt="">
 			</div>
 		</div>
-		<!-- //event edit end -->
 		<div class="wrap_event_view_floating" id="floating">
 			<div class="layout_full lc_e5 event_view_floating bg_f">
 				<div class="inner miw1180 dis_f ai_c">
 					<ul class="sort event_sort dis_f">
 						<li class="dis_if"><a href="#menu1" class="tc_3">MENU1</a></li>
-						<li class="dis_if"><a href="#mtm">MTM</a></li>
-						<li class="dis_if"><a href="#menu2">타이틀</a></li>
+						<li class="dis_if"><a href="#menu2">MENU2</a></li>
+						<li class="dis_if"><a href="#menu3">MENU3</a></li>
+						<li class="dis_if"><a href="#menu4">MENU4</a></li>
 					</ul>
 				</div>
 			</div>
 		</div>
 		<section class="wrap_listproduct miw1180">
-			<h2 class="tit tc_3" id="menu1">MENU1</h2>
+			<div class="img_tit">
+				<h2 class="s_out">MTM</h2>
+				<div class="img" id="#menu1"><!-- 모바일 UI 별도 -->
+					<img src="https://img.hiphoper.com/images/hipcontent/event/2019/0315_sneakers/event_sneakers_img2.jpg" alt="" class="on_w">
+					<img src="https://img.hiphoper.com/images/hipcontent/event/2019/0315_sneakers/mo/event_sneakers_img2.jpg" alt="" class="on_m">
+				</div>
+			</div>
 			<ul class="list_product fix4">
 				<li>
 					<div class="link">
@@ -439,9 +463,9 @@
 		<section class="wrap_listproduct miw1180">
 			<div class="img_tit">
 				<h2 class="s_out">MTM</h2>
-				<div class="img" id="mtm"><!-- 모바일 UI 별도 -->
-					<img src="./img/temp_event2.jpg" alt="" class="on_w">
-					<img src="./img/m/@temp7.jpg" alt="" class="on_m">
+				<div class="img" id="#menu2"><!-- 모바일 UI 별도 -->
+					<img src="https://img.hiphoper.com/images/hipcontent/event/2019/0315_sneakers/event_sneakers_img3.jpg" alt="" class="on_w">
+					<img src="https://img.hiphoper.com/images/hipcontent/event/2019/0315_sneakers/mo/event_sneakers_img3.jpg" alt="" class="on_m">
 				</div>
 			</div>
 			<ul class="list_product fix4">
@@ -640,7 +664,13 @@
 			</ul>
 		</section>
 		<section class="wrap_listproduct miw1180">
-			<h2 class="tit tc_3" id="menu2">타이틀</h2>
+			<div class="img_tit">
+				<h2 class="s_out">MTM</h2>
+				<div class="img" id="#menu3"><!-- 모바일 UI 별도 -->
+					<img src="https://img.hiphoper.com/images/hipcontent/event/2019/0315_sneakers/event_sneakers_img4.jpg" alt="" class="on_w">
+					<img src="https://img.hiphoper.com/images/hipcontent/event/2019/0315_sneakers/mo/event_sneakers_img4.jpg" alt="" class="on_m">
+				</div>
+			</div>
 			<ul class="list_product fix4">
 				<li>
 					<div class="link">
