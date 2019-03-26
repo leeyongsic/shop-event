@@ -432,6 +432,21 @@
 .event_0325_naguisa .img_thum2 {margin-top:40px;}
 .event_0325_naguisa .img_thum3 {padding:35px 30px 50px;}
 
+.event_0323_ruggedHouse {}
+.event_0323_ruggedHouse .event_top_section1 {}
+.event_0323_ruggedHouse .title_wrap {position:relative;width:100%;height:133.5vw;background:url(../img/event/0323_ruggedHouse/mo/event_ruggedHouse_bg1.jpg) 50% 0 no-repeat;background-size:cover;}
+.event_0323_ruggedHouse .title {position:absolute;bottom:60px;left:30px;}
+.event_0323_ruggedHouse .title h2 {font-family:'Noto Sans KR';font-size:20px;font-weight:300;color:#fff;line-height:27px;}
+.event_0323_ruggedHouse .title h2 strong {font-weight:600;}
+.event_0323_ruggedHouse .title h3 {margin-top:23px;font-family:'Noto Sans KR';font-size:34px;font-weight:600;color:#fff;line-height:42px;letter-spacing:-.5px}
+.event_0323_ruggedHouse .info_wrap {display:block;}
+.event_0323_ruggedHouse .info {padding:40px 30px;}
+.event_0323_ruggedHouse .info .tit {font-size:22px;font-weight:500;color:#111;line-height:1;letter-spacing:-.5px}
+.event_0323_ruggedHouse .info .txt {margin-top:7px;font-family:'Noto Sans KR';font-size:16px;font-weight:300;color:#000;line-height:25px;letter-spacing:-1px}
+.event_0323_ruggedHouse .img_thum1 {padding:30px 30px 0;}
+.event_0323_ruggedHouse .img_thum2 {margin-top:40px;}
+.event_0323_ruggedHouse .img_thum3 {padding-bottom:50px;}
+
 .event_0313_HypeEverything {}
 .event_0313_HypeEverything .title_wrap {position:relative;width:100%;height:133.5vw;}
 .event_0313_HypeEverything .title {position:absolute;bottom:50px;left:30px;z-index:1;}
