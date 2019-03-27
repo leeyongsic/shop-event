@@ -581,6 +581,7 @@
 .event_0321_designerSpecial .link_wrap ul li span {display:block;position:relative;width:250px;height:88px;font-family:Noto Sans KR;font-size:20px;color:#777;}
 .event_0321_designerSpecial .link_wrap ul li span:before {content:'';position:absolute;top:50%;right:0;z-index:-1;transform:translateY(-50%);width:1px;height:52px;background-color:#353535;}
 .event_0321_designerSpecial .link_wrap ul li span:after {content:'';position:absolute;bottom:0;left:50%;z-index:-1;transform:translateX(-50%);width:179px;height:1px;background-color:#353535;}
+.event_0321_designerSpecial .link_wrap ul li:nth-child(5n+5) span:before {display:none;}
 .event_0321_designerSpecial .link_wrap ul li.is-active button {background-color:#fffef7;}
 .event_0321_designerSpecial .link_wrap ul li.is-active span {color:#111;}
 .event_0321_designerSpecial .event_top_section2 {padding-top:100px;}
@@ -598,6 +599,39 @@
 .event_0321_designerSpecial .event_top_section2 .slides .slick-prev {left:-60px;margin-top:130px;overflow:visible;outline:0;}
 .event_0321_designerSpecial .event_top_section2 .slides .s_out {position:absolute;bottom:-30px;right:0;width:80px;height:16px;line-height:1;overflow:hidden;text-indent:0;white-space:nowrap;color:rgba(0,0,0,0);font-size:16px;color:#5e5e5e;}
 .event_0321_designerSpecial .event_top_section2 .slides .slick-next .s_out {left:0;}
+
+.event_0327_springForWoman {}
+.event_0327_springForWoman .event_top_section1 {}
+.event_0327_springForWoman .event_top_section1 .inner {}
+.event_0327_springForWoman .title_wrap {height:665px;background:url(../img/event/0327_springForWoman/event_springForWoman_bg1.jpg) 50% 0 no-repeat;background-size:cover;}
+.event_0327_springForWoman .title {width:1260px;margin:0 auto;padding:270px 0 0;}
+.event_0327_springForWoman .title h2 {font-size:72px;font-weight:600;color:#000;line-height:1;}
+.event_0327_springForWoman .title p {margin-top:7px;font-family:Noto Sans KR;font-size:24px;color:#000;line-height:40px;letter-spacing:-1px;}
+.event_0327_springForWoman .link_wrap {background-color:#111;}
+.event_0327_springForWoman .link_wrap ul {overflow:hidden;width:1260px;height:176px;margin:0 auto;}
+.event_0327_springForWoman .link_wrap ul li {display:inline;width:auto !important;}
+.event_0327_springForWoman .link_wrap ul li button {display:block;box-sizing:border-box;width:315px;height:88px;margin-left:0;line-height:88px;text-align:center;outline:0;}
+.event_0327_springForWoman .link_wrap ul li span {display:block;position:relative;width:315px;height:88px;font-family:Noto Sans KR;font-size:20px;color:#676565;}
+.event_0327_springForWoman .link_wrap ul li span:before {content:'';position:absolute;top:50%;right:0;z-index:-1;transform:translateY(-50%);width:1px;height:52px;background-color:#353535;}
+.event_0327_springForWoman .link_wrap ul li span:after {content:'';position:absolute;bottom:0;left:50%;z-index:-1;transform:translateX(-50%);width:179px;height:1px;background-color:#353535;}
+.event_0327_springForWoman .link_wrap ul li:nth-child(4n+4) span:before {display:none;}
+.event_0327_springForWoman .link_wrap ul li.is-active button {background-color:#ffe000;}
+.event_0327_springForWoman .link_wrap ul li.is-active span {color:#000;}
+.event_0327_springForWoman .event_top_section2 {padding-top:100px;}
+.event_0327_springForWoman .event_top_section2 .inner {width:1260px;margin:0 auto;}
+.event_0327_springForWoman .event_top_section2 .info_wrap {display:block;width:1260px;height:870px;}
+.event_0327_springForWoman .event_top_section2 .info {width:100%;}
+.event_0327_springForWoman .event_top_section2 .info h3 {position:relative;}
+.event_0327_springForWoman .event_top_section2 .info h3:before {content:'';display:block;display:absolute;top:0;left:0;width:355px;height:5px;background-color:#000;}
+.event_0327_springForWoman .event_top_section2 .info h3 strong {display:block;margin-top:12px;font-weight:500;font-size:42px;color:#000;line-height:1;text-transform:uppercase;letter-spacing:-1px;}
+.event_0327_springForWoman .event_top_section2 .info h3 span {display:block;margin-top:10px;font-family:Noto Sans KR;font-size:20px;color:#909090;line-height:1;letter-spacing:-1px;}
+.event_0327_springForWoman .event_top_section2 .info p {margin-top:55px;font-family:Noto Sans KR;font-size:20px;color:#5e5e5e;line-height:30px;letter-spacing:-1px;}
+.event_0327_springForWoman .event_top_section2 .button_go {display:block;position:relative;width:250px;height:50px;margin-top:30px;margin-bottom:35px;background-color:#111;text-align:left;font-size:16px;color:#f9f9f9;text-indent:20px;line-height:50px;}
+.event_0327_springForWoman .event_top_section2 .button_go:after {content:'';display:block;position:absolute;top:50%;right:20px;transform:translateY(-50%);width:8px;height:13px;background:url(https://img.hiphoper.com/images/hipcontent/event/2019/0309_livingFair/btn_arr_white.png) 0 0 no-repeat;}
+.event_0327_springForWoman .event_top_section2 .slides .slick-next {right:-60px;margin-top:130px;overflow:visible;outline:0;}
+.event_0327_springForWoman .event_top_section2 .slides .slick-prev {left:-60px;margin-top:130px;overflow:visible;outline:0;}
+.event_0327_springForWoman .event_top_section2 .slides .s_out {position:absolute;bottom:-30px;right:0;width:80px;height:16px;line-height:1;overflow:hidden;text-indent:0;white-space:nowrap;color:rgba(0,0,0,0);font-size:16px;color:#5e5e5e;}
+.event_0327_springForWoman .event_top_section2 .slides .slick-next .s_out {left:0;}
 
 .event_0318_bestBrand {}
 .event_0318_bestBrand .event_top_section1 {}
