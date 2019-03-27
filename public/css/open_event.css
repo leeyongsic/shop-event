@@ -92,3 +92,8 @@
 .open_event .event_write .button_wrap {margin-top:20px;text-align:center;}
 
 .open_event .site_footer .inner {width:1200px;min-width:1200px !important;}
+
+.open_event.new {min-width:1300px;background-color:#111;}
+.open_event.new .header {width:100%;height:705px;background:#111 url(../img/open_event/bg_header_new.jpg) 0 50% no-repeat;}
+.open_event.new .seciton_video {margin-top:-350px;margin-bottom:100px;text-align:center;}
+.open_event.new .site_footer {background-color:#fff;}
