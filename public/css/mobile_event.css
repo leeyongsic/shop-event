@@ -546,6 +546,34 @@
 .event_0319_dunst .event_top_section3 .desc_txt p:last-child {margin-top:20px;}
 .event_0319_dunst .event_top_section3 .img_logo {position:absolute;bottom:36px;left:50%;transform:translateX(-50%);width:54px;height:70px;background:url(https://img.hiphoper.com/images/hipcontent/event/2019/0319_dunst/mo/event_dunst_img_logo.png) 50% 0 no-repeat;text-indent:-9999em;background-size:54px 70px;}
 
+.event_0327_13month {}
+.event_0327_13month .event_top_section1 {}
+.event_0327_13month .event_top_section1 .inner {}
+.event_0327_13month .title_wrap {position:relative;width:100%;height:133.5vw;background:url(../img/event/0327_13month/mo/event_13month_bg1.jpg) 50% 0 no-repeat;background-size:cover;}
+.event_0327_13month .title {position:absolute;bottom:50px;left:30px;z-index:1;}
+.event_0327_13month .title h2 {width:276px;height:42px;background:url(../img/event/0327_13month/mo/event_13month_logo.png) 50% 0 no-repeat;text-indent:-9999em;background-size:276px 42px;}
+.event_0327_13month .title p {margin-top:30px;font-family:'Noto Sans KR';font-size:20px;font-weight:500;color:#fff;line-height:27px;letter-spacing:-1px;}
+.event_0327_13month .event_top_section1 .img_thum1 {padding:0 30px;}
+.event_0327_13month .event_top_section1 .img_thum1 a {}
+.event_0327_13month .event_top_section1 .img_wrap {position:relative;padding:45px 0 33px;}
+.event_0327_13month .event_top_section1 .img_wrap:after {content:'';display:block;clear:both;}
+.event_0327_13month .event_top_section1 .img_thum2 {float:left;width:50%;}
+.event_0327_13month .event_top_section1 .img_thum2 a {}
+.event_0327_13month .event_top_section1 .img_thum3 {float:left;width:50%;}
+.event_0327_13month .event_top_section1 .img_thum3 a {}
+.event_0327_13month .event_top_section1 .desc_txt {padding:30px 30px 40px;}
+.event_0327_13month .event_top_section1 .desc_txt dt {font-size:17px;color:#111;line-height:1;text-transform:uppercase;}
+.event_0327_13month .event_top_section1 .desc_txt dd {margin-top:14px;font-family:'Noto Sans KR';font-size:16px;font-weight:300;color:#333;line-height:25px;letter-spacing:-1px;}
+.event_0327_13month .event_top_section2 {margin-top:-1px;padding-top:30px;background:url(../img/event/0327_13month/mo/event_13month_bg2.jpg) 50% 0 no-repeat;background-size:cover;}
+.event_0327_13month .event_top_section2 .inner {padding:0 30px;}
+.event_0327_13month .event_top_section2 h3 {width:127px;height:20px;margin:0 auto 30px;background:url(../img/event/0327_13month/mo/event_13month_logo2.png) 50% 0 no-repeat;text-indent:-9999em;background-size:127px 20px;}
+.event_0327_13month .event_top_section2 .event_lookbook_slides {max-width:316px;margin:0 auto;text-align:center;;}
+.event_0327_13month .event_top_section2 .event_lookbook_slides .item {max-width:316px;}
+.event_0327_13month .event_top_section2 .event_lookbook_slides .slick-dots li {vertical-align:middle;}
+.event_0327_13month .event_top_section2 .slides .slick-dots li {vertical-align:middle;}
+.event_0327_13month .event_top_section2 .slides .slick-dots button {background-color:#d68450;}
+.event_0327_13month .event_top_section2 .slides .slick-dots .slick-active button {background-color:#fff;}
+
 .event_0315_WorldFamousClogos {}
 .event_0315_WorldFamousClogos .event_top_section1 {}
 .event_0315_WorldFamousClogos .title_wrap {position:relative;width:100%;height:133.5vw;background:url(https://img.hiphoper.com/images/hipcontent/event/2019/0315_WorldFamousClogos/mo/event_WorldFamousClogos_bg1.jpg) 50% 0 no-repeat;background-size:cover;}
