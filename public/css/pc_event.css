@@ -172,6 +172,32 @@
 .event_0319_dunst .event_top_section3 .slides .slick-next {right:-60px;}
 .event_0319_dunst .event_top_section3 .slides .slick-prev {left:-60px;}
 
+.event_0327_13month {}
+.event_0327_13month .event_top_section1 {position:relative;}
+.event_0327_13month .event_top_section1 .title_wrap {height:690px;background:url(../img/event/0327_13month/event_13month_bg1.jpg) 50% 0 no-repeat;background-size:cover;}
+.event_0327_13month .event_top_section1 .title {width:1260px;margin:0 auto;padding:265px 0 0;min-width:1260px;}
+.event_0327_13month .event_top_section1 .title span {font-family:Noto Sans KR;font-size:22px;font-weight:600;color:#050607;line-height:1;letter-spacing:-1px;}
+.event_0327_13month .event_top_section1 .title h2 {position:relative;width:398px;height:60px;margin-top:23px;padding-bottom:38px;background:url(../img/event/0327_13month/event_13month_logo.png) 0 0 no-repeat;text-indent:-9999em;}
+.event_0327_13month .event_top_section1 .title h2:after {content:'';display:block;clear:both;position:absolute;bottom:0;left:0;width:26px;height:1px;background-color:#000;}
+.event_0327_13month .event_top_section1 .title p {margin-top:30px;font-family:Noto Sans KR;font-size:23px;color:#050607;line-height:1;}
+.event_0327_13month .event_top_section2 {}
+.event_0327_13month .event_top_section2 .inner {width:1260px;margin:0 auto;padding:110px 0 120px;}
+.event_0327_13month .event_top_section2 .img_wrap {position:relative;width:100%;height:1215px;margin-top:50px;}
+.event_0327_13month .event_top_section2 .img_thum1 {position:absolute;top:0;left:0;}
+.event_0327_13month .event_top_section2 .img_thum2 {position:absolute;bottom:0;left:0;}
+.event_0327_13month .event_top_section2 .img_thum3 {position:absolute;right:0;bottom:0;}
+.event_0327_13month .event_top_section2 .desc_txt {position:absolute;top:0;right:0;width:620px;height:220px;padding:127px 0 0 20px;box-sizing:border-box;}
+.event_0327_13month .event_top_section2 .desc_txt dt {font-size:28px;font-weight:600;color:#111;line-height:1;letter-spacing:-.5px;}
+.event_0327_13month .event_top_section2 .desc_txt dd {margin-top:15px;font-size:18px;font-weight:300;color:#939393;line-height:32px;letter-spacing:-.5px;}
+.event_0327_13month .event_top_section3 {margin-bottom:60px;background:url(../img/event/0327_13month/event_13month_bg2.jpg) 50% 0 no-repeat;text-align:center;}
+.event_0327_13month .event_top_section3 .inner {width:1260px;margin:0 auto;padding:50px 0 120px;}
+.event_0327_13month .event_top_section3 h3 {width:252px;height:38px;margin:0 auto;background:url(../img/event/0327_13month/event_13month_logo2.png) 0 0 no-repeat;text-indent:-9999em;}
+.event_0327_13month .event_top_section3 .event_lookbook_slides {width:1260px;margin:47px auto 0;}
+.event_0327_13month .event_top_section3 .event_lookbook_slides .item {position:relative;width:initial;margin-right:20px;}
+.event_0327_13month .event_top_section3 .event_lookbook_slides .item a {}
+.event_0327_13month .event_top_section3 .slides .slick-next {right:-60px;}
+.event_0327_13month .event_top_section3 .slides .slick-prev {left:-60px;}
+
 .event_0319_kirsh {}
 .event_0319_kirsh .event_top_section1 {position:relative;}
 .event_0319_kirsh .event_top_section1 .title_wrap {height:690px;background:url(https://img.hiphoper.com/images/hipcontent/event/2019/0319_kirsh/event_kirsh_bg1.jpg) 50% 0 no-repeat;background-size:cover;}
