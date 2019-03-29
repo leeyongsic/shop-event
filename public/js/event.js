@@ -156,54 +156,39 @@
 		var $event_view = $('.event_view'),
 		 	$event_cont_slide = $event_view.find('.cont_slides');
 
-		if ($('.event_0321_designerSpecial').length) {
+			$event_cont_slide.slick({
+				dots:true,
+				autoplay:false,
+				pauseOnDotsHover:true,
+				draggable:false,
+				arrows:false,
+				infinite:true,
+				variableWidth: true,
+				slidesToShow: 1,
+				slidesToScroll: 1,
+			 });
+	
+	}
 
-     	 $event_cont_slide.slick({
-			dots:true,
-			autoplay:false,
-			pauseOnDotsHover:true,
-			draggable:false,
-			arrows:false,
-			infinite:true,
-			variableWidth: true,
-			slidesToShow: 1,
-			slidesToScroll: 1,
-		 });
 
-		}
+	var eventContSlide = function eventContSlide() {
 
-		if ($('.event_0318_bestBrand').length) {
+		var $event_view = $('.event_view'),
+		 	$event_cont_slide = $event_view.find('.pc_cont_slides');
 
-		  $event_cont_slide.slick({
-			dots:true,
-			autoplay:false,
-			pauseOnDotsHover:true,
-			draggable:false,
-			arrows:false,
-			infinite:true,
-			variableWidth: false,
-			slidesToShow: 1,
-			slidesToScroll: 1,
-		  });
-
-		}
-
-		if ($('.event_0327_springForWoman').length) {
-
-     	 $event_cont_slide.slick({
-			dots:true,
-			autoplay:false,
-			pauseOnDotsHover:true,
-			draggable:false,
-			arrows:false,
-			infinite:true,
-			variableWidth: true,
-			slidesToShow: 1,
-			slidesToScroll: 1,
-		 });
-
-		}
-
+			$event_cont_slide.slick({
+				prevArrow:'<button type="button" class="slick-prev pos_center_after pos_center v"><span class="s_out">이전</span></button>',
+				nextArrow:'<button type="button" class="slick-next pos_center_after pos_center v"><span class="s_out">다음</span></button>',
+				autoplay:true,
+				autoplaySpeed:5000,
+				pauseOnDotsHover:true,
+				slidesToShow: 2,
+				slidesToScroll: 1,
+				centerMode: false,
+				centerPadding: '10',
+				variableWidth: true,
+			 });
+	
 	}
 
 
@@ -361,6 +346,7 @@
 		'eventBannerSlide' : eventBannerSlide,
 		'eventSlideSyncing' : eventSlideSyncing,
 		'buttonLink' : buttonLink,
+		'eventContSlide' : eventContSlide,
 	};
 
 })(this);
@@ -375,3 +361,4 @@ hiphoperEvent.eventBannerSlide();
 hiphoperEvent.eventSlideSyncing();
 hiphoperEvent.moEventContSlide();
 hiphoperEvent.buttonLink();
+hiphoperEvent.eventContSlide()

@@ -352,13 +352,13 @@
 
 .event_0326_anderssonbell {}
 .event_0326_anderssonbell .event_top_section1 {}
-.event_0326_anderssonbell .event_top_section1 .inner {height:690px;background:url(../img/event/0326_anderssonbell/event_anderssonbell_bg1.jpg) 50% 0 no-repeat;background-size:cover;}
+.event_0326_anderssonbell .event_top_section1 .inner {height:690px;background:url(http://img.hiphoper.com/images/hipcontent/event/2019/0328_anderssonbell/event_anderssonbell_bg1.jpg) 50% 0 no-repeat;background-size:cover;}
 .event_0326_anderssonbell .event_top_section1 .title_wrap {width:1260px;margin:0 auto;min-width:1260px;padding-top:310px;}
-.event_0326_anderssonbell .event_top_section1 .title {width:549px;height:130px;background:url(../img/event/0326_anderssonbell/event_anderssonbell_logo.png) 0 0 no-repeat;}
+.event_0326_anderssonbell .event_top_section1 .title {width:549px;height:130px;background:url(http://img.hiphoper.com/images/hipcontent/event/2019/0328_anderssonbell/event_anderssonbell_logo.png) 0 0 no-repeat;}
 .event_0326_anderssonbell .event_top_section1 .title h2 {height:0;text-indent:-9999em;}
 .event_0326_anderssonbell .event_top_section1 .title p {height:0;text-indent:-9999em;}
 .event_0326_anderssonbell .event_top_section2 {position:relative;margin-top:100px;}
-.event_0326_anderssonbell .event_top_section2 .bg {position:absolute;left:0;right:0;bottom:0;z-index:-1;width:100%;height:1245px;background:url(../img/event/0326_anderssonbell/event_anderssonbell_bg2.jpg) 0 bottom no-repeat;background-size:cover;}
+.event_0326_anderssonbell .event_top_section2 .bg {position:absolute;left:0;right:0;bottom:0;z-index:-1;width:100%;height:1245px;background:url(http://img.hiphoper.com/images/hipcontent/event/2019/0328_anderssonbell/event_anderssonbell_bg2.jpg) 0 bottom no-repeat;background-size:cover;}
 .event_0326_anderssonbell .event_top_section2 .inner {width:1260px;margin:0 auto;height:1780px;}
 .event_0326_anderssonbell .event_top_section2 .desc_wrap {}
 .event_0326_anderssonbell .event_top_section2 .desc {text-align:center;}
@@ -367,8 +367,8 @@
 .event_0326_anderssonbell .event_top_section2 .video_wrap {width:1260px;margin:50px auto 0;}
 .event_0326_anderssonbell .event_top_section2 .video {}
 .event_0326_anderssonbell .event_top_section2 .img_wrap {position:relative;width:1260px;height:748px;margin:30px auto 0;}
-.event_0326_anderssonbell .event_top_section2 .img_wrap:before {content:'';position:absolute;top:50%;left:-50px;transform:translateY(-50%);width:12px;height:106px;background:url(../img/event/0326_anderssonbell/event_anderssonbell_txt1.png) 0 0 no-repeat;}
-.event_0326_anderssonbell .event_top_section2 .img_wrap:after {content:'';position:absolute;top:50%;right:-50px;transform:translateY(-50%);width:13px;height:138px;background:url(../img/event/0326_anderssonbell/event_anderssonbell_txt2.png) 0 0 no-repeat;}
+.event_0326_anderssonbell .event_top_section2 .img_wrap:before {content:'';position:absolute;top:50%;left:-50px;transform:translateY(-50%);width:12px;height:106px;background:url(http://img.hiphoper.com/images/hipcontent/event/2019/0328_anderssonbell/event_anderssonbell_txt1.png) 0 0 no-repeat;}
+.event_0326_anderssonbell .event_top_section2 .img_wrap:after {content:'';position:absolute;top:50%;right:-50px;transform:translateY(-50%);width:13px;height:138px;background:url(http://img.hiphoper.com/images/hipcontent/event/2019/0328_anderssonbell/event_anderssonbell_txt2.png) 0 0 no-repeat;}
 .event_0326_anderssonbell .event_top_section2 .img_thum1 {position:absolute;top:0;left:0;}
 .event_0326_anderssonbell .event_top_section2 .img_thum2 {position:absolute;top:0;right:0;}
 .event_0326_anderssonbell .event_top_section3 {padding:110px 0 80px;}
@@ -379,7 +379,7 @@
 .event_0326_anderssonbell .event_top_section3 .list {}
 .event_0326_anderssonbell .event_top_section3 .list .item {width:1260px;height:812px;}
 .event_0326_anderssonbell .event_top_section3 .list .info_wrap {display:block;position:relative;width:1260px;height:812px;}
-.event_0326_anderssonbell .event_top_section3 .list .info {width:535px;height:140px;}
+.event_0326_anderssonbell .event_top_section3 .list .info {width:596px;height:140px;}
 .event_0326_anderssonbell .event_top_section3 .list .info h3 {font-size:16px;font-weight:600;color:#aeaeae;line-height:1;}
 .event_0326_anderssonbell .event_top_section3 .list .info h4 {margin-top:10px;font-size:22px;font-weight:600;color:#000;line-height:1;}
 .event_0326_anderssonbell .event_top_section3 .list .info .button_go {margin-top:40px;}
@@ -391,8 +391,59 @@
 .event_0326_anderssonbell .event_top_section3 .list .item:nth-child(2) .img_thum1 {position:absolute;top:0;left:0;}
 .event_0326_anderssonbell .event_top_section3 .list .item:nth-child(2) .img_thum2 {position:absolute;top:0;right:60px;}
 .event_0326_anderssonbell .event_top_section3 .list .item:nth-child(2) .info {position:absolute;bottom:0;left:60px;}
+.event_0326_anderssonbell .event_top_section3 .list .item:nth-child(3) {margin-top:65px;}
+.event_0326_anderssonbell .event_top_section3 .list .item:nth-child(3) .img_thum1 {position:absolute;top:0;left:60px;}
+.event_0326_anderssonbell .event_top_section3 .list .item:nth-child(3) .img_thum2 {position:absolute;top:0;right:0;}
+.event_0326_anderssonbell .event_top_section3 .list .item:nth-child(3) .info {position:absolute;bottom:0;right:0;}
+.event_0326_anderssonbell .event_top_section3 .list .item:nth-child(3) .info h4 {white-space:nowrap;}
 .event_0326_anderssonbell .event_top_section3 .button_go {display:inline-block;position:relative;width:250px;height:50px;background-color:#111;border:1px solid #111;text-align:left;font-size:16px;color:#fff;text-indent:20px;line-height:50px;box-sizing:border-box;vertical-align:middle;}
 .event_0326_anderssonbell .event_top_section3 .button_go:after {content:'';display:block;position:absolute;top:50%;right:14px;transform:translateY(-50%);width:6px;height:11px;background:url(https://img.hiphoper.com/images/hipcontent/event/2019/0313_eyewear/btn_arr_white.png) 0 0 no-repeat;}
+
+.event_0328_anderssonbell {}
+.event_0328_anderssonbell .event_top_section1 {}
+.event_0328_anderssonbell .event_top_section1 .inner {height:690px;background:url(http://img.hiphoper.com/images/hipcontent/event/2019/0328_anderssonbell/event_anderssonbell_bg1.jpg) 50% 0 no-repeat;background-size:cover;}
+.event_0328_anderssonbell .event_top_section1 .title_wrap {width:1260px;margin:0 auto;min-width:1260px;padding-top:310px;}
+.event_0328_anderssonbell .event_top_section1 .title {width:549px;height:130px;background:url(http://img.hiphoper.com/images/hipcontent/event/2019/0328_anderssonbell/event_anderssonbell_logo.png) 0 0 no-repeat;}
+.event_0328_anderssonbell .event_top_section1 .title h2 {height:0;text-indent:-9999em;}
+.event_0328_anderssonbell .event_top_section1 .title p {height:0;text-indent:-9999em;}
+.event_0328_anderssonbell .event_top_section2 {position:relative;margin-top:100px;}
+.event_0328_anderssonbell .event_top_section2 .bg {position:absolute;left:0;right:0;bottom:0;z-index:-1;width:100%;height:1245px;background:url(http://img.hiphoper.com/images/hipcontent/event/2019/0328_anderssonbell/event_anderssonbell_bg2.jpg) 0 bottom no-repeat;background-size:cover;}
+.event_0328_anderssonbell .event_top_section2 .inner {width:1260px;margin:0 auto;height:1780px;}
+.event_0328_anderssonbell .event_top_section2 .desc_wrap {}
+.event_0328_anderssonbell .event_top_section2 .desc {text-align:center;}
+.event_0328_anderssonbell .event_top_section2 .desc h3 {font-size:32px;font-weight:500;color:#000;line-height:1;}
+.event_0328_anderssonbell .event_top_section2 .desc p {margin-top:10px;font-family:Noto Sans KR;font-size:18px;font-weight:300;color:#7e7e7e;line-height:32px;letter-spacing:-1px;}
+.event_0328_anderssonbell .event_top_section2 .video_wrap {width:1260px;margin:50px auto 0;}
+.event_0328_anderssonbell .event_top_section2 .video {}
+.event_0328_anderssonbell .event_top_section2 .img_wrap {position:relative;width:1260px;height:748px;margin:30px auto 0;}
+.event_0328_anderssonbell .event_top_section2 .img_wrap:before {content:'';position:absolute;top:50%;left:-50px;transform:translateY(-50%);width:12px;height:106px;background:url(http://img.hiphoper.com/images/hipcontent/event/2019/0328_anderssonbell/event_anderssonbell_txt1.png) 0 0 no-repeat;}
+.event_0328_anderssonbell .event_top_section2 .img_wrap:after {content:'';position:absolute;top:50%;right:-50px;transform:translateY(-50%);width:13px;height:138px;background:url(http://img.hiphoper.com/images/hipcontent/event/2019/0328_anderssonbell/event_anderssonbell_txt2.png) 0 0 no-repeat;}
+.event_0328_anderssonbell .event_top_section2 .img_thum1 {position:absolute;top:0;left:0;}
+.event_0328_anderssonbell .event_top_section2 .img_thum2 {position:absolute;top:0;right:0;}
+.event_0328_anderssonbell .event_top_section3 {padding:110px 0 80px;}
+.event_0328_anderssonbell .event_top_section3 .inner {width:1260px;margin:0 auto;}
+.event_0328_anderssonbell .event_top_section3 .title_wrap {text-align:center;}
+.event_0328_anderssonbell .event_top_section3 .title {display:inline-block;padding-top:20px;border-top:5px solid #000;font-size:32px;font-weight:600;color:#000;line-height:1;}
+.event_0328_anderssonbell .event_top_section3 .list_wrap {margin-top:33px;}
+.event_0328_anderssonbell .event_top_section3 .list {}
+.event_0328_anderssonbell .event_top_section3 .list .item {width:1260px;height:812px;}
+.event_0328_anderssonbell .event_top_section3 .list .info_wrap {display:block;position:relative;width:1260px;height:812px;}
+.event_0328_anderssonbell .event_top_section3 .list .info {width:596px;height:140px;}
+.event_0328_anderssonbell .event_top_section3 .list .info h3 {font-size:16px;font-weight:600;color:#aeaeae;line-height:1;}
+.event_0328_anderssonbell .event_top_section3 .list .info h4 {margin-top:10px;font-size:22px;font-weight:600;color:#000;line-height:1;}
+.event_0328_anderssonbell .event_top_section3 .list .info .button_go {margin-top:40px;}
+.event_0328_anderssonbell .event_top_section3 .list .item:nth-child(2n+1) {}
+.event_0328_anderssonbell .event_top_section3 .list .item:nth-child(2n+1) .img_thum1 {position:absolute;top:0;left:0;}
+.event_0328_anderssonbell .event_top_section3 .list .item:nth-child(2n+1) .img_thum2 {position:absolute;top:0;right:0;}
+.event_0328_anderssonbell .event_top_section3 .list .item:nth-child(2n+1) .info {position:absolute;bottom:0;right:0;}
+.event_0328_anderssonbell .event_top_section3 .list .item:nth-child(2n+2) {}
+.event_0328_anderssonbell .event_top_section3 .list .item:nth-child(2n+2) .img_thum1 {position:absolute;top:0;left:0;}
+.event_0328_anderssonbell .event_top_section3 .list .item:nth-child(2n+2) .img_thum2 {position:absolute;top:0;right:0;}
+.event_0328_anderssonbell .event_top_section3 .list .item:nth-child(2n+2) .info {position:absolute;bottom:0;left:0;}
+.event_0328_anderssonbell .event_top_section3 .button_go {display:inline-block;position:relative;width:250px;height:50px;background-color:#111;border:1px solid #111;text-align:left;font-size:16px;color:#fff;text-indent:20px;line-height:50px;box-sizing:border-box;vertical-align:middle;}
+.event_0328_anderssonbell .event_top_section3 .button_go:after {content:'';display:block;position:absolute;top:50%;right:14px;transform:translateY(-50%);width:6px;height:11px;background:url(https://img.hiphoper.com/images/hipcontent/event/2019/0313_eyewear/btn_arr_white.png) 0 0 no-repeat;}
+.event_0328_anderssonbell .event_top_section3 .slides .slick-next {right:-60px;}
+.event_0328_anderssonbell .event_top_section3 .slides .slick-prev {left:-60px;}
 
 .event_0326_dailyWatch {padding-bottom:80px;}
 .event_0326_dailyWatch .event_top_section1 .title_wrap {height:600px;background:url(../img/event/0326_dailyWatch/event_dailyWatch_bg1.jpg) 50% 0 no-repeat;background-size:cover;}
