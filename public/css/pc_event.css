@@ -238,12 +238,17 @@
 .event_0319_kangol .title h2 {width:96px;height:111px;background:url(https://img.hiphoper.com/images/hipcontent/event/2019/0319_kangol/event_kangol_logo.png) 0 0 no-repeat;text-indent:-9999em;}
 .event_0319_kangol .title h3 {margin-top:46px;font-size:72px;font-weight:600;color:#000;line-height:80px;}
 .event_0319_kangol .title p {margin-top:35px;font-family:Noto Sans KR;font-size:26px;color:#000;line-height:34px;}
-.event_0319_kangol .event_top_section2 {padding:100px 0 10px;}
+.event_0319_kangol .event_top_section2 {padding:100px 0 20px;}
 .event_0319_kangol .event_top_section2 .inner {position:relative;width:1260px;height:1180px;margin:0 auto;}
 .event_0319_kangol .event_top_section2 .img_thum1 {position:absolute;top:0;left:0;}
 .event_0319_kangol .event_top_section2 .img_thum2 {position:absolute;bottom:0;left:0;}
 .event_0319_kangol .event_top_section2 .img_thum3 {position:absolute;top:0;right:0;}
 .event_0319_kangol .event_top_section2 .img_thum4 {position:absolute;bottom:0;right:0;}
+.event_0319_kangol .event_top_section3 {padding-bottom:55px;}
+.event_0319_kangol .event_top_section3 .inner {width:1260px;margin:0 auto;}
+.event_0319_kangol .event_top_section3 .desc {width:1260px;height:200px;padding:63px 0 0 210px;background:url(../img/event/0319_kangol/event_kangol_bg2.jpg) 0 0 no-repeat;box-sizing:border-box;}
+.event_0319_kangol .event_top_section3 .desc p {font-family:Noto Sans KR;font-size:24px;color:#000;line-height:34px;}
+.event_0319_kangol .event_top_section3 .desc p strong {font-weight:600;}
 
 .event_0315_loafer {}
 .event_0315_loafer .title_wrap {height:970px;background:url(https://img.hiphoper.com/images/hipcontent/event/2019/0315_loafer/event_loafer_bg1.jpg) 50% 0 no-repeat;background-size:cover;}
