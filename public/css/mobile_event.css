@@ -40,7 +40,7 @@
 .event_0313_eyewear .info .button_go {position:relative;display:inline-block;margin-top:15px;padding-top:13px;font-size:14px;color:#fff;letter-spacing:-.5px}
 .event_0313_eyewear .info .button_go:before {content:'';display:block;position:absolute;top:0;left:0;width:100px;height:4px;background-color:#fff;}
 .event_0313_eyewear .info .button_go:after {content:'';display:inline-block;width:5px;height:9px;margin-left:9px;background:url(https://img.hiphoper.com/images/hipcontent/event/2019/0315_loafer/mo/btn_arr_white.png) 50% 0 no-repeat;background-size:5px 9px;}
-.event_0313_eyewear .info .button_go.black {color:#111;}
+.event_0313_eyewear .info .button_go.black {font-weight:500;color:#111;}
 .event_0313_eyewear .info .button_go.black:after {background-image:url(https://img.hiphoper.com/images/hipcontent/event/2019/0313_eyewear/mo/btn_arr_black.png);}
 .event_0313_eyewear .info .button_go.black:before {background-color:#111;}
 .event_0313_eyewear .info p {margin-top:20px;font-family:'Noto Sans KR';font-size:16px;font-weight:300;color:#fff;line-height:25px;letter-spacing:-.5px}
@@ -74,7 +74,7 @@
 .event_0321_designerSpecial .slides .item .info h3 span {font-size:16px;font-weight:300;color:#8a8a8a;line-height:1;letter-spacing:-1px;}
 .event_0321_designerSpecial .slides .item .info p {margin-top:20px;font-family:'Noto Sans KR';font-size:16px;font-weight:300;color:#000;line-height:25px;letter-spacing:-.5px;text-transform:uppercase;}
 .event_0321_designerSpecial .slides .item .info .button_wrap {position:absolute;bottom:-5px;left:30px;}
-.event_0321_designerSpecial .slides .item .info .button_go {position:relative;display:inline-block;padding-top:13px;font-size:14px;color:#000;letter-spacing:-.5px}
+.event_0321_designerSpecial .slides .item .info .button_go {position:relative;display:inline-block;padding-top:13px;font-size:14px;font-weight:500;color:#000;letter-spacing:-.5px}
 .event_0321_designerSpecial .slides .item .info .button_go:before {content:'';display:block;position:absolute;top:0;left:0;width:100px;height:4px;background-color:#000;}
 .event_0321_designerSpecial .slides .item .info .button_go:after {content:'';display:inline-block;width:5px;height:9px;margin-left:9px;background:url(https://img.hiphoper.com/images/hipcontent/event/2019/0321_designerSpecial/mo/btn_arr_black.png) 50% 0 no-repeat;background-size:5px 9px;}
 .event_0321_designerSpecial .slides .item .info .button_go.white {color:#111;}
@@ -98,7 +98,7 @@
 .event_0327_springForWoman .slides .item .info h3 span {font-size:16px;font-weight:300;color:#8a8a8a;line-height:1;letter-spacing:-1px;}
 .event_0327_springForWoman .slides .item .info p {margin-top:20px;font-family:'Noto Sans KR';font-size:16px;font-weight:300;color:#000;line-height:25px;letter-spacing:-.5px;text-transform:uppercase;}
 .event_0327_springForWoman .slides .item .info .button_wrap {position:absolute;bottom:-5px;left:30px;}
-.event_0327_springForWoman .slides .item .info .button_go {position:relative;display:inline-block;padding-top:13px;font-size:14px;color:#000;letter-spacing:-.5px}
+.event_0327_springForWoman .slides .item .info .button_go {position:relative;display:inline-block;padding-top:13px;font-size:14px;font-weight:500;color:#000;letter-spacing:-.5px}
 .event_0327_springForWoman .slides .item .info .button_go:before {content:'';display:block;position:absolute;top:0;left:0;width:100px;height:4px;background-color:#000;}
 .event_0327_springForWoman .slides .item .info .button_go:after {content:'';display:inline-block;width:5px;height:9px;margin-left:9px;background:url(../img/event/0327_springForWoman/mo/btn_arr_black.png) 50% 0 no-repeat;background-size:5px 9px;}
 .event_0327_springForWoman .slides .item .info .button_go.white {color:#111;}
@@ -145,7 +145,7 @@
 .event_0313_FiveSenses .img_slides .item img {width:325px;height:426px;}
 .event_0313_FiveSenses .info {padding:30px 30px 50px;}
 .event_0313_FiveSenses .info h3 {position:relative;font-size:27px;font-weight:600;color:#111;line-height:35px;letter-spacing:-1px;}
-.event_0313_FiveSenses .info .button_go {position:relative;display:inline-block;margin-top:15px;padding-top:13px;font-size:14px;color:#111;letter-spacing:-.5px}
+.event_0313_FiveSenses .info .button_go {position:relative;display:inline-block;margin-top:15px;padding-top:13px;font-size:14px;font-weight:500;color:#111;letter-spacing:-.5px}
 .event_0313_FiveSenses .info .button_go:before {content:'';display:block;position:absolute;top:0;left:0;width:100px;height:4px;background-color:#111}
 .event_0313_FiveSenses .info .button_go:after {content:'';display:inline-block;width:5px;height:9px;margin-left:9px;background:url(https://img.hiphoper.com/images/hipcontent/event/2019/0313_FiveSenses/mo/btn_arr_black.png) 50% 0 no-repeat;background-size:5px 9px;}
 .event_0313_FiveSenses .info .button_go.white {color:#fff;}
@@ -190,7 +190,7 @@
 .event_0326_anderssonbell .event_top_section3 .info {height:initial;padding:25px 30px 50px;}
 .event_0326_anderssonbell .event_top_section3 .info h3 {font-size:17px;font-weight:600;color:#9d9c9c;line-height:1;}
 .event_0326_anderssonbell .event_top_section3 .info h4 {margin-top:6px;font-size:25px;font-weight:600;color:#111;line-height:30px;}
-.event_0326_anderssonbell .event_top_section3 .button_go {position:relative;display:inline-block;margin-top:27px;padding-top:13px;font-size:14px;color:#111;letter-spacing:-.5px}
+.event_0326_anderssonbell .event_top_section3 .button_go {position:relative;display:inline-block;margin-top:27px;padding-top:13px;font-size:14px;font-weight:500;color:#111;letter-spacing:-.5px}
 .event_0326_anderssonbell .event_top_section3 .button_go:before {content:'';display:block;position:absolute;top:0;left:0;width:84px;height:4px;background-color:#111;}
 .event_0326_anderssonbell .event_top_section3 .button_go:after {content:'';display:inline-block;width:5px;height:9px;margin-left:9px;background:url(https://img.hiphoper.com/images/hipcontent/event/2019/0315_loafer/mo/btn_arr_black.png) 50% 0 no-repeat;background-size:5px 9px;}
 
@@ -222,7 +222,7 @@
 .event_0328_anderssonbell .event_top_section3 .info {height:initial;padding:25px 0 0 30px;}
 .event_0328_anderssonbell .event_top_section3 .info h3 {font-size:17px;font-weight:600;color:#9d9c9c;line-height:1;}
 .event_0328_anderssonbell .event_top_section3 .info h4 {margin-top:6px;font-size:25px;font-weight:600;color:#111;line-height:30px;}
-.event_0328_anderssonbell .event_top_section3 .button_go {position:relative;display:inline-block;margin-top:22px;padding-top:13px;font-size:14px;color:#111;letter-spacing:-.5px}
+.event_0328_anderssonbell .event_top_section3 .button_go {position:relative;display:inline-block;margin-top:22px;padding-top:13px;font-size:14px;font-weight:500;color:#111;letter-spacing:-.5px;}
 .event_0328_anderssonbell .event_top_section3 .button_go:before {content:'';display:block;position:absolute;top:0;left:0;width:84px;height:4px;background-color:#111;}
 .event_0328_anderssonbell .event_top_section3 .button_go:after {content:'';display:inline-block;width:5px;height:9px;margin-left:9px;background:url(https://img.hiphoper.com/images/hipcontent/event/2019/0315_loafer/mo/btn_arr_black.png) 50% 0 no-repeat;background-size:5px 9px;}
 
@@ -242,7 +242,7 @@
 .event_0326_dailyWatch .event_top_section2 .info {padding:35px 30px 63px;}
 .event_0326_dailyWatch .event_top_section2 .info h3 {font-size:27px;font-weight:600;color:#111;line-height:1;}
 .event_0326_dailyWatch .event_top_section2 .info p {margin-top:21px;font-size:16px;font-weight:300;color:#333;line-height:25px;}
-.event_0326_dailyWatch .event_top_section2 .button_go {position:relative;display:inline-block;margin-top:24px;padding-top:13px;font-size:14px;font-weight:600;color:#111;letter-spacing:-.5px}
+.event_0326_dailyWatch .event_top_section2 .button_go {position:relative;display:inline-block;margin-top:24px;padding-top:13px;font-size:14px;font-weight:500;color:#111;letter-spacing:-.5px}
 .event_0326_dailyWatch .event_top_section2 .button_go:before {content:'';display:block;position:absolute;top:0;left:0;width:100px;height:4px;background-color:#111;}
 .event_0326_dailyWatch .event_top_section2 .button_go:after {content:'';display:inline-block;width:5px;height:9px;margin-left:9px;background:url(https://img.hiphoper.com/images/hipcontent/event/2019/0315_loafer/mo/btn_arr_black.png) 50% 0 no-repeat;background-size:5px 9px;}
 .event_0326_dailyWatch .event_top_section2 .list .item .img_thum1 {}
@@ -318,7 +318,7 @@
 .event_0315_jewelry .img_slides .item img {width:200px;height:150px;}
 .event_0315_jewelry .info {padding:30px 30px 0;}
 .event_0315_jewelry .info h4 {position:relative;font-size:30px;font-weight:600;color:#000;line-height:1;letter-spacing:-1px;}
-.event_0315_jewelry .info .button_go {position:relative;display:inline-block;margin-top:15px;padding-top:13px;font-size:14px;color:#111;letter-spacing:-.5px}
+.event_0315_jewelry .info .button_go {position:relative;display:inline-block;margin-top:15px;padding-top:13px;font-size:14px;font-weight:500;color:#111;letter-spacing:-.5px}
 .event_0315_jewelry .info .button_go:before {content:'';display:block;position:absolute;top:0;left:0;width:100px;height:4px;background-color:#111;}
 .event_0315_jewelry .info .button_go:after {content:'';display:inline-block;width:5px;height:9px;margin-left:9px;background:url(https://img.hiphoper.com/images/hipcontent/event/2019/0315_loafer/mo/btn_arr_black.png) 50% 0 no-repeat;background-size:5px 9px;}
 .event_0315_jewelry .info .button_go.white {color:#fff;}
@@ -396,7 +396,7 @@
 .event_0313_CameraGoods .info {position:absolute;bottom:50px;left:30px;width:320px;height:160px;}
 .event_0313_CameraGoods .info h3 {position:relative;font-size:30px;font-weight:600;color:#111;line-height:1;letter-spacing:-1px;}
 .event_0313_CameraGoods .info .button_go {}
-.event_0313_CameraGoods .info .button_go {position:relative;display:inline-block;margin-top:15px;padding-top:13px;font-size:14px;color:#111;letter-spacing:-.5px}
+.event_0313_CameraGoods .info .button_go {position:relative;display:inline-block;margin-top:15px;padding-top:13px;font-size:14px;font-weight:500;color:#111;letter-spacing:-.5px}
 .event_0313_CameraGoods .info .button_go:before {content:'';display:block;position:absolute;top:0;left:0;width:84px;height:4px;background-color:#111;}
 .event_0313_CameraGoods .info .button_go:after {content:'';display:inline-block;width:5px;height:9px;margin-left:9px;background:url(https://img.hiphoper.com/images/hipcontent/event/2019/0313_CameraGoods/mo/btn_arr_black.png) 50% 0 no-repeat;background-size:5px 9px;}
 .event_0313_CameraGoods .info .button_go.white {color:#fff;}
@@ -425,7 +425,7 @@
 .event_0315_casebycase .info h3 {margin-top:30px;position:relative;font-size:30px;font-weight:600;color:#fff;line-height:1;letter-spacing:-1px;}
 .event_0315_casebycase .info p {margin-top:20px;font-family:'Noto Sans KR';font-size:16px;font-weight:300;color:#fff;line-height:25px;letter-spacing:-.5px}
 .event_0315_casebycase .info .button_go {}
-.event_0315_casebycase .info .button_go {position:relative;display:inline-block;margin-top:15px;padding-top:13px;font-size:14px;color:#111;letter-spacing:-.5px}
+.event_0315_casebycase .info .button_go {position:relative;display:inline-block;margin-top:15px;padding-top:13px;font-size:14px;font-weight:500;color:#111;letter-spacing:-.5px}
 .event_0315_casebycase .info .button_go:before {content:'';display:block;position:absolute;top:0;left:0;width:100px;height:4px;background-color:#111;}
 .event_0315_casebycase .info .button_go:after {content:'';display:inline-block;width:5px;height:9px;margin-left:9px;background:url(https://img.hiphoper.com/images/hipcontent/event/2019/0313_CameraGoods/mo/btn_arr_black.png) 50% 0 no-repeat;background-size:5px 9px;}
 .event_0315_casebycase .info .button_go.white {color:#fff;}
@@ -452,7 +452,7 @@
 .event_0309_livingFair .info h3 {position:relative;font-size:30px;font-weight:600;color:#111;line-height:1;letter-spacing:-1px;}
 .event_0309_livingFair .info p {margin-top:20px;font-family:'Noto Sans KR';font-size:16px;font-weight:300;color:#111;line-height:25px;letter-spacing:-.5px}
 .event_0309_livingFair .info .button_go {}
-.event_0309_livingFair .info .button_go {position:relative;display:inline-block;margin-top:15px;padding-top:13px;font-size:14px;color:#111;letter-spacing:-.5px}
+.event_0309_livingFair .info .button_go {position:relative;display:inline-block;margin-top:15px;padding-top:13px;font-size:14px;font-weight:500;color:#111;letter-spacing:-.5px}
 .event_0309_livingFair .info .button_go:before {content:'';display:block;position:absolute;top:0;left:0;width:100px;height:4px;background-color:#111;}
 .event_0309_livingFair .info .button_go:after {content:'';display:inline-block;width:5px;height:9px;margin-left:9px;background:url(https://img.hiphoper.com/images/hipcontent/event/2019/0309_livingFair/mo/btn_arr_black.png) 50% 0 no-repeat;background-size:5px 9px;}
 .event_0309_livingFair .info .button_go.white {color:#fff;}
@@ -494,6 +494,7 @@
 .event_0315_yan13 .title h2 {width:146px;height:88px;background:url(https://img.hiphoper.com/images/hipcontent/event/2019/0315_YAN13/mo/event_yan13_logo.png) 50% 0 no-repeat;text-indent:-9999em;background-size:146px 88px;}
 .event_0315_yan13 .title h3 {font-family:'Noto Sans KR';font-size:34px;font-weight:600;color:#fff;line-height:42px;}
 .event_0315_yan13 .title p {margin-top:30px;font-family:'Noto Sans KR';font-size:20px;font-weight:500;color:#fff;line-height:27px;letter-spacing:-1px;}
+.event_0315_yan13 .title p strong {font-family:proxima-nova;font-size:22px;font-weight:500;}
 .event_0315_yan13 .event_top_section1 .img_thum1 {}
 .event_0315_yan13 .event_top_section1 .img_thum1 a {}
 .event_0315_yan13 .event_top_section1 .desc_txt {padding:30px 30px 40px;}
@@ -502,7 +503,8 @@
 .event_0315_yan13 .event_top_section2 {}
 .event_0315_yan13 .event_top_section2 .event_lookbook_slides {max-width:414px;margin:0 auto;text-align:center;}
 .event_0315_yan13 .event_top_section2 .event_lookbook_slides .item {max-width:414px;}
-.event_0319_yan13 .event_top_section2 .event_lookbook_slides .slick-dots li {vertical-align:middle;}
+.event_0315_yan13 .event_top_section2 .slides .slick-dots {line-height:30px;}
+.event_0315_yan13 .event_top_section2 .slides .slick-dots li {vertical-align:middle;}
 .event_0315_yan13 .event_top_section3 .img_wrap {}
 .event_0315_yan13 .event_top_section3 .img_wrap:after {content:'';display:block;clear:both;}
 .event_0315_yan13 .event_top_section3 .img_thum1 {float:left;width:50%;}
@@ -569,6 +571,7 @@
 .event_0319_dunst .event_top_section2 h3 {width:98px;height:33px;margin:0 auto 30px;background:url(https://img.hiphoper.com/images/hipcontent/event/2019/0319_dunst/mo/event_dunst_logo2.png) 50% 0 no-repeat;text-indent:-9999em;background-size:98px 33px;}
 .event_0319_dunst .event_top_section2 .event_lookbook_slides {max-width:414px;margin:0 auto;text-align:center;background-color:#fff !important;}
 .event_0319_dunst .event_top_section2 .event_lookbook_slides .item {max-width:414px;}
+.event_0319_dunst .event_top_section2 .event_lookbook_slides .slick-dots {line-height:30px;}
 .event_0319_dunst .event_top_section2 .event_lookbook_slides .slick-dots li {vertical-align:middle;}
 .event_0319_dunst .event_top_section3 .img_wrap {position:relative;}
 .event_0319_dunst .event_top_section3 .img_wrap:after {content:'';display:block;clear:both;}
