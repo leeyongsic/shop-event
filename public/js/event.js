@@ -177,17 +177,24 @@
 		 	$event_cont_slide = $event_view.find('.pc_cont_slides');
 
 			$event_cont_slide.slick({
-				prevArrow:'<button type="button" class="slick-prev pos_center_after pos_center v"><span class="s_out">이전</span></button>',
-				nextArrow:'<button type="button" class="slick-next pos_center_after pos_center v"><span class="s_out">다음</span></button>',
-				autoplay:true,
-				autoplaySpeed:5000,
-				pauseOnDotsHover:true,
-				slidesToShow: 2,
-				slidesToScroll: 1,
-				centerMode: false,
-				centerPadding: '10',
-				variableWidth: true,
-			 });
+			prevArrow:'<button type="button" class="slick-prev pos_center_after pos_center v"><span class="s_out">이전</span></button>',
+			nextArrow:'<button type="button" class="slick-next pos_center_after pos_center v"><span class="s_out">다음</span></button>',
+			autoplay:true,
+			autoplaySpeed:5000,
+			pauseOnDotsHover:true,
+			slidesToShow: 2,
+			slidesToScroll: 1,
+			centerMode: false,
+			centerPadding: '10',
+			variableWidth: true,
+			respondTo : 'window',
+			
+		}).each(function(i,el){
+			if( el.slick.slideCount <= 1 ){
+				$(el).slick('unslick');
+			}
+		});
+		
 	
 	}
 
