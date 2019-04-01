@@ -151,6 +151,25 @@
 		});
 	}
 
+	var moEventContSlide = function moEventContSlide() {
+
+		var $event_view = $('.event_view'),
+		 	$event_cont_slide = $event_view.find('.cont_slides');
+
+			$event_cont_slide.slick({
+				dots:true,
+				autoplay:false,
+				pauseOnDotsHover:true,
+				draggable:false,
+				arrows:false,
+				infinite:true,
+				variableWidth: true,
+				slidesToShow: 1,
+				slidesToScroll: 1,
+			 });
+	
+	}
+
 
 	var eventBannerSlide = function eventBannerSlide() {
 
@@ -302,7 +321,7 @@
 		'visualFadeInOut': visualFadeInOut,
 		'eventLogoSlide' : eventLogoSlide,
 		'moEventSlide' : moEventSlide,
-		//'moEventContSlide' : moEventContSlide,
+		'moEventContSlide' : moEventContSlide,
 		'eventBannerSlide' : eventBannerSlide,
 		'eventSlideSyncing' : eventSlideSyncing,
 		'buttonLink' : buttonLink,
@@ -319,31 +338,12 @@ hiphoperEvent.eventLogoSlide();
 hiphoperEvent.moEventSlide();
 hiphoperEvent.eventBannerSlide();
 hiphoperEvent.eventSlideSyncing();
-//hiphoperEvent.moEventContSlide();
+hiphoperEvent.moEventContSlide();
 hiphoperEvent.buttonLink();
 //hiphoperEvent.eventContSlide();
 
 
 !window.hhpEvent && $(function() {
-
-	var moEventContSlide = function moEventContSlide() {
-
-		var $event_view = $('.event_view'),
-		 	$event_cont_slide = $event_view.find('.cont_slides');
-
-			$event_cont_slide.slick({
-				dots:true,
-				autoplay:false,
-				pauseOnDotsHover:true,
-				draggable:false,
-				arrows:false,
-				infinite:true,
-				variableWidth: true,
-				slidesToShow: 1,
-				slidesToScroll: 1,
-			 });
-	
-	}
 
 	var eventContSlide = function eventContSlide() {
 
@@ -372,10 +372,8 @@ hiphoperEvent.buttonLink();
 			
 	}
 
-
 	// initialize
-	moEventContSlide = moEventContSlide();
-	eventContSlide = eventContSlide();
+	eventContSlide = eventContSlide()
 
 	window.hhpEvent = {};
 
