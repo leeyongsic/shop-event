@@ -195,9 +195,7 @@
 				$(el).slick('unslick');
 			}
 		});
-		
-		console.log('pc cont slide');
-	
+			
 	}
 
 
