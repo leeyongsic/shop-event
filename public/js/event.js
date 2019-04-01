@@ -9,7 +9,40 @@
 		$body;
 
 
+	var eventLookbookSlide = function eventLookbookSlide() {
 
+		var $event_view = $('.event_view'),
+		 	$event_lookbook_slide = $event_view.find('.event_lookbook_slides');
+
+		$event_lookbook_slide.slick({
+			prevArrow:'<button type="button" class="slick-prev pos_center_after pos_center v"><span class="s_out">이전</span></button>',
+			nextArrow:'<button type="button" class="slick-next pos_center_after pos_center v"><span class="s_out">다음</span></button>',
+			autoplay:true,
+			autoplaySpeed:5000,
+			pauseOnDotsHover:true,
+			slidesToShow: 2,
+			slidesToScroll: 1,
+			centerMode: false,
+			centerPadding: '10',
+			variableWidth: true,
+			//respondTo : 'window',
+			responsive: [
+				{breakpoint:1024,
+				settings: {slidesToShow:1,slidesToScroll:1,dots:true,arrows:false,pauseOnDotsHover:true,touchMove:true,}
+				}
+			]
+		}).each(function(i,el){
+			if( el.slick.slideCount <= 1 ){
+				$(el).slick('unslick');
+			}
+		});
+
+		var $a_link = $('.event_lookbook_slides').find('a');
+		$a_link.on('click', function(e){
+			e.stopPropagation();	 
+		});
+
+	}
 
 	var openEventSlide = function openEventSlide() {
 
