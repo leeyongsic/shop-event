@@ -370,4 +370,4 @@ hiphoperEvent.eventBannerSlide();
 hiphoperEvent.eventSlideSyncing();
 hiphoperEvent.moEventContSlide();
 hiphoperEvent.buttonLink();
-hiphoperEvent.eventContSlide()
+hiphoperEvent.eventContSlide();
