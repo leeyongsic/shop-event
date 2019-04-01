@@ -1,15 +1,41 @@
 'use strict';
 
-(function(global){
-	var 
-		$window = $(window),
-		html = document.documentElement,
-		$html = $(html),
-		body, 
-		$body;
+!window.hhpEvent && $(function() {
 
+	var eventLookbookSlide = function eventLookbookSlide() {
 
+		var $event_view = $('.event_view'),
+		 	$event_lookbook_slide = $event_view.find('.event_lookbook_slides');
 
+		$event_lookbook_slide.slick({
+			prevArrow:'<button type="button" class="slick-prev pos_center_after pos_center v"><span class="s_out">이전</span></button>',
+			nextArrow:'<button type="button" class="slick-next pos_center_after pos_center v"><span class="s_out">다음</span></button>',
+			autoplay:true,
+			autoplaySpeed:5000,
+			pauseOnDotsHover:true,
+			slidesToShow: 2,
+			slidesToScroll: 1,
+			centerMode: false,
+			centerPadding: '10',
+			variableWidth: true,
+			//respondTo : 'window',
+			responsive: [
+				{breakpoint:1024,
+				settings: {slidesToShow:1,slidesToScroll:1,dots:true,arrows:false,pauseOnDotsHover:true,touchMove:true,}
+				}
+			]
+		}).each(function(i,el){
+			if( el.slick.slideCount <= 1 ){
+				$(el).slick('unslick');
+			}
+		});
+
+		var $a_link = $('.event_lookbook_slides').find('a');
+		$a_link.on('click', function(e){
+			e.stopPropagation();	 
+		});
+
+	}
 
 	var openEventSlide = function openEventSlide() {
 
@@ -258,95 +284,7 @@
 	    });
 	}
 
-	var buttonLink = function buttonLink() {
-
-		if ($('.event_0315_sneakers').length) {
-
-			var $button01 = $('.button01'),
-				$button02 = $('.button02'),
-				$button03 = $('.button03'),
-				$button04 = $('.button04'),
-				$button05 = $('.button05'),
-				$button06 = $('.button06'),
-				$button07 = $('.button07');
-
-			$button01.on('click', function() { location.href = "/brand/EXCELSIOR";});
-			$button02.on('click', function() { location.href = "/brand/colorcolla";});
-			$button03.on('click', function() { location.href = "/brand/gram";});
-			$button04.on('click', function() { location.href = "/brand/JDAUL";});
-			$button05.on('click', function() { location.href = "/brand/BMSFRANCE";});
-			$button06.on('click', function() { location.href = "/brand/Vans";});
-			$button07.on('click', function() { location.href = "/brand/MACHENZIE";});
-
-		}
-
-	}
-
-	global.hiphoperEvent = {
-		//'eventLookbookSlide': eventLookbookSlide,
-		'openEventSlide': openEventSlide,
-		'visualFadeInOut': visualFadeInOut,
-		'eventLogoSlide' : eventLogoSlide,
-		'moEventSlide' : moEventSlide,
-		'moEventContSlide' : moEventContSlide,
-		'eventBannerSlide' : eventBannerSlide,
-		'eventSlideSyncing' : eventSlideSyncing,
-		'buttonLink' : buttonLink,
-		//'eventContSlide' : eventContSlide,
-	};
-
-})(this);
-
-// 함수 호출
-//hiphoperEvent.eventLookbookSlide();
-hiphoperEvent.openEventSlide();
-hiphoperEvent.visualFadeInOut();
-hiphoperEvent.eventLogoSlide();
-hiphoperEvent.moEventSlide();
-hiphoperEvent.eventBannerSlide();
-hiphoperEvent.eventSlideSyncing();
-hiphoperEvent.moEventContSlide();
-hiphoperEvent.buttonLink();
-//hiphoperEvent.eventContSlide();
-
-
-!window.hhpEvent && $(function() {
-
-	var eventLookbookSlide = function eventLookbookSlide() {
-
-		var $event_view = $('.event_view'),
-		 	$event_lookbook_slide = $event_view.find('.event_lookbook_slides');
-
-		$event_lookbook_slide.slick({
-			prevArrow:'<button type="button" class="slick-prev pos_center_after pos_center v"><span class="s_out">이전</span></button>',
-			nextArrow:'<button type="button" class="slick-next pos_center_after pos_center v"><span class="s_out">다음</span></button>',
-			autoplay:true,
-			autoplaySpeed:5000,
-			pauseOnDotsHover:true,
-			slidesToShow: 2,
-			slidesToScroll: 1,
-			centerMode: false,
-			centerPadding: '10',
-			variableWidth: true,
-			//respondTo : 'window',
-			responsive: [
-				{breakpoint:1024,
-				settings: {slidesToShow:1,slidesToScroll:1,dots:true,arrows:false,pauseOnDotsHover:true,touchMove:true,}
-				}
-			]
-		}).each(function(i,el){
-			if( el.slick.slideCount <= 1 ){
-				$(el).slick('unslick');
-			}
-		});
-
-		var $a_link = $('.event_lookbook_slides').find('a');
-		$a_link.on('click', function(e){
-			e.stopPropagation();	 
-		});
-
-	}
-
+	
 	var eventContSlide = function eventContSlide() {
 
 		var $event_view = $('.event_view'),
@@ -376,6 +314,13 @@ hiphoperEvent.buttonLink();
 
 	// initialize
 	eventLookbookSlide = eventLookbookSlide();
+	openEventSlide = openEventSlide();
+	visualFadeInOut = visualFadeInOut();
+	eventLogoSlide = eventLogoSlide();
+	moEventSlide = moEventSlide();
+	moEventContSlide = moEventContSlide();
+	eventBannerSlide = eventBannerSlide();
+	eventSlideSyncing = eventSlideSyncing();
 	eventContSlide = eventContSlide();
 
 	window.hhpEvent = {};
