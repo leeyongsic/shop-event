@@ -198,65 +198,6 @@
 
 	var eventSlideSyncing = function eventSlideSyncing() {		
 
-		console.log('eventSlideSyncing1')
-	}
-
-	var buttonLink = function buttonLink() {
-
-		if ($('.event_0315_sneakers').length) {
-
-			var $button01 = $('.button01'),
-				$button02 = $('.button02'),
-				$button03 = $('.button03'),
-				$button04 = $('.button04'),
-				$button05 = $('.button05'),
-				$button06 = $('.button06'),
-				$button07 = $('.button07');
-
-			$button01.on('click', function() { location.href = "/brand/EXCELSIOR";});
-			$button02.on('click', function() { location.href = "/brand/colorcolla";});
-			$button03.on('click', function() { location.href = "/brand/gram";});
-			$button04.on('click', function() { location.href = "/brand/JDAUL";});
-			$button05.on('click', function() { location.href = "/brand/BMSFRANCE";});
-			$button06.on('click', function() { location.href = "/brand/Vans";});
-			$button07.on('click', function() { location.href = "/brand/MACHENZIE";});
-
-		}
-
-	}
-
-	global.hiphoperEvent = {
-		'eventLookbookSlide': eventLookbookSlide,
-		'openEventSlide': openEventSlide,
-		'visualFadeInOut': visualFadeInOut,
-		'eventLogoSlide' : eventLogoSlide,
-		'moEventSlide' : moEventSlide,
-		'moEventContSlide' : moEventContSlide,
-		'eventBannerSlide' : eventBannerSlide,
-		'eventSlideSyncing' : eventSlideSyncing,
-		'buttonLink' : buttonLink,
-		//'eventContSlide' : eventContSlide,
-	};
-
-})(this);
-
-// 함수 호출
-hiphoperEvent.eventLookbookSlide();
-hiphoperEvent.openEventSlide();
-hiphoperEvent.visualFadeInOut();
-hiphoperEvent.eventLogoSlide();
-hiphoperEvent.moEventSlide();
-hiphoperEvent.eventBannerSlide();
-hiphoperEvent.eventSlideSyncing();
-hiphoperEvent.moEventContSlide();
-hiphoperEvent.buttonLink();
-//hiphoperEvent.eventContSlide();
-
-
-!window.hhpEvent && $(function() {
-
-	var eventSlideSyncingT = function eventSlideSyncingT() {	
-
 		if ($('.event_0321_designerSpecial').length) {
 
 			$('.slider-single').slick({
@@ -348,8 +289,61 @@ hiphoperEvent.buttonLink();
 	      var goToSingleSlide = $(this).data('slick-index');
 	      $('.slider-single').slick('slickGoTo', goToSingleSlide);
 	    });
+	}
+
+	var buttonLink = function buttonLink() {
+
+		if ($('.event_0315_sneakers').length) {
+
+			var $button01 = $('.button01'),
+				$button02 = $('.button02'),
+				$button03 = $('.button03'),
+				$button04 = $('.button04'),
+				$button05 = $('.button05'),
+				$button06 = $('.button06'),
+				$button07 = $('.button07');
+
+			$button01.on('click', function() { location.href = "/brand/EXCELSIOR";});
+			$button02.on('click', function() { location.href = "/brand/colorcolla";});
+			$button03.on('click', function() { location.href = "/brand/gram";});
+			$button04.on('click', function() { location.href = "/brand/JDAUL";});
+			$button05.on('click', function() { location.href = "/brand/BMSFRANCE";});
+			$button06.on('click', function() { location.href = "/brand/Vans";});
+			$button07.on('click', function() { location.href = "/brand/MACHENZIE";});
+
+		}
 
 	}
+
+	global.hiphoperEvent = {
+		'eventLookbookSlide': eventLookbookSlide,
+		'openEventSlide': openEventSlide,
+		'visualFadeInOut': visualFadeInOut,
+		'eventLogoSlide' : eventLogoSlide,
+		'moEventSlide' : moEventSlide,
+		'moEventContSlide' : moEventContSlide,
+		'eventBannerSlide' : eventBannerSlide,
+		'eventSlideSyncing' : eventSlideSyncing,
+		'buttonLink' : buttonLink,
+		//'eventContSlide' : eventContSlide,
+	};
+
+})(this);
+
+// 함수 호출
+hiphoperEvent.eventLookbookSlide();
+hiphoperEvent.openEventSlide();
+hiphoperEvent.visualFadeInOut();
+hiphoperEvent.eventLogoSlide();
+hiphoperEvent.moEventSlide();
+hiphoperEvent.eventBannerSlide();
+hiphoperEvent.eventSlideSyncing();
+hiphoperEvent.moEventContSlide();
+hiphoperEvent.buttonLink();
+//hiphoperEvent.eventContSlide();
+
+
+!window.hhpEvent && $(function() {
 
 	var eventContSlide = function eventContSlide() {
 
@@ -380,7 +374,6 @@ hiphoperEvent.buttonLink();
 
 	// initialize
 	eventContSlide = eventContSlide()
-	eventSlideSyncingT = eventSlideSyncingT();
 
 	window.hhpEvent = {};
 
