@@ -182,7 +182,7 @@
 			autoplay:true,
 			autoplaySpeed:5000,
 			pauseOnDotsHover:true,
-			slidesToShow: 2,
+			slidesToShow: 1,
 			slidesToScroll: 1,
 			centerMode: false,
 			centerPadding: '10',
