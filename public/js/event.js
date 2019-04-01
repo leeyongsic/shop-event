@@ -315,36 +315,6 @@
 
 	}
 
-	global.hiphoperEvent = {
-		'eventLookbookSlide': eventLookbookSlide,
-		'openEventSlide': openEventSlide,
-		'visualFadeInOut': visualFadeInOut,
-		'eventLogoSlide' : eventLogoSlide,
-		'moEventSlide' : moEventSlide,
-		'moEventContSlide' : moEventContSlide,
-		'eventBannerSlide' : eventBannerSlide,
-		'eventSlideSyncing' : eventSlideSyncing,
-		'buttonLink' : buttonLink,
-		//'eventContSlide' : eventContSlide,
-	};
-
-})(this);
-
-// 함수 호출
-hiphoperEvent.eventLookbookSlide();
-hiphoperEvent.openEventSlide();
-hiphoperEvent.visualFadeInOut();
-hiphoperEvent.eventLogoSlide();
-hiphoperEvent.moEventSlide();
-hiphoperEvent.eventBannerSlide();
-hiphoperEvent.eventSlideSyncing();
-hiphoperEvent.moEventContSlide();
-hiphoperEvent.buttonLink();
-//hiphoperEvent.eventContSlide();
-
-
-!window.hhpEvent && $(function() {
-
 	var eventContSlide = function eventContSlide() {
 
 		var $event_view = $('.event_view'),
@@ -372,9 +342,29 @@ hiphoperEvent.buttonLink();
 			
 	}
 
-	// initialize
-	eventContSlide = eventContSlide()
+	global.hiphoperEvent = {
+		'eventLookbookSlide': eventLookbookSlide,
+		'openEventSlide': openEventSlide,
+		'visualFadeInOut': visualFadeInOut,
+		'eventLogoSlide' : eventLogoSlide,
+		'moEventSlide' : moEventSlide,
+		'moEventContSlide' : moEventContSlide,
+		'eventBannerSlide' : eventBannerSlide,
+		'eventSlideSyncing' : eventSlideSyncing,
+		'buttonLink' : buttonLink,
+		'eventContSlide' : eventContSlide,
+	};
 
-	window.hhpEvent = {};
+})(this);
 
-});
+// 함수 호출
+hiphoperEvent.eventLookbookSlide();
+hiphoperEvent.openEventSlide();
+hiphoperEvent.visualFadeInOut();
+hiphoperEvent.eventLogoSlide();
+hiphoperEvent.moEventSlide();
+hiphoperEvent.eventBannerSlide();
+hiphoperEvent.eventSlideSyncing();
+hiphoperEvent.moEventContSlide();
+hiphoperEvent.buttonLink();
+hiphoperEvent.eventContSlide();
