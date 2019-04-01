@@ -171,34 +171,6 @@
 	}
 
 
-	var eventContSlide = function eventContSlide() {
-
-		var $event_view = $('.event_view'),
-		 	$event_cont_slide = $event_view.find('.pc_cont_slides');
-
-		$event_cont_slide.slick({
-			prevArrow:'<button type="button" class="slick-prev pos_center_after pos_center v"><span class="s_out">이전</span></button>',
-			nextArrow:'<button type="button" class="slick-next pos_center_after pos_center v"><span class="s_out">다음</span></button>',
-			autoplay:true,
-			autoplaySpeed:5000,
-			pauseOnDotsHover:true,
-			slidesToShow: 1,
-			slidesToScroll: 1,
-			centerMode: false,
-			centerPadding: '10',
-			variableWidth: true,
-			respondTo : 'window',
-			infinite:false,
-			
-		}).each(function(i,el){
-			if( el.slick.slideCount <= 1 ){
-				$(el).slick('unslick');
-			}
-		});
-			
-	}
-
-
 	var eventBannerSlide = function eventBannerSlide() {
 
 		var $event_view = $('.event_view'),
@@ -353,7 +325,7 @@
 		'eventBannerSlide' : eventBannerSlide,
 		'eventSlideSyncing' : eventSlideSyncing,
 		'buttonLink' : buttonLink,
-		'eventContSlide' : eventContSlide,
+		//'eventContSlide' : eventContSlide,
 	};
 
 })(this);
@@ -368,4 +340,41 @@ hiphoperEvent.eventBannerSlide();
 hiphoperEvent.eventSlideSyncing();
 hiphoperEvent.moEventContSlide();
 hiphoperEvent.buttonLink();
-hiphoperEvent.eventContSlide();
+//hiphoperEvent.eventContSlide();
+
+
+!window.hhpEvent && $(function() {
+
+	var eventContSlide = function eventContSlide() {
+
+		var $event_view = $('.event_view'),
+		 	$event_cont_slide = $event_view.find('.pc_cont_slides');
+
+		$event_cont_slide.slick({
+			prevArrow:'<button type="button" class="slick-prev pos_center_after pos_center v"><span class="s_out">이전</span></button>',
+			nextArrow:'<button type="button" class="slick-next pos_center_after pos_center v"><span class="s_out">다음</span></button>',
+			autoplay:true,
+			autoplaySpeed:5000,
+			pauseOnDotsHover:true,
+			slidesToShow: 1,
+			slidesToScroll: 1,
+			centerMode: false,
+			centerPadding: '10',
+			variableWidth: true,
+			respondTo : 'window',
+			infinite:false,
+			
+		}).each(function(i,el){
+			if( el.slick.slideCount <= 1 ){
+				$(el).slick('unslick');
+			}
+		});
+			
+	}
+
+	// initialize
+	eventContSlide = eventContSlide()
+
+	window.hhpEvent = {};
+
+});
