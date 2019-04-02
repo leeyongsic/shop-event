@@ -342,6 +342,108 @@
 			
 	}
 
+	var aprilPromotion = function aprilPromotion() {
+
+		var $menuLinks,
+        $sections,
+        positionTops = [];
+
+        // fixed
+        $(window).on('scroll', function() {
+			var winTop = $(window).scrollTop();
+			if ( winTop > 700 ) {
+			$('.button_go_wrap').addClass('top_fixed');	
+			} else {
+			$('.button_go_wrap').removeClass('top_fixed');
+			}
+		});
+
+		// tip toggle
+		var $btn_tip_toggle = $('.btn_tip_toggle'),
+			$cont_tip_toggle = $('.cont_tip_toggle');
+			
+		$btn_tip_toggle.on('click', function(e) {
+			e.preventDefault();
+			$(this).toggleClass('on');
+			$cont_tip_toggle.toggle();
+		});
+
+        // button
+        $(function() {
+
+            $menuLinks = $('.button_go_wrap').find('li')
+            $sections = $('.promo_event');
+
+            // .section들의 top 위치값들  
+            $sections.each(function(idx, elt) {
+                positionTops.push($(elt).position().top);
+            });
+
+            // lnb 메뉴의 a링크와 section과 매칭 
+            $('.button_go_wrap').find('li a').each(function(idx, elt) {
+                $(elt).click(function() {
+                	$.fn.scrollTo({target:'#'+$sections.get(idx).id, gap:0});
+                });      
+            });
+
+            $(window).scroll(function() {
+                var sTop = Number($(this).scrollTop()),
+                    sHeight = $(window).scrollTop(),
+                	len = positionTops.length,
+                    endPos =  positionTops[len-1],
+                    targetIdx = 0;
+
+                for(var i=0; i<len; i++ ) {
+                    if( sTop > 0 && sTop > positionTops[i]) {
+                        targetIdx = i
+                        if( i < len -1 && sTop <= positionTops[endPos] ) {
+                            break;
+                        }
+                    }
+                }
+                $.fn.menuOn(targetIdx);
+            });
+        });
+
+
+
+        $.fn.menuOn = function(idx, elt) {
+
+            var elt = elt || $menuLinks.eq(idx).children().get(0), // a link
+                $sub_menu = $(elt).parent().eq(0), // li.link_event
+                winTop = $(window).scrollTop();
+
+            $sub_menu.addClass('on');
+
+            $menuLinks.each(function() {
+                if( this != $sub_menu.get(0) ) {
+                    $(this).removeClass('on');
+                }
+            });
+
+            if ( winTop < 700 ) {
+				$sub_menu.removeClass('on');
+			}
+        }
+
+        $.fn.scrollTo = function( obj ){
+
+            var target = obj.target || '';
+            if (!target) {
+                return;
+            }
+
+            var gap = obj.gap || 0,
+                speed = obj.speed || 500,
+                variable = obj.variable ? obj.variable : 0,
+                variableHeight = variable ? $(variable).height() - 100 : 0;
+
+            $('body,html').animate({scrollTop: ($(target).offset().top - gap - variableHeight), duration : speed});
+
+        }
+
+	}
+
 	global.hiphoperEvent = {
 		'eventLookbookSlide': eventLookbookSlide,
 		'openEventSlide': openEventSlide,
@@ -353,6 +455,7 @@
 		'eventSlideSyncing' : eventSlideSyncing,
 		'buttonLink' : buttonLink,
 		'eventContSlide' : eventContSlide,
+		'aprilPromotion' : aprilPromotion,
 	};
 
 })(this);
@@ -368,3 +471,4 @@ hiphoperEvent.eventSlideSyncing();
 hiphoperEvent.moEventContSlide();
 hiphoperEvent.buttonLink();
 hiphoperEvent.eventContSlide();
+hiphoperEvent.aprilPromotion();
