@@ -368,6 +368,22 @@
 			$cont_tip_toggle.toggle();
 		});
 
+		// btnTop
+		var $btn_top = $('.button_top');
+		$(window).on('scroll', function() {
+			var winTop = $(window).scrollTop();
+			if ( winTop > 700 ) {
+			$btn_top.fadeIn();
+			} else {
+			$btn_top.fadeOut();
+			}
+		});
+
+		$btn_top.on('click', function() {
+			$('html, body').animate( { scrollTop : 0 }, 400 );
+			return false;
+		});
+
         // button
         $(function() {
 

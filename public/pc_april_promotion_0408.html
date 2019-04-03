@@ -18,12 +18,13 @@
 	<!-- //event view add -->
 </head>
 <body>
-	<div class="banner_top set_transition layout_full bg_0"><!-- 화이트 타입은 bg_f -->
+	<!-- 화이트 타입은 bg_f 
+	<div class="banner_top set_transition layout_full bg_0">
 		<div class="inner">
 			<button type="button" class="btn_close pos_center_before pos_center_after"><span class="s_out">광고 레이어 닫기</span></button>
 			<a href=""><img src="./img/temp_banner_top.jpg" alt="배너이미지설명입력"></a>
 		</div>
-	</div>
+	</div> -->
 	<header class="site_header layout_full lc_d0">
 		<div class="inner miw1180">
 			<h1 class="logo"><a href="./" class="link spr_before"><span class="s_out">힙합퍼</span></a></h1>
@@ -230,7 +231,7 @@
 						<button type="button" onclick="openLayer(event,'#tempLayer3',this)" class="button_left">쿠폰 사용 안내</button>
 
 						<div class="promo_slides slides black">
-							<div class="item">
+							<div class="item on"><!-- 해당 날짜에 class .on 처리 필요 -->
 								coming soon1
 							</div>
 							<div class="item">
@@ -239,7 +240,7 @@
 							<div class="item">
 								coming soon3
 							</div>
-							<div class="item on">
+							<div class="item">
 								coming soon4
 							</div>
 							<div class="item">
@@ -682,6 +683,9 @@
 				</div>
 			</div>
 			<!-- //section4 -->
+			<div class="button_top_wrap">
+				<a href="#" class="button_top" style="display:none;"><span class="txt">TOP</span></a>
+			</div>
 		</div>
 		<!-- //april promotion end -->
 	</main>
