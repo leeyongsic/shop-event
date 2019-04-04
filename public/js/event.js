@@ -351,7 +351,7 @@
         // fixed
         $(window).on('scroll', function() {
 			var winTop = $(window).scrollTop();
-			if ( winTop > 700 ) {
+			if ( winTop > 1260 ) {
 			$('.button_go_wrap').addClass('top_fixed');	
 			} else {
 			$('.button_go_wrap').removeClass('top_fixed');
@@ -359,7 +359,7 @@
 		});
 
 		// tip toggle
-		var $btn_tip_toggle = $('.btn_tip_toggle'),
+		var $btn_tip_toggle = $('.button_tip_toggle'),
 			$cont_tip_toggle = $('.cont_tip_toggle');
 			
 		$btn_tip_toggle.on('click', function(e) {
@@ -372,7 +372,7 @@
 		var $btn_top = $('.button_top');
 		$(window).on('scroll', function() {
 			var winTop = $(window).scrollTop();
-			if ( winTop > 700 ) {
+			if ( winTop > 2000 ) {
 			$btn_top.fadeIn();
 			} else {
 			$btn_top.fadeOut();

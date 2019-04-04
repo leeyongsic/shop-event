@@ -18,13 +18,6 @@
 	<!-- //event view add -->
 </head>
 <body>
-	<!-- 화이트 타입은 bg_f 
-	<div class="banner_top set_transition layout_full bg_0">
-		<div class="inner">
-			<button type="button" class="btn_close pos_center_before pos_center_after"><span class="s_out">광고 레이어 닫기</span></button>
-			<a href=""><img src="./img/temp_banner_top.jpg" alt="배너이미지설명입력"></a>
-		</div>
-	</div> -->
 	<header class="site_header layout_full lc_d0">
 		<div class="inner miw1180">
 			<h1 class="logo"><a href="./" class="link spr_before"><span class="s_out">힙합퍼</span></a></h1>
@@ -191,6 +184,23 @@
 		</div>
 	</div>
 	<main class="site_main event_view">
+		<div class="event_info miw1180 clear">
+			<em class="brand tc_3">Project624</em>
+			<h1 class="tit">최대 57% 후드&맨투맨</h1>
+			<em class="date tc_b pos_center_before v bg_d_b">2019.04.08 ~ 2019.04.14</em>
+			<div class="wrap_share dis_if pos_center v">
+				<a href="#shareLayer" class="btn_share spr_before" data-type="tooltip"><span class="s_out">공유하기</span></a>
+				<div class="tootip_layer tooltip_share lc_b hide" id="shareLayer">
+					<ul class="share_list clear">
+						<li><button type="button" class="fb spr_before">FACEBOOK</button></li>
+						<li><button type="button" class="ig spr_before">INSTAGRAM</button></li>
+						<li><button type="button" class="kt spr_before">KAKAO TALK</button></li>
+						<li><button type="button" class="blog spr_before">BLOG</button></li>
+					</ul>
+					<div class="copy_url lc_e5 clear"><input type="text" value="http://www.hiphoper.com/shop/item.php?it_id=KA645745" class="url tc_8 bg_f7" data-type="copyTarget" readonly=""><button type="button" class="btn_copy tc_8 bg_f lc_e5" data-type="copyButton">URL복사</button></div>
+				</div>
+			</div>
+		</div>
 		<!-- april promotion start -->
 		<div class="april_promotion">
 			<!-- section1 -->
@@ -199,24 +209,32 @@
 					<!-- visual -->
 					<div class="img_wrap">
 						<div class="txt_wrap">
+							
 							<ul class="list">
 								<li class="item">HIPHOPER</li>
 								<li class="item">RENEWAL</li>
 								<li class="item">REOPEN</li>
 								<li class="item">HELLOW!</li>
 							</ul>
+							
 						</div>
 						<video id="video" loop muted autoplay>
-							<source src="https://img.hiphoper.com/images/hipcontent/event/2019/0408_aprilPromotion/movie.mp4" type="video/mp4">
+							<source src="https://img.hiphoper.com/images/hipcontent/event/2019/0408_aprilPromotion/movie_0408.mp4" type="video/mp4">
 						</video>
 					</div>
 					<!-- //visual -->
 					<ul class="button_go_wrap">
 						<li>
-							<a href="javascript:;" class="button1">button1</a>
+							<a href="javascript:;" class="button1">
+								<strong>EVENT 01.</strong>
+								<span>할인 쿠폰 & 즉시 할인 받기</span>
+							</a>
 						</li>
 						<li>
-							<a href="javascript:;" class="button2">button2</a>
+							<a href="javascript:;" class="button2">
+								<strong>EVENT 02.</strong>
+								<span>댓글 달고 스타벅스 받기</span>
+							</a>
 						</li>
 					</ul>
 				</div>
@@ -226,38 +244,73 @@
 			<div class="promo_section2">
 				<div class="inner">
 					<div id="event1" class="promo_event">
-						<button type="button" onclick="openLayer(event,'#tempLayer1',this)" class="button_left">쿠폰받기1</button>
-						<button type="button" onclick="openLayer(event,'#tempLayer2',this)" class="button_left">쿠폰받기2</button>
-						<button type="button" onclick="openLayer(event,'#tempLayer3',this)" class="button_left">쿠폰 사용 안내</button>
+						<div class="title_area">
+							<span>EVENT 01.</span>
+							<h3>완전히 새로운 혜택</h3>
+							<p><strong>최대 <b>50,000</b>원</strong> 즉시 할인 + 매일 <strong>최대 <b>10%</b></strong> 중복 할인 쿠폰</p>
+						</div>
+						<div class="coupon_area">
+							<h4>회원 모두 쿠폰 할인</h4>
+							<div class="row">
+								<div class="col_left">
+									<div class="img_coupon">
+										<span>신규 회원<br> 전용</span>
+										<strong>~25%</strong>
+									</div>
+									<button type="button" onclick="openLayer(event,'#tempLayer1',this)" class="button_coupon_down">쿠폰받기</button>
+									<button type="button" onclick="openLayer(event,'#tempLayer3',this)" class="button_coupon_desc">쿠폰 사용 안내</button>
+								</div>
+								<div class="col_left">
+									<div class="img_coupon">
+										<span>기존 회원<br> 전용</span>
+										<strong>~20%</strong>
+									</div>
+									<button type="button" onclick="openLayer(event,'#tempLayer2',this)" class="button_coupon_down">쿠폰받기</button>
+									<button type="button" onclick="openLayer(event,'#tempLayer4',this)" class="button_coupon_desc">쿠폰 사용 안내</button>
+								</div>
+							</div>
+						</div>
+						<div class="slides_area">
+							<div class="title_wrap">
+								<h4>매일 매일 중복 할인</h4>
+								<p>쿠폰 사용 남은 시간 <span class="countdown"></span></p>
+								<script>
+									$('.countdown').countdown('2019/04/04 11:10:00')
+										.on('update.countdown', function(event) {
+										  var format = '%H %M';
+										  $(this).html(event.strftime(format));
+										})
+										.on('finish.countdown', function(event) {
+										  $(this).html('00 00')
+										    .parent().addClass('disabled');
 
-						<div class="promo_slides slides black">
-							<div class="item on"><!-- 해당 날짜에 class .on 처리 필요 -->
-								coming soon1
+										});
+								</script>
 							</div>
-							<div class="item">
-								coming soon2
-							</div>
-							<div class="item">
-								coming soon3
-							</div>
-							<div class="item">
-								coming soon4
-							</div>
-							<div class="item">
-								coming soon5
-							</div>
-							<div class="item">
-								coming soon6
-							</div>
-							<div class="item">
-								coming soon7
-							</div>	
-						</div>					
-
-						<a href="#" class="btn_tip_toggle">쿠폰 사용 시 꼭 확인해주세요!</a>
-						<p class="cont_tip_toggle" style="display:none">
-							쿠폰 사용 시 주의 사항 쿠폰 사용 시 주의 사항 쿠폰 사용 시 주의 사항 쿠폰 사용 시 주의 사항 쿠폰 사용 시 주의 사항 쿠폰 사용 시 주의 사항 쿠폰 사용 시 주의 사항 
-						</p>
+							<div class="promo_slides slides black">
+								<div class="item on"><!-- 해당 날짜에 class .on 처리 필요 -->
+									coming soon1
+								</div>
+								<div class="item">
+									coming soon2
+								</div>
+								<div class="item">
+									coming soon3
+								</div>
+								<div class="item">
+									coming soon4
+								</div>
+								<div class="item">
+									coming soon5
+								</div>
+								<div class="item">
+									coming soon6
+								</div>
+								<div class="item">
+									coming soon7
+								</div>	
+							</div>					
+						</div>
 					</div>
 					<!-- 쿠폰받기 레이어1 -->
 					<div class="wrap_layer lc_b hide promo_coupon" id="tempLayer1">
@@ -279,12 +332,12 @@
 						</div>
 					</div>
 					<!-- //쿠폰받기 레이어2 -->
-					<!-- 쿠폰받기 레이어3 -->
+					<!-- 쿠폰사용안내 레이어3 -->
 					<div class="wrap_layer lc_b hide" id="tempLayer3">
 						<button type="button" class="btn_close bg_3_a bg_3_b pos_center_before pos_center_after"><span class="s_out">레이어 닫기</span></button>
 						<div class="layer_tit tc_3 lc_d0">쿠폰에 대한 안내</div>
 						<div class="layer_cont">
-							<p>발급기간 : 2019.04.08 10시 ~ 2019.03.14 24시<br>
+							<p>발급기간 : 2019.04.08 10시 ~ 2019.04.14 24시<br>
 							사용기간 : 발급 후 3일간 사용가능<br>
 							발급방식 : 이벤트 페이지 내 '쿠폰 받기' 버튼 클릭 시 발급 가능<br>
 							발급기회 : 이벤트 기간 내 신규 가입 회원 ID별 이벤트 기간 내 1회</p>
@@ -293,13 +346,31 @@
 							</div>
 						</div>
 					</div>
-					<!-- //쿠폰받기 레이어3 -->
+					<!-- //쿠폰사용안내 레이어3 -->
+					<!-- 쿠폰사용안내 레이어4 -->
+					<div class="wrap_layer lc_b hide" id="tempLayer4">
+						<button type="button" class="btn_close bg_3_a bg_3_b pos_center_before pos_center_after"><span class="s_out">레이어 닫기</span></button>
+						<div class="layer_tit tc_3 lc_d0">쿠폰에 대한 안내</div>
+						<div class="layer_cont">
+							<p>발급기간 : 2019.04.08 10시 ~ 2019.04.14 24시<br>
+							사용기간 : 발급 후 3일간 사용가능<br>
+							발급방식 : 이벤트 페이지 내 '쿠폰 받기' 버튼 클릭 시 발급 가능<br>
+							발급기회 : 이벤트 기간 내 신규 가입 회원 ID별 이벤트 기간 내 1회</p>
+							<div class="button_wrap">
+								<a href="" class="btn_link dark">확인</a>
+							</div>
+						</div>
+					</div>
+					<!-- //쿠폰사용안내 레이어4 -->
 				</div>
 			</div>
 			<!-- //section2 -->
 			<!-- section3 -->
 			<div class="promo_section3">
 				<div class="inner">
+					<div class="title_wrap">
+						<h4>슈즈 추천 아이템</h4>
+					</div>
 					<section class="wrap_listproduct miw1180">
 						<ul class="list_product fix4">
 							<li>
@@ -496,6 +567,56 @@
 							</li>
 						</ul>
 					</section>
+					<div class="tip_area">
+						<a href="#" class="button_tip_toggle"><span>쿠폰 사용 시 꼭 확인해주세요!</span></a>
+						<div class="cont_tip_toggle" style="display:none">
+							<dl>
+								<dt>신규 회원 쿠폰</dt>
+								<dd>
+									<ul>
+										<li><strong class="col_left">발급 기간 :</strong> <span class="col_right">2019년 4월 8일 ~ 2019년 4월 14일까지</span></li>
+										<li><strong class="col_left">사용 기간 :</strong> <span class="col_right">발급 후 3일간 사용 가능</span></li>
+										<li><strong class="col_left">발급 방식 :</strong> <span class="col_right">이벤트 페이지 내 ‘쿠폰 받기’ 버튼 클릭 시 발급 가능</span></li>
+										<li><strong class="col_left">발급 기회 :</strong> <span class="col_right">이벤트 기간 내 신규 가입 회원 ID별 이벤트 기간 내 1회</span></li>
+										<li><strong class="col_left">할인 대상 :</strong> <span class="col_right">힙합퍼 내 전 상품</span></li>
+										<li><strong class="col_left">할인 금액 :</strong> <span class="col_right">구매 금액의 25%<br>4만원 이상 최대 1만원 할인<br>10만원 이상 구매 시 최대 2.5만원 할인<br>20만원 이상 구매 시 최대 5만원 할인</span></li>
+									</ul>
+								</dd>
+							</dl>
+							<dl>
+								<dt>기존 회원 쿠폰</dt>
+								<dd>
+									<ul>
+										<li><strong class="col_left">발급 기간 :</strong> <span class="col_right">2019년 4월 8일 ~ 2019년 4월 14일까지</span></li>
+										<li><strong class="col_left">사용 기간 :</strong> <span class="col_right">발급 후 3일간 사용 가능</span></li>
+										<li><strong class="col_left">발급 방식 :</strong> <span class="col_right">이벤트 페이지 내 ‘쿠폰 받기’ 버튼 클릭 시 발급 가능</span></li>
+										<li><strong class="col_left">발급 기회 :</strong> <span class="col_right">이벤트 기간 내 신규 가입 회원 ID별 이벤트 기간 내 1회</span></li>
+										<li><strong class="col_left">할인 대상 :</strong> <span class="col_right">힙합퍼 내 전 상품</span></li>
+										<li><strong class="col_left">할인 금액 :</strong> <span class="col_right">구매 금액의 20%<br>5만원 이상 최대 1만원 할인<br>10만원 이상 구매 시 최대 2만원 할인<br>15만원 이상 구매 시 최대 3만원 할인</span></li>
+									</ul>
+								</dd>
+							</dl>
+							<dl>
+								<dt>공통사항</dt>
+								<dd>
+									<ul>
+										<li>이벤트 기간은 2019년 4월 8일 ~ 2019년 4월 14일까지이며, 발급 후 3일 이내 사용 가능합니다.</li>
+										<li>신규 가입 쿠폰과 기존 회원 쿠폰은 2개의 쿠폰 중 ID당 1개의 쿠폰만 발급 가능합니다.<span class="txt_sub">신규 가입은 이벤트 기간 내 가입한 회원만 해당됩니다.</span></li>
+										<li>신규 가입 쿠폰과 기존 회원 쿠폰은 카테고리 쿠폰과 중복 사용 가능합니다.</li>
+										<li>신규 가입 쿠폰과 기존 회원 쿠폰은 1종만 사용 가능하며, 결제 금액 기준으로 최대 할인 금액이 다를 수 있습니다.</li>
+										<li>발급된 쿠폰은 ‘마이페이지 – 회원혜택 – 쿠폰’에서 확인하실 수 있습니다.</li>
+										<li>카테고리 쿠폰은 상품별 1종만 사용 가능합니다.</li>
+										<li>카테고리 쿠폰은 이벤트 기간 내 매일 다른 카테고리에 할인 적용됩니다.<br><span class="txt_sub">카테고리 이벤트 기간이 종료될 경우 쿠폰은 사용하실 수 없습니다.<br>카테고리 쿠폰 사용 기간은 해당 카테고리 오픈, 클로즈 일자와 동일합니다.</li>
+										<li>이벤트 내 표시된 카테고리 외 다른 카테고리의 경우 쿠폰 적용이 불가할 수 있으며, 할인율이 상이할 수 있습니다.</li>
+										<li>일부 상품의 경우 쿠폰 사용 대상에서 제외될 수 있습니다.</li>
+										<li>부정한 방법으로 쿠폰 사용 시 관리자에 의해 해당 주문 전체가 주문 취소 될 수 있습니다.</li>
+										<li>고객 변심으로 인한 주문취소 시 사용하신 쿠폰은 복구 불가합니다.</li>
+										<li>해당 이벤트는 힙합퍼의 사정에 따라 별도 고지 없이 변경, 종료 될 수 있습니다.</li>
+									</ul>
+								</dd>
+							</dl>
+						</div>
+					</div>
 				</div>
 			</div>
 			<!-- //section3 -->
@@ -678,6 +799,26 @@
 									<a href="" class="btn_arr next spr_before"><span class="s_out">다음</span></a>
 								</div>
 							</div>
+							<div class="tip_area">
+								<a href="#" class="button_tip_toggle"><span>이벤트 유의사항</span></a>
+								<div class="cont_tip_toggle" style="display:none">
+									<dl>
+										<dt>신규 회원 쿠폰</dt>
+										<dd>
+											<ul>
+												<li>본 이벤트 참여 기간은 2019년 4월 8일부터 2019년 4월 14일까지 입니다.</li>
+												<li>본 이벤트는 힙합퍼 회원 중 이벤트 기간 내 구매 이력이 있는 회원만 참여 가능합니다.</li>
+												<li>본 이벤트는 구매 후기 등록 시 이벤트에 자동 응모됩니다.</li>
+												<li>구매하지 않고 구매 후기 등록 시 경품 대상자에서 자동 제외됩니다.</li>
+												<li>본 이벤트의 구매 후기 중 타인에게 불쾌감을 주는 욕설 또는 명예훼손, 개인정보 유출의 댓글은 임의로 삭제됩니다.</li>
+												<li>본 이벤트의 당첨자 발표는 2019년 4월 18일 힙합퍼 페이스북을 통해 확인하실 수 있습니다.<br> <span class="txt_sub">힙합퍼 페이스북 주소 : https://www.facebook.com/hiphoperdotcom</span></li>
+												<li><strong class="txt_point">본 이벤트의 경품인 기프티콘은 4월 23일 일괄 발송됩니다.</strong></li>
+												<li>본 이벤트는 당사 사정에 의해 조기 종료되거나 변경될 수 있습니다.</li>
+											</ul>
+										</dd>
+									</dl>
+								</div>
+							</div>	
 						</section>
 					</div>
 				</div>
