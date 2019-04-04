@@ -418,7 +418,7 @@
 			}, 500);
 			setTimeout(function(){
 			 $('.promo_visual').addClass('show2');
-			}, 3000);
+			}, 4000);
 			setTimeout(function(){
 			  $('.promo_visual').removeClass('show_txt1');
 			}, 5000);
