@@ -45,7 +45,7 @@
 	}
 
 	var openEventSlide = function openEventSlide() {
-
+		/*
 		var $open_event = $('.open_event'),
 		 	$open_event_slide = $open_event.find('.slides');
 
@@ -66,7 +66,30 @@
 		$('#slideRelease').slick('slickSetOption',{
 			arrows:false
 		},true);
+		*/
 
+		var $event_view = $('.event_view'),
+		 	$event_cont_slide = $event_view.find('.pc_cont_slides');
+
+		$event_cont_slide.slick({
+			prevArrow:'<button type="button" class="slick-prev pos_center_after pos_center v"><span class="s_out">이전</span></button>',
+			nextArrow:'<button type="button" class="slick-next pos_center_after pos_center v"><span class="s_out">다음</span></button>',
+			autoplay:true,
+			autoplaySpeed:5000,
+			pauseOnDotsHover:true,
+			slidesToShow: 1,
+			slidesToScroll: 1,
+			centerMode: false,
+			centerPadding: '10',
+			variableWidth: true,
+			respondTo : 'window',
+			infinite:false,
+			
+		}).each(function(i,el){
+			if( el.slick.slideCount <= 1 ){
+				$(el).slick('unslick');
+			}
+		});
 	} 
 
 	var visualFadeInOut = function visualFadeInOut() {
@@ -501,7 +524,7 @@
 		'eventBannerSlide' : eventBannerSlide,
 		'eventSlideSyncing' : eventSlideSyncing,
 		'buttonLink' : buttonLink,
-		'eventContSlide' : eventContSlide,
+		//'eventContSlide' : eventContSlide,
 		'aprilPromotion' : aprilPromotion,
 	};
 
@@ -517,5 +540,5 @@ hiphoperEvent.eventBannerSlide();
 hiphoperEvent.eventSlideSyncing();
 hiphoperEvent.moEventContSlide();
 hiphoperEvent.buttonLink();
-hiphoperEvent.eventContSlide();
+//hiphoperEvent.eventContSlide();
 hiphoperEvent.aprilPromotion();

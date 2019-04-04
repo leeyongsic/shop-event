@@ -208,16 +208,34 @@
 				<div class="inner">
 					<!-- visual -->
 					<div class="img_wrap">
+						<div class="box_wrap">
+							<p><span>04.08</span><span>04.14</span></p>
+						</div>
+						<div class="txt1">
+								<img src="./img/event/0408_aprilPromotion/april_promotion_txt1.png" alt="">
+							</div>
+						<div class="txt2">
+							<img src="./img/event/0408_aprilPromotion/april_promotion_txt2.png" alt="">
+						</div>
+						<div class="bg1">
+							<img src="./img/event/0408_aprilPromotion/april_promotion_bg1.png" alt="">
+						</div>
+						<div class="bg2">
+							<img src="./img/event/0408_aprilPromotion/april_promotion_bg2.png" alt="">
+						</div>
+						<div class="bg3">
+							<img src="./img/event/0408_aprilPromotion/april_promotion_bg3.png" alt="">
+						</div>
+						<!--
 						<div class="txt_wrap">
-							
 							<ul class="list">
 								<li class="item">HIPHOPER</li>
 								<li class="item">RENEWAL</li>
 								<li class="item">REOPEN</li>
 								<li class="item">HELLOW!</li>
 							</ul>
-							
 						</div>
+						-->
 						<video id="video" loop muted autoplay>
 							<source src="https://img.hiphoper.com/images/hipcontent/event/2019/0408_aprilPromotion/movie_0408.mp4" type="video/mp4">
 						</video>
@@ -255,15 +273,15 @@
 								<div class="col_left">
 									<div class="img_coupon">
 										<span>신규 회원<br> 전용</span>
-										<strong>~25%</strong>
+										<strong>25</strong>
 									</div>
 									<button type="button" onclick="openLayer(event,'#tempLayer1',this)" class="button_coupon_down">쿠폰받기</button>
 									<button type="button" onclick="openLayer(event,'#tempLayer3',this)" class="button_coupon_desc">쿠폰 사용 안내</button>
 								</div>
-								<div class="col_left">
+								<div class="col_right">
 									<div class="img_coupon">
 										<span>기존 회원<br> 전용</span>
-										<strong>~20%</strong>
+										<strong>20</strong>
 									</div>
 									<button type="button" onclick="openLayer(event,'#tempLayer2',this)" class="button_coupon_down">쿠폰받기</button>
 									<button type="button" onclick="openLayer(event,'#tempLayer4',this)" class="button_coupon_desc">쿠폰 사용 안내</button>
@@ -275,7 +293,7 @@
 								<h4>매일 매일 중복 할인</h4>
 								<p>쿠폰 사용 남은 시간 <span class="countdown"></span></p>
 								<script>
-									$('.countdown').countdown('2019/04/04 11:10:00')
+									$('.countdown').countdown('2019/04/04 24:00:00')
 										.on('update.countdown', function(event) {
 										  var format = '%H %M';
 										  $(this).html(event.strftime(format));
