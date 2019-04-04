@@ -407,6 +407,24 @@
 			return false;
 		});
 
+		// txt animation
+		
+		var txtAnimation = function () {
+			setTimeout(function(){
+			  $('.promo_visual').addClass('show');
+			}, 500);
+			setTimeout(function(){
+			  $('.promo_visual').addClass('show_txt1');
+			}, 500);
+			setTimeout(function(){
+			 $('.promo_visual').addClass('show2');
+			}, 3000);
+			setTimeout(function(){
+			  $('.promo_visual').removeClass('show_txt1');
+			}, 5000);
+		}
+		txtAnimation();
+
         // button
         $(function() {
 
