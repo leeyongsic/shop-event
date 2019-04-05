@@ -383,12 +383,12 @@
 
 		// tip toggle
 		var $btn_tip_toggle = $('.button_tip_toggle'),
-			$cont_tip_toggle = $btn_tip_toggle.parent().find('.cont_tip_toggle');
+			$cont_tip_toggle = $('.cont_tip_toggle');
 			
 		$btn_tip_toggle.on('click', function(e) {
 			e.preventDefault();
 			$(this).toggleClass('on');
-			$cont_tip_toggle.toggle();
+			$(this).parent().find('.cont_tip_toggle').toggle();
 		});
 
 		// btnTop
