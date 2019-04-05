@@ -162,7 +162,7 @@
 .april_promotion .promo_section4 .reply_write {padding-top:30px;}
 .april_promotion .promo_section4 .reply_list .item {padding:20px;}
 .april_promotion .promo_section4 .reply .input_textarea {position:relative;}
-.april_promotion .promo_section4 .reply .input_textarea textarea {-webkit-appearance:none;}
+.april_promotion .promo_section4 .reply .input_textarea textarea {-webkit-appearance:none;border-radius:0;}
 .april_promotion .promo_section4 .reply .input_textarea .txt_desc {position:absolute;bottom:-20px;left:0;width:42%;}
 .april_promotion .promo_section4 dl {}
 .april_promotion .promo_section4 dl dt {display:none;}
