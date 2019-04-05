@@ -175,7 +175,7 @@
 .april_promotion .promo_section4 .reply {}
 .april_promotion .promo_section4 .reply_write {padding-top:30px;}
 .april_promotion .promo_section4 .reply_list .item {padding:20px 10px;}
-.april_promotion .promo_section4 .reply .input_textarea {position:relative;}
+.april_promotion .promo_section4 .reply .input_textarea {position:relative;margin-top:-1px;}
 .april_promotion .promo_section4 .reply .input_textarea textarea {-webkit-appearance:none;-webkit-border-radius: 0;}
 .april_promotion .promo_section4 .reply .input_textarea .txt_desc {position:absolute;bottom:-20px;left:0;width:42%;}
 .april_promotion .promo_section4 dl {}
