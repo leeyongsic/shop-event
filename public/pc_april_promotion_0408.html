@@ -372,19 +372,36 @@
 								</script>
 							</div>
 							<div class="promo_slides slides black">
-								<div class="item">
+								<div class="item off"><!-- 이벤트 지나면 class .off 처리 필요 -->
 									<div class="coupon_info">
 										<span class="date">4월 8일</span>
 										<div class="img_wrap">
 											<img src="./img/event/0408_aprilPromotion/april_promotion_item_thum1.jpg" alt="">
 										</div>
-										<strong class="txt">SHOES 5%</strong>
-										<div class="button_wrap">
-											<!-- 이벤트 기간 지난 후 버튼은 disalbed 처리 필요 -->
-											<button type="button" class="button_coupon_down" disabled="">쿠폰받기</button>
-											<!-- //이벤트 기간 지난 후 버튼은 disalbed 처리 필요 -->
-											<a href="http://hiphoper.com/shoes" class="button_coupon_item">제품 보러 가기</a>	
+										<!-- comingsoon -->
+										<div class="state_comingsoon">
+											<strong class="txt">SHOES SHOP</strong>
+											<p class="txt_null">COMING SOON</p>
 										</div>
+										<!-- //comingsoon -->
+										<!-- on -->
+										<div class="state_on">
+											<strong class="txt">SHOES 5%</strong>
+											<div class="button_wrap">
+												<button type="button" onclick="openLayer(event,'#tempLayer5',this)" class="button_coupon_down">쿠폰 받기</button>
+												<a href="http://hiphoper.com/shoes" class="button_coupon_item">제품 보러 가기</a>	
+											</div>
+										</div>
+										<!-- //on -->
+										<!-- off -->
+										<div class="state_off">
+											<strong class="txt">SHOES 5%</strong>
+											<div class="button_wrap">
+												<button type="button" class="button_coupon_down" disabled="">쿠폰 받기 종료</button><!-- 버튼에 disabled 처리 필요 -->
+												<a href="http://hiphoper.com/shoes" class="button_coupon_item">제품 보러 가기</a>	
+											</div>
+										</div>
+										<!-- //off -->
 									</div>
 								</div>
 								<div class="item on"><!-- 해당 날짜에 class .on 처리 필요 -->
@@ -393,96 +410,190 @@
 										<div class="img_wrap">
 											<img src="./img/event/0408_aprilPromotion/april_promotion_item_thum2.jpg" alt="">
 										</div>
-										<strong class="txt">CLOTHING</strong>
-										<div class="button_wrap">
-											<!-- 쿠폰 받기 전 -->
-											<button type="button" onclick="openLayer(event,'#tempLayer5',this)" class="button_coupon_down">쿠폰받기</button>
-											<!-- //쿠폰 받기 전 -->
-											<!-- 쿠폰 받은 후 
-											<button type="button" onclick="openLayer(event,'#tempLayer6',this)" class="button_coupon_down">쿠폰받기</button>
-											 //쿠폰 받기 후 -->
-											<a href="http://hiphoper.com/clothing" class="button_coupon_item">제품 보러 가기</a>	
+										<!-- comingsoon -->
+										<div class="state_comingsoon">
+											<strong class="txt">CLOTHING</strong>
+											<p class="txt_null">COMING SOON</p>
 										</div>
+										<!-- //comingsoon -->
+										<!-- on -->
+										<div class="state_on">
+											<strong class="txt">CLOTHING 10%</strong>
+											<div class="button_wrap">
+												<button type="button" onclick="openLayer(event,'#tempLayer5',this)" class="button_coupon_down">쿠폰 받기</button>
+												<a href="http://hiphoper.com/shoes" class="button_coupon_item">제품 보러 가기</a>	
+											</div>
+										</div>
+										<!-- //on -->
+										<!-- off -->
+										<div class="state_off">
+											<strong class="txt">CLOTHING 10%</strong>
+											<div class="button_wrap">
+												<button type="button" class="button_coupon_down" disabled="">쿠폰 받기 종료</button><!-- 버튼에 disabled 처리 필요 -->
+												<a href="http://hiphoper.com/shoes" class="button_coupon_item">제품 보러 가기</a>	
+											</div>
+										</div>
+										<!-- //off -->	
 									</div>
 								</div>
 								<div class="item">
 									<div class="coupon_info">
 										<span class="date">4월 10일</span>
 										<div class="img_wrap">
-											<img src="./img/event/0408_aprilPromotion/april_promotion_item_thum1.jpg" alt="">
+											<img src="./img/event/0408_aprilPromotion/april_promotion_item_thum3.jpg" alt="">
 										</div>
-										<strong class="txt">SELECT SHOP</strong>
-										<p class="txt_null">COMING SOON</p>
-										<!-- 해당 날짜에 버튼 영역으로 교체 필요
-										<div class="button_wrap">
-											<button type="button" onclick="openLayer(event,'#tempLayer5',this)" class="button_coupon_down">쿠폰받기</button>
-											<a href="http://hiphoper.com/selectshop" class="button_coupon_item">제품 보러 가기</a>	
+										<!-- comingsoon -->
+										<div class="state_comingsoon">
+											<strong class="txt">SELECT SHOP</strong>
+											<p class="txt_null">COMING SOON</p>
 										</div>
-										-->
+										<!-- //comingsoon -->
+										<!-- on -->
+										<div class="state_on">
+											<strong class="txt">SELECT SHOP 3%</strong>
+											<div class="button_wrap">
+												<button type="button" onclick="openLayer(event,'#tempLayer5',this)" class="button_coupon_down">쿠폰 받기</button>
+												<a href="http://hiphoper.com/shoes" class="button_coupon_item">제품 보러 가기</a>	
+											</div>
+										</div>
+										<!-- //on -->
+										<!-- off -->
+										<div class="state_off">
+											<strong class="txt">SELECT SHOP 3%</strong>
+											<div class="button_wrap">
+												<button type="button" class="button_coupon_down" disabled="">쿠폰 받기 종료</button><!-- 버튼에 disabled 처리 필요 -->
+												<a href="http://hiphoper.com/shoes" class="button_coupon_item">제품 보러 가기</a>	
+											</div>
+										</div>
+										<!-- //off -->
 									</div>
 								</div>
 								<div class="item">
 									<div class="coupon_info">
 										<span class="date">4월 11일</span>
 										<div class="img_wrap">
-											<img src="./img/event/0408_aprilPromotion/april_promotion_item_thum1.jpg" alt="">
+											<img src="./img/event/0408_aprilPromotion/april_promotion_item_thum4.jpg" alt="">
 										</div>
-										<strong class="txt">LIFE</strong>
-										<p class="txt_null">COMING SOON</p>
-										<!-- 해당 날짜에 버튼 영역으로 교체 필요
-										<div class="button_wrap">
-											<button type="button" onclick="openLayer(event,'#tempLayer5',this)" class="button_coupon_down">쿠폰받기</button>
-											<a href="http://hiphoper.com/life" class="button_coupon_item">제품 보러 가기</a>	
+										<!-- comingsoon -->
+										<div class="state_comingsoon">
+											<strong class="txt">LIFE</strong>
+											<p class="txt_null">COMING SOON</p>
 										</div>
-										-->
+										<!-- //comingsoon -->
+										<!-- on -->
+										<div class="state_on">
+											<strong class="txt">LIFE 5%</strong>
+											<div class="button_wrap">
+												<button type="button" onclick="openLayer(event,'#tempLayer5',this)" class="button_coupon_down">쿠폰 받기</button>
+												<a href="http://hiphoper.com/shoes" class="button_coupon_item">제품 보러 가기</a>	
+											</div>
+										</div>
+										<!-- //on -->
+										<!-- off -->
+										<div class="state_off">
+											<strong class="txt">LIFE 5%</strong>
+											<div class="button_wrap">
+												<button type="button" class="button_coupon_down" disabled="">쿠폰 받기 종료</button><!-- 버튼에 disabled 처리 필요 -->
+												<a href="http://hiphoper.com/shoes" class="button_coupon_item">제품 보러 가기</a>	
+											</div>
+										</div>
+										<!-- //off -->
 									</div>
 								</div>
 								<div class="item">
 									<div class="coupon_info">
 										<span class="date">4월 12일</span>
 										<div class="img_wrap">
-											<img src="./img/event/0408_aprilPromotion/april_promotion_item_thum1.jpg" alt="">
+											<img src="./img/event/0408_aprilPromotion/april_promotion_item_thum5.jpg" alt="">
 										</div>
-										<strong class="txt">ACC</strong>
-										<p class="txt_null">COMING SOON</p>
-										<!-- 해당 날짜에 버튼 영역으로 교체 필요
-										<div class="button_wrap">
-											<button type="button" onclick="openLayer(event,'#tempLayer5',this)" class="button_coupon_down">쿠폰받기</button>
-											<a href="http://hiphoper.com/acc" class="button_coupon_item">제품 보러 가기</a>	
+										<!-- comingsoon -->
+										<div class="state_comingsoon">
+											<strong class="txt">ACCESSORY</strong>
+											<p class="txt_null">COMING SOON</p>
 										</div>
-										-->
+										<!-- //comingsoon -->
+										<!-- on -->
+										<div class="state_on">
+											<strong class="txt">ACCESSORY 3%</strong>
+											<div class="button_wrap">
+												<button type="button" onclick="openLayer(event,'#tempLayer5',this)" class="button_coupon_down">쿠폰 받기</button>
+												<a href="http://hiphoper.com/shoes" class="button_coupon_item">제품 보러 가기</a>	
+											</div>
+										</div>
+										<!-- //on -->
+										<!-- off -->
+										<div class="state_off">
+											<strong class="txt">ACCESSORY 3%</strong>
+											<div class="button_wrap">
+												<button type="button" class="button_coupon_down" disabled="">쿠폰 받기 종료</button><!-- 버튼에 disabled 처리 필요 -->
+												<a href="http://hiphoper.com/shoes" class="button_coupon_item">제품 보러 가기</a>	
+											</div>
+										</div>
+										<!-- //off -->
 									</div>
 								</div>
 								<div class="item">
 									<div class="coupon_info">
 										<span class="date">4월 13일</span>
 										<div class="img_wrap">
-											<img src="./img/event/0408_aprilPromotion/april_promotion_item_thum1.jpg" alt="">
+											<img src="./img/event/0408_aprilPromotion/april_promotion_item_thum6.jpg" alt="">
 										</div>
-										<strong class="txt">PROMOTION1</strong>
-										<p class="txt_null">COMING SOON</p>
-										<!-- 해당 날짜에 버튼 영역으로 교체 필요
-										<div class="button_wrap">
-											<button type="button" onclick="openLayer(event,'#tempLayer5',this)" class="button_coupon_down">쿠폰받기</button>
-											<a href="#" class="button_coupon_item">기획전 보러 가기</a>	
+										<!-- comingsoon -->
+										<div class="state_comingsoon">
+											<strong class="txt">SPRING FOR WOMAN</strong>
+											<p class="txt_null">COMING SOON</p>
 										</div>
-										-->
+										<!-- //comingsoon -->
+										<!-- on -->
+										<div class="state_on">
+											<strong class="txt">SPRING FOR WOMAN 5%</strong>
+											<div class="button_wrap">
+												<button type="button" onclick="openLayer(event,'#tempLayer5',this)" class="button_coupon_down">쿠폰 받기</button>
+												<a href="http://hiphoper.com/shoes" class="button_coupon_item">제품 보러 가기</a>	
+											</div>
+										</div>
+										<!-- //on -->
+										<!-- off -->
+										<div class="state_off">
+											<strong class="txt">SPRING FOR WOMAN 5%</strong>
+											<div class="button_wrap">
+												<button type="button" class="button_coupon_down" disabled="">쿠폰 받기 종료</button><!-- 버튼에 disabled 처리 필요 -->
+												<a href="http://hiphoper.com/shoes" class="button_coupon_item">제품 보러 가기</a>	
+											</div>
+										</div>
+										<!-- //off -->
 									</div>
 								</div>
 								<div class="item">
 									<div class="coupon_info">
 										<span class="date">4월 14일</span>
 										<div class="img_wrap">
-											<img src="./img/event/0408_aprilPromotion/april_promotion_item_thum1.jpg" alt="">
+											<img src="./img/event/0408_aprilPromotion/april_promotion_item_thum7.jpg" alt="">
 										</div>
-										<strong class="txt">PROMOTION2</strong>
-										<p class="txt_null">COMING SOON</p>
-										<!-- 해당 날짜에 버튼 영역으로 교체 필요
-										<div class="button_wrap">
-											<button type="button" onclick="openLayer(event,'#tempLayer5',this)" class="button_coupon_down">쿠폰받기</button>
-											<a href="#" class="button_coupon_item">기획전 보러 가기</a>	
+										<!-- comingsoon -->
+										<div class="state_comingsoon">
+											<strong class="txt">HIPHOPER RE-OPEN</strong>
+											<p class="txt_null">COMING SOON</p>
 										</div>
-										-->
+										<!-- //comingsoon -->
+										<!-- on -->
+										<div class="state_on">
+											<strong class="txt">HIPHOPER RE-OPEN 5%</strong>
+											<div class="button_wrap">
+												<button type="button" onclick="openLayer(event,'#tempLayer5',this)" class="button_coupon_down">쿠폰 받기</button>
+												<a href="http://hiphoper.com/shoes" class="button_coupon_item">제품 보러 가기</a>	
+											</div>
+										</div>
+										<!-- //on -->
+										<!-- off -->
+										<div class="state_off">
+											<strong class="txt">HIPHOPER RE-OPEN 5%</strong>
+											<div class="button_wrap">
+												<button type="button" class="button_coupon_down" disabled="">쿠폰 받기 종료</button><!-- 버튼에 disabled 처리 필요 -->
+												<a href="http://hiphoper.com/shoes" class="button_coupon_item">제품 보러 가기</a>	
+											</div>
+										</div>
+										<!-- //off -->
 									</div>
 								</div>	
 							</div>
