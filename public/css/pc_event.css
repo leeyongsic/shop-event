@@ -79,23 +79,30 @@
 .april_promotion .promo_section2 .coupon_area h4:before {content:'';display:block;position:absolute;top:50%;left:0;transform:translateY(-50%);width:435px;height:2px;background-color:#111;}
 .april_promotion .promo_section2 .coupon_area .row {margin:80px 0 0 125px;}
 .april_promotion .promo_section2 .coupon_area .row:after {content:'';display:block;clear:both;}
-.april_promotion .promo_section2 .coupon_area .col_left {float:left;}
-.april_promotion .promo_section2 .coupon_area .col_right {float:left;margin-left:60px;}
+.april_promotion .promo_section2 .coupon_area .row .col_left {float:left;}
+.april_promotion .promo_section2 .coupon_area .row .col_right {float:left;margin-left:60px;}
 .april_promotion .promo_section2 .coupon_area .img_coupon {position:relative;width:473px;height:261px;background:url(../img/event/0408_aprilPromotion/april_promotion_coupon_bg.png) 0 0 no-repeat;}
 .april_promotion .promo_section2 .coupon_area .img_coupon span {position:absolute;top:-40px;right:-40px;display:block;width:107px;height:107px;padding-top:30px;background:url(../img/event/0408_aprilPromotion/april_promotion_coupon_bg2.png) 0 0 no-repeat;font-family:Noto Sans KR;font-size:18px;color:#111;line-height:22px;text-align:center;box-sizing:border-box;}
 .april_promotion .promo_section2 .coupon_area .img_coupon strong {position:absolute;top:80px;left:170px;font-size:84px;font-weight:600;color:#fff;line-height:1;font-style:italic;}
 .april_promotion .promo_section2 .coupon_area .button_coupon_down {margin-top:15px;display:block;width:472px;height:70px;font-family:Noto Sans KR;font-size:24px;font-weight:500;color:#fff;line-height:70px;text-align:center;background-color:#292929;}
 .april_promotion .promo_section2 .coupon_area .button_coupon_desc {display:block;width:134px;height:22px;margin:20px auto;font-family:Noto Sans KR;font-size:17px;color:#555;line-height:22px;}
 .april_promotion .promo_section2 .coupon_area .button_coupon_desc:after {content:'';display:inline-block;width:22px;height:22px;margin-left:10px;background:url(../img/event/0408_aprilPromotion/ico_tooltip.png) 0 0 no-repeat;vertical-align:top;}
-.april_promotion .promo_section2 .coupon_area .wrap_layer {/*width:400px;*/top:100px;left:50%;transform:translateX(-50%);}
-.april_promotion .promo_section2 .wrap_layer.promo_coupon .layer_tit {display:none;}
-.april_promotion .promo_section2 .wrap_layer.promo_coupon .layer_cont {padding:60px 0 0;text-align:center;}
-.april_promotion .promo_section2 .wrap_layer.promo_coupon .layer_cont strong {font-family:Noto Sans KR;font-size:30px;color:#000;line-height:1;}
-.april_promotion .promo_section2 .wrap_layer.promo_coupon .layer_cont p {margin-top:15px;font-family:Noto Sans KR;font-size:16px;color:#111;line-height:24px;letter-spacing:-1px;}
-
+.april_promotion .promo_section2 .coupon_area .wrap_layer {width:450px;top:100px;left:50%;transform:translateX(-50%);}
+.april_promotion .promo_section2 .wrap_layer.promo_coupon .layer_tit {}
+.april_promotion .promo_section2 .wrap_layer.promo_coupon .layer_cont {text-align:center;}
+.april_promotion .promo_section2 .wrap_layer.promo_coupon .layer_cont strong {font-family:Noto Sans KR;font-size:24px;color:#000;line-height:1;}
+.april_promotion .promo_section2 .wrap_layer.promo_coupon .layer_cont p {margin-top:10px;font-family:Noto Sans KR;font-size:16px;color:#111;line-height:24px;letter-spacing:-1px;}
+.april_promotion .promo_section2 .wrap_layer .layer_cont .button_wrap {margin-top:25px;text-align:center;}
+.april_promotion .promo_section2 .wrap_layer ul li {position:relative;padding-left:10px;}
+.april_promotion .promo_section2 .wrap_layer ul li:before {content:'';display:block;position:absolute;top:12px;left:0;width:3px;height:3px;background-color:#111;}
+.april_promotion .promo_section2 .wrap_layer ul li:after {content:'';display:block;clear:both;}
+.april_promotion .promo_section2 .wrap_layer ul li .col_left {display:block;width:80px;float:left;}
+.april_promotion .promo_section2 .wrap_layer ul li .col_right {display:block;margin-left:80px;}
+.april_promotion .promo_section2 .wrap_layer ul li .txt_sub {color:#777;}
+.april_promotion .promo_section2 .wrap_layer ul li .txt_point {color:#f7461d;}
 
 .april_promotion .promo_section2 .slides_area {position:relative;}
-.april_promotion .promo_section2 .slides_area .wrap_layer {/*width:400px;*/top:440px;left:50%;transform:translateX(-50%);}
+.april_promotion .promo_section2 .slides_area .wrap_layer {width:450px;top:440px;left:50%;transform:translateX(-50%);}
 .april_promotion .promo_section2 .slides_area .title_wrap {max-width:1260px;min-width:1180px;margin:0 auto;padding:0 50px;}
 .april_promotion .promo_section2 .slides_area .title_wrap h4 {}
 .april_promotion .promo_section2 .slides_area .title_wrap h4 {position:relative;font-family:Noto Sans KR;font-size:40px;font-weight:600;color:#111;line-height:1;text-align:center;}
@@ -147,6 +154,8 @@
 .april_promotion .promo_section4 .reply {max-width:1260px;min-width:1180px;margin:0 auto;padding:0 50px;}
 .april_promotion .promo_section4 .reply_write {padding-top:120px;}
 .april_promotion .promo_section4 .reply_list .item {padding:36px 20px 32px 20px;}
+.april_promotion .promo_section4 .reply .input_textarea {position:relative;}
+.april_promotion .promo_section4 .reply .input_textarea .txt_desc {position:absolute;bottom:5px;left:0;}
 
 .april_promotion .promo_section4 dl {}
 .april_promotion .promo_section4 dl dt {display:none;}
