@@ -162,6 +162,7 @@
 .april_promotion .tip_area .button_tip_toggle {display:block;width:100%;padding:20px 0;border:1px solid #111;border-width:1px 0 1px 0;}
 .april_promotion .tip_area .button_tip_toggle span {font-family:Noto Sans KR;font-size:26px;color:#111;line-height:1;}
 .april_promotion .tip_area .button_tip_toggle span:after {content:'';display:inline-block;width:16px;height:11px;margin-left:18px;background:url(../img/event/0408_aprilPromotion/btn_arrow_black.png) 0 0 no-repeat;vertical-align:3px;}
+.april_promotion .tip_area .button_tip_toggle.on span:after {background:url(../img/event/0408_aprilPromotion/btn_arrow_black_on.png) 0 0 no-repeat;}
 .april_promotion .tip_area .cont_tip_toggle {padding-top:30px;}
 .april_promotion .tip_area dl {text-align:left;}
 .april_promotion .tip_area dl dt {font-family:Noto Sans KR;font-weight:500;font-size:17px;color:#f7461d;line-height:24px;letter-spacing:-.5px;}
