@@ -98,7 +98,6 @@
 .april_promotion .promo_section2 .promo_slides {overflow:hidden;}
 .april_promotion .promo_section2 .promo_slides .slick-list {overflow:initial;}
 .april_promotion .promo_section2 .promo_slides .item {width:900px;height:590px;margin-right:110px;background-color:#fff;border:1px solid #dfdde5;box-sizing:border-box;box-shadow:3px 3px 6px rgba(0,0,0,0.05);}
-
 .april_promotion .promo_section2 .promo_slides .item .coupon_info {position:relative;width:900px;height:590px;padding:20px 0;box-sizing:border-box;text-align:center;}
 .april_promotion .promo_section2 .promo_slides .item .coupon_info .date {display:block;position:absolute;top:40px;left:40px;z-index:10;width:100px;height:100px;background-color:#111;font-family:Noto Sans KR;font-size:22px;font-weight:500;color:#fff;line-height:100px;text-align:center;}
 .april_promotion .promo_section2 .promo_slides .item .coupon_info .img_wrap {position:relative;margin:0 20px;}
@@ -109,11 +108,9 @@
 .april_promotion .promo_section2 .promo_slides .item .state_comingsoon {display:block;}
 .april_promotion .promo_section2 .promo_slides .item .state_on {display:none;}
 .april_promotion .promo_section2 .promo_slides .item .state_off {display:none;}
-
 .april_promotion .promo_section2 .promo_slides .item.on .state_on {display:block;}
 .april_promotion .promo_section2 .promo_slides .item.on .state_comingsoon {display:none;}
 .april_promotion .promo_section2 .promo_slides .item.on .state_off {display:none;}
-
 .april_promotion .promo_section2 .promo_slides .item.off .state_off {display:block;}
 .april_promotion .promo_section2 .promo_slides .item.off .state_on {display:none;}
 .april_promotion .promo_section2 .promo_slides .item.off .state_comingsoon {display:none;}
