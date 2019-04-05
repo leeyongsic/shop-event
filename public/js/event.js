@@ -473,8 +473,6 @@
             });
         });
 
-
-
         $.fn.menuOn = function(idx, elt) {
 
             var elt = elt || $menuLinks.eq(idx).children().get(0), // a link

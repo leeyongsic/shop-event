@@ -357,18 +357,17 @@
 						<div class="slides_area">
 							<div class="title_wrap">
 								<h4>매일 매일 중복 할인</h4>
-								<p>쿠폰 사용 남은 시간 <span class="countdown"></span></p>
+								<p>쿠폰 사용 남은 시간 <span class="countdown">00 00</span></p>
 								<script>
-									$('.countdown').countdown('2019/04/05 24:00:00') // 매일 자정 날짜 바뀜 처리 필요 
-										.on('update.countdown', function(event) {
-										  var format = '%H %M';
-										  $(this).html(event.strftime(format));
-										})
-										.on('finish.countdown', function(event) {
-										  $(this).html('00 00')
-										    .parent().addClass('disabled');
-
-										});
+									//$('.countdown').countdown('2019/04/05 24:00:00') // 매일 자정 날짜 바뀜 처리 필요 
+									//	.on('update.countdown', function(event) {
+									//	  var format = '%H %M';
+									//	  $(this).html(event.strftime(format));
+									//	})
+									//	.on('finish.countdown', function(event) {
+									//	  $(this).html('00 00')
+									//	    .parent().addClass('disabled');
+									//});
 								</script>
 							</div>
 							<div class="promo_slides slides black">
@@ -540,13 +539,13 @@
 										</div>
 										<!-- comingsoon -->
 										<div class="state_comingsoon">
-											<strong class="txt">SPRING FOR WOMAN</strong>
+											<strong class="txt">ANDERSSON BELL</strong>
 											<p class="txt_null">COMING SOON</p>
 										</div>
 										<!-- //comingsoon -->
 										<!-- on -->
 										<div class="state_on">
-											<strong class="txt">SPRING FOR WOMAN 5%</strong>
+											<strong class="txt">ANDERSSON BELL 5%</strong>
 											<div class="button_wrap">
 												<button type="button" onclick="openLayer(event,'#tempLayer5',this)" class="button_coupon_down">쿠폰 받기</button>
 												<a href="http://hiphoper.com/shoes" class="button_coupon_item">제품 보러 가기</a>	
@@ -555,7 +554,7 @@
 										<!-- //on -->
 										<!-- off -->
 										<div class="state_off">
-											<strong class="txt">SPRING FOR WOMAN 5%</strong>
+											<strong class="txt">ANDERSSON BELL 5%</strong>
 											<div class="button_wrap">
 												<button type="button" class="button_coupon_down" disabled="">쿠폰 받기 종료</button><!-- 버튼에 disabled 처리 필요 -->
 												<a href="http://hiphoper.com/shoes" class="button_coupon_item">제품 보러 가기</a>	
