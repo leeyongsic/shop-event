@@ -273,7 +273,12 @@
 										<span>신규 회원<br> 전용</span>
 										<strong>25</strong>
 									</div>
+									<!-- 쿠폰 받기 전 -->
 									<button type="button" onclick="openLayer(event,'#tempLayer1',this)" class="button_coupon_down">쿠폰받기</button>
+									<!-- //쿠폰 받기 전 -->
+									<!-- 쿠폰 받은 후 
+									<button type="button" onclick="openLayer(event,'#tempLayer2',this)" class="button_coupon_down">쿠폰받기</button>
+									 //쿠폰 받기 후 -->
 									<button type="button" onclick="openLayer(event,'#tempLayer3',this)" class="button_coupon_desc">쿠폰 사용 안내</button>
 								</div>
 								<div class="col_right">
@@ -281,11 +286,16 @@
 										<span>기존 회원<br> 전용</span>
 										<strong>20</strong>
 									</div>
+									<!-- 쿠폰 받기 전 
+									<button type="button" onclick="openLayer(event,'#tempLayer1',this)" class="button_coupon_down">쿠폰받기</button>
+									 //쿠폰 받기 전 -->
+									<!-- 쿠폰 받은 후 -->
 									<button type="button" onclick="openLayer(event,'#tempLayer2',this)" class="button_coupon_down">쿠폰받기</button>
+									<!-- //쿠폰 받기 후 -->
 									<button type="button" onclick="openLayer(event,'#tempLayer4',this)" class="button_coupon_desc">쿠폰 사용 안내</button>
 								</div>
 							</div>
-							<!-- 쿠폰받기 레이어1 -->
+							<!-- 쿠폰받기 전 레이어1 -->
 							<div class="wrap_layer lc_b hide promo_coupon" id="tempLayer1">
 								<button type="button" class="btn_close bg_3_a bg_3_b pos_center_before pos_center_after"><span class="s_out">레이어 닫기</span></button>
 								<div class="layer_tit tc_3 lc_d0">쿠폰 받기</div>
@@ -294,8 +304,8 @@
 									<p>발급된 쿠폰은<br> [마이페이지 - 회원 혜택 - 쿠폰]에서<br> 확인하실 수 있습니다.</p>
 								</div>
 							</div>
-							<!-- //쿠폰받기 레이어1 -->
-							<!-- 쿠폰받기 레이어2 -->
+							<!-- //쿠폰받기 전 레이어1 -->
+							<!-- 쿠폰받기 후 레이어2 -->
 							<div class="wrap_layer lc_b hide promo_coupon" id="tempLayer2">
 								<button type="button" class="btn_close bg_3_a bg_3_b pos_center_before pos_center_after"><span class="s_out">레이어 닫기</span></button>
 								<div class="layer_tit tc_3 lc_d0">쿠폰 받기</div>
@@ -304,8 +314,8 @@
 									<p>발급된 쿠폰은<br> [마이페이지 - 회원 혜택 - 쿠폰]에서<br> 확인하실 수 있습니다.</p>
 								</div>
 							</div>
-							<!-- //쿠폰받기 레이어2 -->
-							<!-- 쿠폰사용안내 레이어3 -->
+							<!-- //쿠폰받기 후 레이어2 -->
+							<!-- 쿠폰사용안내 신규회원 레이어3 -->
 							<div class="wrap_layer lc_b hide" id="tempLayer3">
 								<button type="button" class="btn_close bg_3_a bg_3_b pos_center_before pos_center_after"><span class="s_out">레이어 닫기</span></button>
 								<div class="layer_tit tc_3 lc_d0">쿠폰 사용 안내</div>
@@ -323,8 +333,8 @@
 									</div>
 								</div>
 							</div>
-							<!-- //쿠폰사용안내 레이어3 -->
-							<!-- 쿠폰사용안내 레이어4 -->
+							<!-- //쿠폰사용안내 신규회원 레이어3 -->
+							<!-- 쿠폰사용안내 기존회원 레이어4 -->
 							<div class="wrap_layer lc_b hide" id="tempLayer4">
 								<button type="button" class="btn_close bg_3_a bg_3_b pos_center_before pos_center_after"><span class="s_out">레이어 닫기</span></button>
 								<div class="layer_tit tc_3 lc_d0">쿠폰 사용 안내</div>
@@ -342,14 +352,14 @@
 									</div>
 								</div>
 							</div>
-							<!-- //쿠폰사용안내 레이어4 -->
+							<!-- //쿠폰사용안내 기존회원 레이어4 -->
 						</div>
 						<div class="slides_area">
 							<div class="title_wrap">
 								<h4>매일 매일 중복 할인</h4>
 								<p>쿠폰 사용 남은 시간 <span class="countdown"></span></p>
 								<script>
-									$('.countdown').countdown('2019/04/05 24:00:00')
+									$('.countdown').countdown('2019/04/05 24:00:00') // 매일 자정 날짜 바뀜 처리 필요 
 										.on('update.countdown', function(event) {
 										  var format = '%H %M';
 										  $(this).html(event.strftime(format));
@@ -362,7 +372,7 @@
 								</script>
 							</div>
 							<div class="promo_slides slides black">
-								<div class="item"><!-- 해당 날짜에 class .on 처리 필요 -->
+								<div class="item">
 									<div class="coupon_info">
 										<span class="date">4월 8일</span>
 										<div class="img_wrap">
@@ -370,7 +380,9 @@
 										</div>
 										<strong class="txt">SHOES 5%</strong>
 										<div class="button_wrap">
-											<button type="button" onclick="openLayer(event,'#tempLayer5',this)" class="button_coupon_down" disabled="">쿠폰받기</button>
+											<!-- 이벤트 기간 지난 후 버튼은 disalbed 처리 필요 -->
+											<button type="button" class="button_coupon_down" disabled="">쿠폰받기</button>
+											<!-- //이벤트 기간 지난 후 버튼은 disalbed 처리 필요 -->
 											<a href="http://hiphoper.com/shoes" class="button_coupon_item">제품 보러 가기</a>	
 										</div>
 									</div>
@@ -383,7 +395,12 @@
 										</div>
 										<strong class="txt">CLOTHING</strong>
 										<div class="button_wrap">
+											<!-- 쿠폰 받기 전 -->
 											<button type="button" onclick="openLayer(event,'#tempLayer5',this)" class="button_coupon_down">쿠폰받기</button>
+											<!-- //쿠폰 받기 전 -->
+											<!-- 쿠폰 받은 후 
+											<button type="button" onclick="openLayer(event,'#tempLayer6',this)" class="button_coupon_down">쿠폰받기</button>
+											 //쿠폰 받기 후 -->
 											<a href="http://hiphoper.com/shoes" class="button_coupon_item">제품 보러 가기</a>	
 										</div>
 									</div>
@@ -439,7 +456,7 @@
 									</div>
 								</div>	
 							</div>
-							<!-- 쿠폰받기 레이어5 -->
+							<!-- 쿠폰받기 전 레이어5 -->
 							<div class="wrap_layer lc_b hide promo_coupon" id="tempLayer5">
 								<button type="button" class="btn_close bg_3_a bg_3_b pos_center_before pos_center_after"><span class="s_out">레이어 닫기</span></button>
 								<div class="layer_tit tc_3 lc_d0">쿠폰 받기</div>
@@ -448,8 +465,8 @@
 									<p>발급된 쿠폰은<br> [마이페이지 - 회원 혜택 - 쿠폰]에서<br> 확인하실 수 있습니다.</p>
 								</div>
 							</div>
-							<!-- //쿠폰받기 레이어5 -->
-							<!-- 쿠폰받기 레이어6 -->
+							<!-- //쿠폰받기 전 레이어5 -->
+							<!-- 쿠폰받기 후 레이어6 -->
 							<div class="wrap_layer lc_b hide promo_coupon" id="tempLayer6">
 								<button type="button" class="btn_close bg_3_a bg_3_b pos_center_before pos_center_after"><span class="s_out">레이어 닫기</span></button>
 								<div class="layer_tit tc_3 lc_d0">쿠폰 받기</div>
@@ -458,7 +475,7 @@
 									<p>발급된 쿠폰은<br> [마이페이지 - 회원 혜택 - 쿠폰]에서<br> 확인하실 수 있습니다.</p>
 								</div>
 							</div>
-							<!-- //쿠폰받기 레이어6 -->					
+							<!-- //쿠폰받기 후 레이어6 -->					
 						</div>
 					</div>
 				</div>
