@@ -407,6 +407,17 @@
 			return false;
 		});
 
+		var $btn_share = $('.button_share');
+		$(window).on('scroll', function() {
+			var winTop = $(window).scrollTop();
+			if ( winTop > 2000 ) {
+			$btn_share.fadeIn();
+			} else {
+			$btn_share.fadeOut();
+			}
+		});
+		
+
 		// txt animation
 		
 		var txtAnimation = function () {
