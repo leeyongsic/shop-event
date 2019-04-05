@@ -77,12 +77,16 @@
 .april_promotion .wrap_layer{position:absolute;z-index:100;width:540px;padding-bottom:24px;border-radius:6px;background-color:#fff;-webkit-box-shadow:0 10px 25px 0 rgba(0,0,0,
 	.1);box-shadow:0 10px 25px 0 rgba(0,0,0,
 .1);-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
-.april_promotion .wrap_layer>.btn_close{position:absolute;right:14px;top:14px;background-color:rgba(0,0,0,0);width:24px;height:24px;min-width:24px;z-index:1;border-width:0;padding:0;}
+.april_promotion .wrap_layer>.btn_close{position:absolute;right:14px;top:14px;/*background-color:rgba(0,0,0,0);*/width:24px;height:24px;min-width:24px;z-index:1;border-width:0;padding:0;}
 .april_promotion .wrap_layer>.btn_close:after,
 .april_promotion .wrap_layer>.btn_close:before{width:2px;height:18px}
 .april_promotion .wrap_layer .layer_tit{height:15px;padding:0 53px 0 23px;border-width:0;line-height:15px;font-size:16px;font-weight:500}
 .april_promotion .wrap_layer .layer_cont{padding:0 24px;font-size:14px;line-height:22px;overflow-x:hidden;overflow-y:auto;/*max-height:318px*/}
 .april_promotion .dim_layer{position:fixed;z-index:101;left:0;top:0;bottom:0;right:0;background-color:rgba(0,0,0,.8)}
+
+.april_promotion .wrap_layer {width:90%;top:50%;left:50%;transform:translate(-50%, -50%);padding:20px 20px 30px;}
+.april_promotion .wrap_layer .layer_tit,
+.april_promotion .wrap_layer .layer_cont {padding:0;}
 
 /*
 .april_promotion .promo_section2 .wrap_layer.promo_coupon .layer_tit {}
@@ -158,6 +162,7 @@
 .april_promotion .promo_section4 .reply_write {padding-top:30px;}
 .april_promotion .promo_section4 .reply_list .item {padding:20px;}
 .april_promotion .promo_section4 .reply .input_textarea {position:relative;}
+.april_promotion .promo_section4 .reply .input_textarea textarea {-webkit-appearance:none;}
 .april_promotion .promo_section4 .reply .input_textarea .txt_desc {position:absolute;bottom:-20px;left:0;width:42%;}
 .april_promotion .promo_section4 dl {}
 .april_promotion .promo_section4 dl dt {display:none;}
