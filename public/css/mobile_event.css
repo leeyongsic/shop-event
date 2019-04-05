@@ -41,11 +41,11 @@
 .april_promotion .promo_section1 .button_go_wrap {}
 .april_promotion .promo_section1 .button_go_wrap.top_fixed {}
 .april_promotion .promo_section1 .button_go_wrap li {}
-.april_promotion .promo_section1 .button_go_wrap li a {display:block;position:relative;height:60px;padding:0 30px;font-size:17px;font-family:Noto Sans KR;color:#fff;line-height:60px;background-color:#292929;}
+.april_promotion .promo_section1 .button_go_wrap li a {display:block;position:relative;height:60px;padding:0 30px;font-size:17px;font-family:Noto Sans KR;color:#fff;line-height:60px;background-color:#292929;border-top:1px solid #545454;}
 .april_promotion .promo_section1 .button_go_wrap li a strong {font-family:proxima-nova;color:#f54839;}
 .april_promotion .promo_section1 .button_go_wrap li a span {display:inline-block;margin-left:13px;}
 .april_promotion .promo_section1 .button_go_wrap li a:after {content:'';display:block;position:absolute;top:50%;right:30px;transform:translateY(-50%);width:11px;height:8px;margin-left:18px;background:url(../img/event/0408_aprilPromotion/mo/btn_arrow_white.png) 0 0 no-repeat;background-size:11px 8px;vertical-align:3px;}
-.april_promotion .promo_section1 .button_go_wrap li:nth-child(2) a{border-top:1px solid #545454;}
+.april_promotion .promo_section1 .button_go_wrap li:nth-child(2) a{}
 
 .april_promotion .promo_section2 {}
 .april_promotion .promo_section2 .inner {position:relative;background-color:#ece9f5;}
