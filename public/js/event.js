@@ -568,16 +568,3 @@
 	};
 
 })(this);
-
-// 함수 호출
-hiphoperEvent.eventLookbookSlide();
-hiphoperEvent.openEventSlide();
-hiphoperEvent.visualFadeInOut();
-hiphoperEvent.eventLogoSlide();
-hiphoperEvent.moEventSlide();
-hiphoperEvent.eventBannerSlide();
-hiphoperEvent.eventSlideSyncing();
-hiphoperEvent.moEventContSlide();
-hiphoperEvent.buttonLink();
-//hiphoperEvent.eventContSlide();
-hiphoperEvent.aprilPromotion();
