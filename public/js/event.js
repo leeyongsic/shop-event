@@ -404,7 +404,6 @@
 			} else {
 			$btn_top.fadeOut();
 			}
-			console.log('top');
 		});
 
 		$btn_top.on('click', function() {
