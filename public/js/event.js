@@ -389,6 +389,7 @@
 			e.preventDefault();
 			$(this).toggleClass('on');
 			$(this).parent().find('.cont_tip_toggle').toggle();
+			alert(1);
 		});
 
 		// btnTop
