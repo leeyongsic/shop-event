@@ -404,6 +404,7 @@
 			} else {
 			$btn_top.fadeOut();
 			}
+			console.log('top');
 		});
 
 		$btn_top.on('click', function() {
@@ -462,7 +463,7 @@
             $('.button_go_wrap').find('li a').each(function(idx, elt) {
                 $(elt).click(function() {
                 	$.fn.scrollTo({target:'#'+$sections.get(idx).id, gap:0});
-                	console.log('alink')
+                	console.log('alink');
                 });      
             });
 
