@@ -417,9 +417,16 @@
 			}
 		});
 		
+		//
 
-		// txt animation
-		
+		var countdown = function () {
+			$('.countdown').countdown('2019/04/21', function(event) {
+			  $(this).html(event.strftime('%H %M'));
+			});
+		}
+		countdown();
+
+		// txt animation		
 		var txtAnimation = function () {
 			setTimeout(function(){
 			  $('.promo_visual').addClass('show');
