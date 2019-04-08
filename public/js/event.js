@@ -579,4 +579,4 @@ hiphoperEvent.eventSlideSyncing();
 hiphoperEvent.moEventContSlide();
 hiphoperEvent.buttonLink();
 //hiphoperEvent.eventContSlide();
-hiphoperEvent.aprilPromotion();
+//hiphoperEvent.aprilPromotion();
