@@ -386,7 +386,7 @@
 			$cont_tip_toggle = $('.cont_tip_toggle');
 			
 		$btn_tip_toggle.on('click', function(e) {
-			e.preventDefault();
+			//e.preventDefault();
 
 			$(this).toggleClass('on');
 			$(this).parent().find('.cont_tip_toggle').toggle();
