@@ -385,18 +385,19 @@
 		var tipToggle = function () {
 			var $btn_tip_toggle = $('.button_tip_toggle'),
 				$cont_tip_toggle = $('.cont_tip_toggle');
-				
-			$btn_tip_toggle.on('click', function(e) {
+
+			$btn_tip_toggle.off().on('click', function(e) {
 				e.preventDefault();
 
 				$(this).toggleClass('on');
-				$(this).parent().find('.cont_tip_toggle').toggle();
+				$(this).next().toggle();
 
 				console.log($(this));
 
 			});
 		}
 		tipToggle();
+
 
 		// btnTop
 		var $btn_top = $('.button_top');
@@ -583,3 +584,4 @@ hiphoperEvent.eventSlideSyncing();
 hiphoperEvent.moEventContSlide();
 hiphoperEvent.buttonLink();
 //hiphoperEvent.eventContSlide();
+hiphoperEvent.aprilPromotion();
