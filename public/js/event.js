@@ -391,7 +391,7 @@
 			$(this).toggleClass('on');
 			$(this).parent().find('.cont_tip_toggle').toggle();
 
-			console.log($(this).parent());
+			console.log($(this));
 
 		});
 
