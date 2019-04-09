@@ -177,7 +177,7 @@
 .april_promotion .promo_section3 {}
 .april_promotion .promo_section3 .inner {padding-bottom:80px;}
 .april_promotion .promo_section3 .title_wrap {position:relative;max-width:1260px;min-width:1180px;margin:0 auto;padding:110px 50px 0;}
-.april_promotion .promo_section3 .title_wrap:before {content:'추천아이템';position:absolute;bottom:0;left:50%;transform:translateX(-50%);font-family:Noto Sans KR;font-size:40px;font-weight:600;color:#111;line-height:1;text-align:center;}
+.april_promotion .promo_section3 .title_wrap:before {content:'추천 아이템';position:absolute;bottom:0;left:50%;transform:translateX(-50%);font-family:Noto Sans KR;font-size:40px;font-weight:600;color:#111;line-height:1;text-align:center;}
 .april_promotion .promo_section3 .title_wrap h4 {position:relative;margin-bottom:55px;font-family:Noto Sans KR;font-size:40px;font-weight:600;color:#111;line-height:1;text-align:center;text-indent:-9999em;}
 .april_promotion .promo_section3 .title_wrap h4:after {content:'';display:block;position:absolute;top:50%;right:0;transform:translateY(-50%);width:435px;height:2px;background-color:#111;}
 .april_promotion .promo_section3 .title_wrap h4:before {content:'';display:block;position:absolute;top:50%;left:0;transform:translateY(-50%);width:435px;height:2px;background-color:#111;}
