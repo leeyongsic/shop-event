@@ -14,11 +14,9 @@
 .benefit_promotion .promo_section1 .button_go_wrap li a span {display:inline-block;margin-left:13px;}
 .benefit_promotion .promo_section1 .button_go_wrap li.on {background-color:#fff;}
 .benefit_promotion .promo_section1 .button_go_wrap li.on a {color:#000;}
-
 .benefit_promotion .promo_section2 {}
 .benefit_promotion .promo_section2 .inner {width:1260px;min-width:1180px;margin:0 auto;padding:0 50px;}
 .benefit_promotion .promo_section2 .promo_event {position:relative;height:1350px;padding-top:150px;}
-
 .benefit_promotion .promo_section2 .title_wrap {position:absolute;top:150px;left:0;width:200px;height:155px;padding-top:18px;border-top:4px solid #000;box-sizing:border-box;}
 .benefit_promotion .promo_section2 .title_wrap h3 {font-family:Noto Sans KR;font-weight:600;font-size:34px;color:#000;line-height:44px;}
 .benefit_promotion .promo_section2 .title_wrap span {display:inline-block;margin-top:28px;font-family:Noto Sans KR;font-size:18px;color:#777;line-height:1;}
@@ -49,7 +47,6 @@
 .benefit_promotion .cont_wrap .card_list:after {content:'';display:block;clear:both;}
 .benefit_promotion .cont_wrap .card_list li {float:left;width:224px;height:136px;margin:0 0 7px 7px;border:1px solid #d9d9d9;box-sizing:border-box;text-align:center;line-height:136px;}
 .benefit_promotion .cont_wrap .card_list li img {vertical-align:middle;}
-
 .benefit_promotion .promo_section3 {}
 .benefit_promotion .promo_section3 .inner {width:1260px;min-width:1180px;margin:0 auto;padding:0 50px;}
 .benefit_promotion .promo_section3 .title_wrap {position:absolute;top:150px;left:0;width:200px;height:155px;padding-top:18px;border-top:4px solid #000;box-sizing:border-box;}
@@ -60,15 +57,12 @@
 .benefit_promotion .promo_section3 .cont_wrap .article2 .row .col_right {height:210px;}
 .benefit_promotion .promo_section3 .cont_wrap .article2 .row:first-child .img_wrap {margin-top:40px;}
 .benefit_promotion .promo_section3 .cont_wrap .article2 .row .img_wrap {margin-top:50px;}
-
 .benefit_promotion .promo_section4 {}
 .benefit_promotion .promo_section4 .inner {}
 .benefit_promotion .promo_section4 .title_wrap {max-width:1260px;min-width:1180px;margin:0 auto 55px;padding:110px 50px 0;}
 .benefit_promotion .promo_section4 .title_wrap h3 {position:relative;font-family:Noto Sans KR;font-size:40px;font-weight:600;color:#111;line-height:1;text-align:center;text-transform:uppercase;}
 .benefit_promotion .promo_section4 .title_wrap h3:after {content:'';display:block;position:absolute;top:50%;right:0;transform:translateY(-50%);width:400px;height:2px;background-color:#111;}
 .benefit_promotion .promo_section4 .title_wrap h3:before {content:'';display:block;position:absolute;top:50%;left:0;transform:translateY(-50%);width:400px;height:2px;background-color:#111;}
-
-
 .benefit_promotion .button_top_wrap {position:fixed;bottom:0;left:50%;z-index:100;transform:translateX(-50%);width:1260px;height:1px;margin:0 auto;}
 .benefit_promotion .button_top {display:none;position:absolute;bottom:300px;right:-70px;z-index:100;width:43px;height:43px;background-color:#fff;border:1px solid #a8a8a8;text-decoration:none;text-align:center;}
 .benefit_promotion .button_top:after {display:block;position:absolute;top:11px;left:17px;content:'';width:0;height:0;border-left:5px solid transparent;border-right:5px solid transparent;border-bottom:5px solid #333;vertical-align:3px;}
@@ -125,7 +119,6 @@
 .april_promotion .promo_section1 .button_go_wrap li.on a {}
 .april_promotion .promo_section1 .button_go_wrap li:nth-child(2) {position:relative;padding-left:60px;}
 .april_promotion .promo_section1 .button_go_wrap li:nth-child(2):before {content:'';display:block;position:absolute;top:50%;left:0;transform:translateY(-50%);width:1px;height:20px;background-color:#545454;}
-
 .april_promotion .promo_section2 {}
 .april_promotion .promo_section2 .inner {position:relative;height:1920px;background-color:#ece9f5;}
 .april_promotion .promo_section2 .title_area {max-width:1260px;min-width:1180px;margin:0 auto;padding:146px 50px 0;text-align:center;}
@@ -228,7 +221,6 @@
 .april_promotion .promo_section4 dl {}
 .april_promotion .promo_section4 dl dt {display:none;}
 .april_promotion .promo_section4 .tip_area {max-width:1260px;min-width:1180px;margin:80px auto 0;padding:0 50px;}
-
 .april_promotion .tip_area {max-width:1260px;min-width:1180px;margin:0 auto;text-align:center;}
 .april_promotion .tip_area .button_tip_toggle {display:block;width:100%;padding:20px 0;border:1px solid #111;border-width:1px 0 1px 0;}
 .april_promotion .tip_area .button_tip_toggle span {font-family:Noto Sans KR;font-size:26px;color:#111;line-height:1;}
@@ -246,7 +238,6 @@
 .april_promotion .tip_area ul li .col_right {display:block;margin-left:80px;}
 .april_promotion .tip_area ul li .txt_sub {color:#777;}
 .april_promotion .tip_area ul li .txt_point {color:#f7461d;}
-
 .april_promotion .button_top_wrap {position:fixed;bottom:0;left:50%;z-index:100;transform:translateX(-50%);width:1260px;height:1px;margin:0 auto;}
 .april_promotion .button_top {display:none;position:absolute;bottom:300px;right:-70px;z-index:100;width:43px;height:43px;background-color:#fff;border:1px solid #a8a8a8;text-decoration:none;text-align:center;}
 .april_promotion .button_top:after {display:block;position:absolute;top:11px;left:17px;content:'';width:0;height:0;border-left:5px solid transparent;border-right:5px solid transparent;border-bottom:5px solid #333;vertical-align:3px;}

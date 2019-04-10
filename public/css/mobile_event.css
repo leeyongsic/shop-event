@@ -1,6 +1,85 @@
 @charset "utf-8";
 @import url(https://fonts.googleapis.com/css?family=Noto+Sans+KR:300&subset=korean);
 
+.benefit_promotion {}
+.benefit_promotion .tab_container {}
+.benefit_promotion .tab_menu {}
+.benefit_promotion .tab_menu:after {content:'';display:block;clear:both;}
+.benefit_promotion .tab_menu li {float:left;width:50%;}
+.benefit_promotion .tab_menu li a {display:block;width:100%;height:69px;padding-top:15px;background-color:#2e2e2e;font-family:Noto Sans KR;font-size:17px;font-weight:500;color:#8c8c8c;line-height:20px;text-align:center;box-sizing:border-box;}
+.benefit_promotion .tab_menu li.active a {background-color:#f8f8f8;color:#000;}
+.benefit_promotion .tab_conts {}
+.benefit_promotion .tab_conts .tab_cont {display:none;}
+.benefit_promotion .tab_conts .tab_cont.active {display:block;}
+
+.benefit_promotion .promo_section1 {}
+.benefit_promotion .promo_section1 .inner {}
+.benefit_promotion .promo_section1 .promo_visual {width:100%;height:64vw;padding-top:90px;background:#111 url(../img/event/0415_benefitPromotion/mo/benefit_promotion_bg1.jpg) 50% 0 no-repeat;background-size:cover;box-sizing:border-box;}
+.benefit_promotion .promo_section1 .promo_visual h2 {width:241px;height:71px;margin:0 auto;background:url(../img/event/0415_benefitPromotion/mo/benefit_promotion_tit1.png) 50% 0 no-repeat;background-size:241px 71px;text-indent:-9999em;}
+.benefit_promotion .promo_section2 .inner {padding:50px 8% 0;}
+.benefit_promotion .promo_section2 .title_wrap {width:173px;padding-top:14px;border-top:4px solid #111;box-sizing:border-box;}
+.benefit_promotion .promo_section2 .title_wrap h3 {font-family:Noto Sans KR;font-size:30px;font-weight:600;color:#111;line-height:35px;}
+.benefit_promotion .promo_section2 .title_wrap span {display:inline-block;margin-top:13px;font-family:Noto Sans KR;font-size:16px;font-weight:400;color:#949494;line-height:24px;}
+.benefit_promotion .promo_section3 {}
+.benefit_promotion .promo_section3 .inner {padding:50px 8% 0;}
+.benefit_promotion .promo_section3 .title_wrap {width:173px;padding-top:14px;border-top:4px solid #111;box-sizing:border-box;}
+.benefit_promotion .promo_section3 .title_wrap h3 {font-family:Noto Sans KR;font-size:30px;font-weight:600;color:#111;line-height:35px;}
+.benefit_promotion .promo_section3 .title_wrap span {display:inline-block;margin-top:13px;font-family:Noto Sans KR;font-size:16px;font-weight:400;color:#949494;line-height:24px;}
+.benefit_promotion .promo_section3 .cont_wrap .article2 .row .col_left,
+.benefit_promotion .promo_section3 .cont_wrap .article2 .row .col_right {}
+.benefit_promotion .promo_section3 .cont_wrap .article2 .row:first-child .img_wrap {}
+.benefit_promotion .promo_section3 .cont_wrap .article2 .row .img_wrap {}
+.benefit_promotion .promo_section4 {}
+.benefit_promotion .promo_section4 .inner {}
+.benefit_promotion .promo_section4 .title_wrap {padding-top:40px;}
+.benefit_promotion .promo_section4 .title_wrap h3 {position:relative;font-family:Noto Sans KR;font-size:20px;font-weight:600;color:#111;line-height:1;text-align:center;}
+.benefit_promotion .promo_section4 .title_wrap h3:after {content:'';display:block;position:absolute;top:50%;right:16px;transform:translateY(-50%);width:16%;height:2px;background-color:#111;}
+.benefit_promotion .promo_section4 .title_wrap h3:before {content:'';display:block;position:absolute;top:50%;left:16px;transform:translateY(-50%);width:16%;height:2px;background-color:#111;}
+.benefit_promotion .promo_section4 .wrap_listproduct {border-top:0 none;}
+
+.benefit_promotion .cont_wrap {margin-top:50px;}
+.benefit_promotion .cont_wrap .article1 {}
+.benefit_promotion .cont_wrap .article1 h4 {font-family:Noto Sans KR;font-size:23px;font-weight:600;color:#111;line-height:1;}
+
+.benefit_promotion .cont_wrap .article1 .row {margin-top:17px;}
+.benefit_promotion .cont_wrap .article1 .row p {font-family:Noto Sans KR;font-size:17px;font-weight:400;color:#000;line-height:24px;}
+.benefit_promotion .cont_wrap .article1 .row p strong {font-weight:500;}
+.benefit_promotion .cont_wrap .article1 .row .col_right {margin-top:35px;}
+
+.benefit_promotion .cont_wrap .article2 {margin-top:55px;padding-top:45px;border-top:1px solid #f1f1f1;}
+.benefit_promotion .cont_wrap .article2 h4 {font-family:Noto Sans KR;font-size:23px;font-weight:600;color:#111;line-height:1;}
+.benefit_promotion .cont_wrap .article2 h4 + ul {margin-top:20px;padding:30px 20px;background-color:#f9f9f9;}
+.benefit_promotion .cont_wrap .article2 .row .col_left,
+.benefit_promotion .cont_wrap .article2 .row .col_right {margin-top:30px;padding-top:30px;border-top:1px solid #ededed;}
+.benefit_promotion .cont_wrap .article2 .row:nth-child(1) .col_left {margin-top:0;padding-top:0;border-top:0 none;}
+.benefit_promotion .cont_wrap .article2 .row .img_wrap {}
+.benefit_promotion .cont_wrap .article2 .row:nth-child(1) .col_left .img_wrap {width:171px;}
+.benefit_promotion .cont_wrap .article2 .row:nth-child(1) .col_right .img_wrap {width:111px;}
+.benefit_promotion .cont_wrap .article2 .row:nth-child(2) .col_left .img_wrap {width:138px;}
+.benefit_promotion .cont_wrap .article2 .row:nth-child(2) .col_right .img_wrap {width:122px;}
+.benefit_promotion .cont_wrap .article2 .row:nth-child(3) .col_left .img_wrap {width:147px;}
+.benefit_promotion .cont_wrap .article2 .row:nth-child(3) .col_right .img_wrap {}
+.benefit_promotion .cont_wrap .article2 .row .desc_list {margin-top:15px;}
+.benefit_promotion .cont_wrap .article2 .row .desc_list li {font-family:Noto Sans KR;font-size:16px;font-weight:400;color:#4d4d4d;line-height:23px;}
+.benefit_promotion .cont_wrap .article2 .btm_desc_list {margin-top:25px;}
+.benefit_promotion .cont_wrap .article2 .btm_desc_list li {position:relative;padding-left:10px;font-family:Noto Sans KR;font-size:15px;font-weight:400;color:#777;line-height:25px;}
+.benefit_promotion .cont_wrap .article2 .btm_desc_list li:before {content:'-';position:absolute;top:0;left:0;}
+
+.benefit_promotion .cont_wrap .row {}
+.benefit_promotion .cont_wrap .row:after {}
+.benefit_promotion .cont_wrap .row .col_left {}
+.benefit_promotion .cont_wrap .row .col_right {}
+.benefit_promotion .cont_wrap .card_list {margin-left:-5px;}
+.benefit_promotion .cont_wrap .card_list:after {content:'';display:block;clear:both;}
+.benefit_promotion .cont_wrap .card_list li {float:left;width:48%;height:95px;margin:0 0 5px 5px;border:1px solid #ececec;box-sizing:border-box;text-align:center;line-height:95px;}
+.benefit_promotion .cont_wrap .card_list li img {display:inline-block;vertical-align:middle;}
+.benefit_promotion .cont_wrap .col_left .card_list li:nth-child(1) img {width:105px;height:auto;}
+.benefit_promotion .cont_wrap .col_left .card_list li:nth-child(2) img {width:98px;height:auto;}
+.benefit_promotion .cont_wrap .col_left .card_list li:nth-child(3) img {width:102px;height:auto;}
+.benefit_promotion .cont_wrap .col_left .card_list li:nth-child(4) img {width:111px;height:auto;}
+.benefit_promotion .cont_wrap .col_right .card_list li:nth-child(1) img {width:106px;height:auto;}
+.benefit_promotion .cont_wrap .col_right .card_list li:nth-child(2) img {width:84px;height:auto;}
+
 .april_promotion {}
 .april_promotion .promo_section1 {}
 .april_promotion .promo_section1 .inner {width:100%;height:165.5vw;}
@@ -46,7 +125,6 @@
 .april_promotion .promo_section1 .button_go_wrap li a span {display:inline-block;margin-left:13px;}
 .april_promotion .promo_section1 .button_go_wrap li a:after {content:'';display:block;position:absolute;top:50%;right:30px;transform:translateY(-50%);width:11px;height:8px;margin-left:18px;background:url(../img/event/0408_aprilPromotion/mo/btn_arrow_white.png) 0 0 no-repeat;background-size:11px 8px;vertical-align:3px;}
 .april_promotion .promo_section1 .button_go_wrap li:nth-child(2) a{}
-
 .april_promotion .promo_section2 {}
 .april_promotion .promo_section2 .inner {position:relative;background-color:#ece9f5;}
 .april_promotion .promo_section2 .title_area {text-align:center;padding-top:60px;}
@@ -55,7 +133,6 @@
 .april_promotion .promo_section2 .title_area p {margin-top:17px;font-family:Noto Sans KR;font-size:16px;color:#111;line-height:1;}
 .april_promotion .promo_section2 .title_area p strong {color:#f54a23;font-weight:400;}
 .april_promotion .promo_section2 .title_area p b {font-family:proxima-nova;}
-
 .april_promotion .promo_section2 .coupon_area {position:relative;}
 .april_promotion .promo_section2 .coupon_area h4 {position:relative;margin-top:45px;font-family:Noto Sans KR;font-size:20px;font-weight:600;color:#111;line-height:1;text-align:center;}
 .april_promotion .promo_section2 .coupon_area h4:after {content:'';display:block;position:absolute;top:50%;right:30px;transform:translateY(-50%);width:16%;height:2px;background-color:#111;}
@@ -64,16 +141,13 @@
 .april_promotion .promo_section2 .coupon_area .row:after {content:'';display:block;clear:both;}
 .april_promotion .promo_section2 .coupon_area .row .col_left {}
 .april_promotion .promo_section2 .coupon_area .row .col_right {}
-
 .april_promotion .promo_section2 .coupon_area .img_coupon {position:relative;width:263px;height:145px;margin:40px auto 0;background:url(../img/event/0408_aprilPromotion/mo/april_promotion_coupon_bg.png) 0 0 no-repeat;background-size:263px 145px;}
 .april_promotion .promo_section2 .coupon_area .img_coupon span {position:absolute;top:-23px;right:-40px;display:block;width:71px;height:71px;padding-top:20px;background:url(../img/event/0408_aprilPromotion/mo/april_promotion_coupon_bg2.png) 0 0 no-repeat;background-size:71px 71px;font-family:Noto Sans KR;font-size:13px;color:#111;line-height:15px;text-align:center;box-sizing:border-box;}
 .april_promotion .promo_section2 .coupon_area .img_coupon strong {position:absolute;top:50px;left:95px;font-size:47px;font-weight:600;color:#fff;line-height:1;font-style:italic;}
-
 .april_promotion .promo_section2 .coupon_area .button_coupon_down {margin:15px auto 0;display:block;width:263px;height:46px;font-family:Noto Sans KR;font-size:16px;font-weight:500;color:#fff;line-height:46px;text-align:center;background-color:#292929;}
 .april_promotion .promo_section2 .coupon_area .button_coupon_desc {display:block;width:110px;height:16px;margin:20px auto 0;font-family:Noto Sans KR;font-size:14px;color:#555;line-height:16px;}
 .april_promotion .promo_section2 .coupon_area .button_coupon_desc:after {content:'';display:inline-block;width:15px;height:15px;margin-left:10px;background:url(../img/event/0408_aprilPromotion/ico_tooltip.png) 0 0 no-repeat;background-size:15px 15px;vertical-align:top;}
 .april_promotion .promo_section2 .coupon_area .wrap_layer {/*width:450px;*/top:50%;left:50%;transform:translate(-50%,-50%);}
-
 .april_promotion .wrap_layer{position:absolute;z-index:100;width:540px;padding-bottom:24px;border-radius:6px;background-color:#fff;-webkit-box-shadow:0 10px 25px 0 rgba(0,0,0,
 	.1);box-shadow:0 10px 25px 0 rgba(0,0,0,
 .1);-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
@@ -83,26 +157,9 @@
 .april_promotion .wrap_layer .layer_tit{height:15px;padding:0 53px 0 23px;border-width:0;line-height:15px;font-size:16px;font-weight:500}
 .april_promotion .wrap_layer .layer_cont{padding:0 24px;font-size:14px;line-height:22px;overflow-x:hidden;overflow-y:auto;/*max-height:318px*/}
 .april_promotion .dim_layer{position:fixed;z-index:101;left:0;top:0;bottom:0;right:0;background-color:rgba(0,0,0,.8)}
-
 .april_promotion .wrap_layer {width:90%;top:50%;left:50%;transform:translate(-50%, -50%);padding:20px 20px 30px;}
 .april_promotion .wrap_layer .layer_tit,
 .april_promotion .wrap_layer .layer_cont {padding:0;}
-
-/*
-.april_promotion .promo_section2 .wrap_layer.promo_coupon .layer_tit {}
-.april_promotion .promo_section2 .wrap_layer.promo_coupon .layer_cont {text-align:center;}
-.april_promotion .promo_section2 .wrap_layer.promo_coupon .layer_cont strong {font-family:Noto Sans KR;font-size:24px;color:#000;line-height:1;}
-.april_promotion .promo_section2 .wrap_layer.promo_coupon .layer_cont p {margin-top:10px;font-family:Noto Sans KR;font-size:16px;color:#111;line-height:24px;letter-spacing:-1px;}
-.april_promotion .promo_section2 .wrap_layer .layer_cont .button_wrap {margin-top:25px;text-align:center;}
-.april_promotion .promo_section2 .wrap_layer ul li {position:relative;padding-left:10px;}
-.april_promotion .promo_section2 .wrap_layer ul li:before {content:'';display:block;position:absolute;top:12px;left:0;width:3px;height:3px;background-color:#111;}
-.april_promotion .promo_section2 .wrap_layer ul li:after {content:'';display:block;clear:both;}
-.april_promotion .promo_section2 .wrap_layer ul li .col_left {display:block;width:80px;float:left;}
-.april_promotion .promo_section2 .wrap_layer ul li .col_right {display:block;margin-left:80px;}
-.april_promotion .promo_section2 .wrap_layer ul li .txt_sub {color:#777;}
-.april_promotion .promo_section2 .wrap_layer ul li .txt_point {color:#f7461d;}
-*/
-
 .april_promotion .promo_section2 .slides_area {position:relative;padding-top:50px;}
 .april_promotion .promo_section2 .slides_area .title_wrap {}
 .april_promotion .promo_section2 .slides_area .title_wrap h4 {}
@@ -121,7 +178,6 @@
 .april_promotion .promo_section2 .slides_area .item .coupon_info .button_wrap .button_coupon_item {background-color:#292929;}
 .april_promotion .promo_section2 .slides_area .item .coupon_info .button_wrap .button_coupon_down[disabled] {background-color:#ddd;}
 .april_promotion .promo_section2 .slides_area .wrap_layer {/*width:450px;*/top:50%;left:50%;transform:translate(-50%,-50%);}
-
 .april_promotion .promo_section2 .wrap_layer.promo_coupon .layer_tit {}
 .april_promotion .promo_section2 .wrap_layer.promo_coupon .layer_cont {text-align:center;}
 .april_promotion .promo_section2 .wrap_layer.promo_coupon .layer_cont strong {font-family:Noto Sans KR;font-size:20px;font-weight:500;color:#000;line-height:1;}
@@ -135,7 +191,6 @@
 .april_promotion .promo_section2 .wrap_layer ul li .col_right {display:block;margin-left:65px;}
 .april_promotion .promo_section2 .wrap_layer ul li .txt_sub {color:#777;}
 .april_promotion .promo_section2 .wrap_layer ul li .txt_point {color:#f7461d;}
-
 .april_promotion .tip_area {padding:40px 30px 50px;text-align:center;}
 .april_promotion .tip_area .button_tip_toggle {display:block;width:100%;padding:13px 0 10px;border:1px solid #111;border-width:1px 0 1px 0;}
 .april_promotion .tip_area .button_tip_toggle span {font-family:Noto Sans KR;font-size:16px;color:#111;line-height:1;}
@@ -153,7 +208,6 @@
 .april_promotion .tip_area ul li .col_right {display:block;margin-left:55px;}
 .april_promotion .tip_area ul li .txt_sub {color:#777;}
 .april_promotion .tip_area ul li .txt_point {color:#f7461d;}
-
 .april_promotion .promo_section3 {}
 .april_promotion .promo_section3 .inner {}
 .april_promotion .promo_section3 .title_wrap {padding-top:40px;}
@@ -161,7 +215,6 @@
 .april_promotion .promo_section3 .title_wrap h4:after {content:'';display:block;position:absolute;top:50%;right:30px;transform:translateY(-50%);width:16%;height:2px;background-color:#111;}
 .april_promotion .promo_section3 .title_wrap h4:before {content:'';display:block;position:absolute;top:50%;left:30px;transform:translateY(-50%);width:16%;height:2px;background-color:#111;}
 .april_promotion .promo_section3 .wrap_listproduct {border-top:0 none;}
-
 .april_promotion .promo_section4 {}
 .april_promotion .promo_section4 .inner {padding-bottom:40px;}
 .april_promotion .promo_section4 .title_area {padding-top:60px;background-color:#efe7e6;}
