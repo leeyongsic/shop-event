@@ -555,9 +555,9 @@
                 }
             });
 
-	        //if ( winTop < 300 ) {
-			//	$sub_menu.removeClass('on');
-			//}
+	        if ( winTop > 3600 ) {
+				$sub_menu.removeClass('on');
+			}
         }
 
         $.fn.scrollTo = function( obj ){
