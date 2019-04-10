@@ -31,7 +31,7 @@
 .benefit_promotion .promo_section4 {}
 .benefit_promotion .promo_section4 .inner {}
 .benefit_promotion .promo_section4 .title_wrap {padding-top:40px;}
-.benefit_promotion .promo_section4 .title_wrap h3 {position:relative;font-family:Noto Sans KR;font-size:20px;font-weight:600;color:#111;line-height:1;text-align:center;}
+.benefit_promotion .promo_section4 .title_wrap h3 {position:relative;font-family:Noto Sans KR;font-size:20px;font-weight:600;color:#111;line-height:1;text-align:center;text-transform:uppercase;}
 .benefit_promotion .promo_section4 .title_wrap h3:after {content:'';display:block;position:absolute;top:50%;right:16px;transform:translateY(-50%);width:16%;height:2px;background-color:#111;}
 .benefit_promotion .promo_section4 .title_wrap h3:before {content:'';display:block;position:absolute;top:50%;left:16px;transform:translateY(-50%);width:16%;height:2px;background-color:#111;}
 .benefit_promotion .promo_section4 .wrap_listproduct {border-top:0 none;}
