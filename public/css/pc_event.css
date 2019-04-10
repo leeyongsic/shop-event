@@ -6,9 +6,9 @@
 .benefit_promotion .promo_section1 .inner {height:406px;}
 .benefit_promotion .promo_section1 .promo_visual {position:relative;overflow:hidden;width:100%;height:337px;min-width:1180px;background:#111 url(../img/event/0415_benefitPromotion/benefit_promotion_bg1.jpg) 50% 0 no-repeat;}
 .benefit_promotion .promo_section1 .promo_visual h2 {width:379px;height:112px;margin:113px auto 0;background:url(../img/event/0415_benefitPromotion/benefit_promotion_tit1.png) 50% 0 no-repeat;text-indent:-9999em;}
-.benefit_promotion .promo_section1 .button_go_wrap {width:100%;height:69px;min-width:1180px;background-color:#292929;margin:0 auto;box-sizing:border-box;text-align:center;}
+.benefit_promotion .promo_section1 .button_go_wrap {width:100%;height:69px;min-width:1260px;background-color:#292929;margin:0 auto;box-sizing:border-box;text-align:center;}
 .benefit_promotion .promo_section1 .button_go_wrap.top_fixed {position:fixed;top:0;left:0;z-index:110;}
-.benefit_promotion .promo_section1 .button_go_wrap li {display:inline-block;width:33.3%;min-width:460px;}
+.benefit_promotion .promo_section1 .button_go_wrap li {display:inline-block;width:628px;min-width:460px;}
 .benefit_promotion .promo_section1 .button_go_wrap li a {display:block;height:69px;font-family:Noto Sans KR;font-size:22px;font-weight:500;color:#8c8c8c;line-height:69px;text-align:center;}
 .benefit_promotion .promo_section1 .button_go_wrap li a strong {font-family:proxima-nova;color:#f54839;}
 .benefit_promotion .promo_section1 .button_go_wrap li a span {display:inline-block;margin-left:13px;}
