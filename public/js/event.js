@@ -371,15 +371,27 @@
         $sections,
         positionTops = [];
 
-        // fixed
-        $(window).on('scroll', function() {
-			var winTop = $(window).scrollTop();
-			if ( winTop > 1360 ) {
-			$('.button_go_wrap').addClass('top_fixed');	
-			} else {
-			$('.button_go_wrap').removeClass('top_fixed');
-			}
-		});
+        if ($('.april_promotion').length) {
+	        $(window).on('scroll', function() {
+				var winTop = $(window).scrollTop();
+				if ( winTop > 1360 ) {
+				$('.button_go_wrap').addClass('top_fixed');	
+				} else {
+				$('.button_go_wrap').removeClass('top_fixed');
+				}
+			});
+    	}
+
+    	if ($('.benefit_promotion').length) {
+			$(window).on('scroll', function() {
+				var winTop = $(window).scrollTop();
+				if ( winTop > 610 ) {
+				$('.button_go_wrap').addClass('top_fixed');	
+				} else {
+				$('.button_go_wrap').removeClass('top_fixed');
+				}
+			});
+		}
 
 		var tabConts =  function() {
 			var $tab_container = $('.tab_container'),
@@ -543,9 +555,9 @@
                 }
             });
 
-            if ( winTop < 700 ) {
-				$sub_menu.removeClass('on');
-			}
+	        //if ( winTop < 300 ) {
+			//	$sub_menu.removeClass('on');
+			//}
         }
 
         $.fn.scrollTo = function( obj ){
