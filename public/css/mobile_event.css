@@ -3,7 +3,7 @@
 
 .benefit_promotion {}
 .benefit_promotion .tab_container {}
-.benefit_promotion .tab_menu {}
+.benefit_promotion .tab_menu {border-bottom:1px solid #f1f1f1;}
 .benefit_promotion .tab_menu:after {content:'';display:block;clear:both;}
 .benefit_promotion .tab_menu li {float:left;width:50%;}
 .benefit_promotion .tab_menu li a {display:block;width:100%;height:69px;padding-top:15px;background-color:#2e2e2e;font-family:Noto Sans KR;font-size:17px;font-weight:500;color:#8c8c8c;line-height:20px;text-align:center;box-sizing:border-box;}
