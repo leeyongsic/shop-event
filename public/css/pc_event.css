@@ -62,7 +62,7 @@
 .benefit_promotion .promo_section3 .cont_wrap .article2 .row .img_wrap {margin-top:50px;}
 
 .benefit_promotion .promo_section4 {}
-.benefit_promotion .promo_section4 .inner {max-width:1260px;min-width:1180px;margin:0 auto;padding:0 50px;}
+.benefit_promotion .promo_section4 .inner {}
 .benefit_promotion .promo_section4 .title_wrap {max-width:1260px;min-width:1180px;margin:0 auto 55px;padding:110px 50px 0;}
 .benefit_promotion .promo_section4 .title_wrap h3 {position:relative;font-family:Noto Sans KR;font-size:40px;font-weight:600;color:#111;line-height:1;text-align:center;text-transform:uppercase;}
 .benefit_promotion .promo_section4 .title_wrap h3:after {content:'';display:block;position:absolute;top:50%;right:0;transform:translateY(-50%);width:400px;height:2px;background-color:#111;}
